@@ -1,0 +1,103 @@
+{
+  "scenario": {
+    "id": "S02",
+    "duration_days": 3,
+    "budget_per_person_php": 4000,
+    "budget_php": 4000,
+    "interests": [
+      "Nature",
+      "Wellness",
+      "Accommodation"
+    ],
+    "group_size": 1,
+    "weather_pattern": "rain",
+    "start_date": "2026-10-13"
+  },
+  "weather": [
+    {
+      "date": "2026-10-13",
+      "condition": "Rain",
+      "pop": 1.0,
+      "is_outdoor_suitable": false
+    },
+    {
+      "date": "2026-10-14",
+      "condition": "Rain",
+      "pop": 1.0,
+      "is_outdoor_suitable": false
+    },
+    {
+      "date": "2026-10-15",
+      "condition": "Rain",
+      "pop": 1.0,
+      "is_outdoor_suitable": false
+    }
+  ],
+  "itinerary": {
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2026-10-13",
+        "slots": [
+          {
+            "time_start": "09:00",
+            "time_end": "10:30",
+            "venue_id": "dvo_poi_0047"
+          },
+          {
+            "time_start": "15:00",
+            "time_end": "16:30",
+            "venue_id": "dvo_poi_0365"
+          },
+          {
+            "time_start": "18:00",
+            "time_end": "19:00",
+            "venue_id": "dvo_poi_0212"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2026-10-14",
+        "slots": [
+          {
+            "time_start": "10:00",
+            "time_end": "11:30",
+            "venue_id": "dvo_poi_0651"
+          },
+          {
+            "time_start": "14:00",
+            "time_end": "15:30",
+            "venue_id": "dvo_poi_0616"
+          },
+          {
+            "time_start": "18:00",
+            "time_end": "19:00",
+            "venue_id": "dvo_poi_0903"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "date": "2026-10-15",
+        "slots": [
+          {
+            "time_start": "10:00",
+            "time_end": "11:30",
+            "venue_id": "dvo_poi_0711"
+          },
+          {
+            "time_start": "16:00",
+            "time_end": "17:30",
+            "venue_id": "dvo_poi_1341"
+          },
+          {
+            "time_start": "18:00",
+            "time_end": "19:00",
+            "venue_id": "dvo_poi_0595"
+          }
+        ]
+      }
+    ]
+  }
+}

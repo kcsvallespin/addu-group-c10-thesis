@@ -1,39 +1,38 @@
-import pandas as pd
+"""
+load_venues.py - load davao_venues.json (from harvest_venues.py) into Firestore.
+
+Usage (PowerShell):
+    python load_venues.py                          # writes to the "venues_test" collection
+    python load_venues.py --collection venues      # writes to the real "venues" collection
+
+Auth: uses your `gcloud auth application-default login` credentials (no key file).
+"""
+import argparse
+import json
+
 import firebase_admin
-from firebase_admin import credentials, firestore
+from firebase_admin import firestore
 
-# Step 1
-firebase_admin.initialize_app(options={'projectId': 'davao-itinerary-thesis'})
+PROJECT_ID = "davao-itinerary-thesis"   # Firebase project ID
+INPUT = "davao_venues.json"
+
+ap = argparse.ArgumentParser()
+ap.add_argument("--collection", default="venues_test")
+args = ap.parse_args()
+
+with open(INPUT, encoding="utf-8") as f:
+    venues = json.load(f)
+
+firebase_admin.initialize_app(options={"projectId": PROJECT_ID})
 db = firestore.client()
-
-# Step 2
-df = pd.read_excel("davao_venues_TEST_clean.xlsx")
-
-def safe_int(val):
-    return int(val) if pd.notna(val) else None
-
-def safe_float(val):
-    return float(val) if pd.notna(val) else None
+collection = db.collection(args.collection)
 
 batch = db.batch()
-collection = db.collection("venues_test")
-
-for i, row in df.iterrows():
-    doc_ref = collection.document(row["venue_id"])
-    batch.set(doc_ref, {
-        "name": row["name"],
-        "category": row["category"],
-        "address": row["address"],
-        "latitude": safe_float(row["latitude"]),
-        "longitude": safe_float(row["longitude"]),
-        "price_tier": safe_int(row["price_tier"]),
-        "estimated_cost_php": safe_float(row["estimated_cost_php"]),
-        "average_rating": safe_float(row["average_rating"]),
-        "operating_hours": row["operating_hours"] if pd.notna(row["operating_hours"]) else None,
-    })
-    if (i + 1) % 500 == 0:
+for i, venue in enumerate(venues, 1):
+    batch.set(collection.document(venue["venue_id"]), venue)   # lists/dicts/None are stored natively
+    if i % 400 == 0:                                           # Firestore allows 500 writes per batch
         batch.commit()
         batch = db.batch()
-
 batch.commit()
-print(f"Uploaded {len(df)} venues.")
+
+print(f"Uploaded {len(venues)} venues to '{args.collection}'.")

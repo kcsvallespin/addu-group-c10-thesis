@@ -1,0 +1,54 @@
+{
+  "scenario": {
+    "id": "S28",
+    "duration_days": 1,
+    "budget_per_person_php": 2000,
+    "budget_php": 8000,
+    "interests": [
+      "Nature",
+      "Culture",
+      "Shopping"
+    ],
+    "group_size": 4,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-18"
+  },
+  "weather": [
+    {
+      "date": "2026-10-18",
+      "condition": "Clear",
+      "pop": 0.1,
+      "is_outdoor_suitable": true
+    }
+  ],
+  "itinerary": {
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2026-10-18",
+        "slots": [
+          {
+            "time_start": "08:00",
+            "time_end": "10:00",
+            "venue_id": "dvo_poi_1336"
+          },
+          {
+            "time_start": "10:30",
+            "time_end": "12:00",
+            "venue_id": "dvo_poi_0302"
+          },
+          {
+            "time_start": "13:00",
+            "time_end": "15:00",
+            "venue_id": "dvo_poi_0449"
+          },
+          {
+            "time_start": "15:30",
+            "time_end": "16:30",
+            "venue_id": "dvo_poi_0895"
+          }
+        ]
+      }
+    ]
+  }
+}

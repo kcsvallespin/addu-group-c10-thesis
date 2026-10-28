@@ -1,0 +1,123 @@
+{
+  "scenario": {
+    "id": "S09",
+    "duration_days": 3,
+    "budget_per_person_php": 1000,
+    "budget_php": 2000,
+    "interests": [
+      "Entertainment",
+      "Culture",
+      "Nature"
+    ],
+    "group_size": 2,
+    "weather_pattern": "rain",
+    "start_date": "2026-10-13"
+  },
+  "weather": [
+    {
+      "date": "2026-10-13",
+      "condition": "Rain",
+      "pop": 1.0,
+      "is_outdoor_suitable": false
+    },
+    {
+      "date": "2026-10-14",
+      "condition": "Rain",
+      "pop": 1.0,
+      "is_outdoor_suitable": false
+    },
+    {
+      "date": "2026-10-15",
+      "condition": "Rain",
+      "pop": 1.0,
+      "is_outdoor_suitable": false
+    }
+  ],
+  "itinerary": {
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2026-10-13",
+        "slots": [
+          {
+            "time_start": "08:00",
+            "time_end": "09:30",
+            "venue_id": "dvo_poi_0142"
+          },
+          {
+            "time_start": "10:00",
+            "time_end": "11:30",
+            "venue_id": "dvo_poi_1024"
+          },
+          {
+            "time_start": "12:00",
+            "time_end": "13:30",
+            "venue_id": "dvo_poi_0139"
+          },
+          {
+            "time_start": "17:30",
+            "time_end": "19:00",
+            "venue_id": "dvo_poi_0924"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2026-10-14",
+        "slots": [
+          {
+            "time_start": "08:00",
+            "time_end": "09:30",
+            "venue_id": "dvo_poi_0356"
+          },
+          {
+            "time_start": "10:00",
+            "time_end": "11:30",
+            "venue_id": "dvo_poi_0462"
+          },
+          {
+            "time_start": "12:00",
+            "time_end": "13:30",
+            "venue_id": "dvo_poi_1207"
+          },
+          {
+            "time_start": "14:00",
+            "time_end": "15:30",
+            "venue_id": "dvo_poi_0633"
+          },
+          {
+            "time_start": "17:30",
+            "time_end": "19:00",
+            "venue_id": "dvo_poi_1189"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "date": "2026-10-15",
+        "slots": [
+          {
+            "time_start": "08:00",
+            "time_end": "09:30",
+            "venue_id": "dvo_poi_1033"
+          },
+          {
+            "time_start": "10:00",
+            "time_end": "11:30",
+            "venue_id": "dvo_poi_0898"
+          },
+          {
+            "time_start": "12:00",
+            "time_end": "13:30",
+            "venue_id": "dvo_poi_0231"
+          },
+          {
+            "time_start": "14:00",
+            "time_end": "15:30",
+            "venue_id": "dvo_poi_0360"
+          }
+        ]
+      }
+    ]
+  }
+}

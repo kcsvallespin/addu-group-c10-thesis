@@ -1,0 +1,402 @@
+[
+  {
+    "id": "S01",
+    "duration_days": 2,
+    "budget_per_person_php": 2000,
+    "budget_php": 8000,
+    "interests": [
+      "Entertainment",
+      "Sightseeing"
+    ],
+    "group_size": 4,
+    "weather_pattern": "rain",
+    "start_date": "2026-10-12"
+  },
+  {
+    "id": "S02",
+    "duration_days": 3,
+    "budget_per_person_php": 4000,
+    "budget_php": 4000,
+    "interests": [
+      "Nature",
+      "Wellness",
+      "Accommodation"
+    ],
+    "group_size": 1,
+    "weather_pattern": "rain",
+    "start_date": "2026-10-13"
+  },
+  {
+    "id": "S03",
+    "duration_days": 2,
+    "budget_per_person_php": 1000,
+    "budget_php": 5000,
+    "interests": [
+      "Sightseeing",
+      "Food"
+    ],
+    "group_size": 5,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-14"
+  },
+  {
+    "id": "S04",
+    "duration_days": 3,
+    "budget_per_person_php": 1000,
+    "budget_php": 4000,
+    "interests": [
+      "Culture",
+      "Food",
+      "Nature"
+    ],
+    "group_size": 4,
+    "weather_pattern": "rain",
+    "start_date": "2026-10-15"
+  },
+  {
+    "id": "S05",
+    "duration_days": 2,
+    "budget_per_person_php": 1000,
+    "budget_php": 2000,
+    "interests": [
+      "Nature",
+      "Wellness"
+    ],
+    "group_size": 2,
+    "weather_pattern": "mixed",
+    "start_date": "2026-10-16"
+  },
+  {
+    "id": "S06",
+    "duration_days": 1,
+    "budget_per_person_php": 1000,
+    "budget_php": 4000,
+    "interests": [
+      "Wellness",
+      "Entertainment",
+      "Nature"
+    ],
+    "group_size": 4,
+    "weather_pattern": "rain",
+    "start_date": "2026-10-17"
+  },
+  {
+    "id": "S07",
+    "duration_days": 3,
+    "budget_per_person_php": 4000,
+    "budget_php": 12000,
+    "interests": [
+      "Nature",
+      "Wellness",
+      "Accommodation"
+    ],
+    "group_size": 3,
+    "weather_pattern": "rain",
+    "start_date": "2026-10-18"
+  },
+  {
+    "id": "S08",
+    "duration_days": 1,
+    "budget_per_person_php": 2000,
+    "budget_php": 12000,
+    "interests": [
+      "Culture",
+      "Wellness",
+      "Shopping"
+    ],
+    "group_size": 6,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-12"
+  },
+  {
+    "id": "S09",
+    "duration_days": 3,
+    "budget_per_person_php": 1000,
+    "budget_php": 2000,
+    "interests": [
+      "Entertainment",
+      "Culture",
+      "Nature"
+    ],
+    "group_size": 2,
+    "weather_pattern": "rain",
+    "start_date": "2026-10-13"
+  },
+  {
+    "id": "S10",
+    "duration_days": 1,
+    "budget_per_person_php": 4000,
+    "budget_php": 8000,
+    "interests": [
+      "Entertainment",
+      "Food",
+      "Wellness"
+    ],
+    "group_size": 2,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-14"
+  },
+  {
+    "id": "S11",
+    "duration_days": 1,
+    "budget_per_person_php": 2000,
+    "budget_php": 12000,
+    "interests": [
+      "Wellness",
+      "Nature"
+    ],
+    "group_size": 6,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-15"
+  },
+  {
+    "id": "S12",
+    "duration_days": 2,
+    "budget_per_person_php": 4000,
+    "budget_php": 16000,
+    "interests": [
+      "Food",
+      "Entertainment",
+      "Accommodation"
+    ],
+    "group_size": 4,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-16"
+  },
+  {
+    "id": "S13",
+    "duration_days": 3,
+    "budget_per_person_php": 2000,
+    "budget_php": 2000,
+    "interests": [
+      "Shopping",
+      "Culture",
+      "Sightseeing"
+    ],
+    "group_size": 1,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-17"
+  },
+  {
+    "id": "S14",
+    "duration_days": 1,
+    "budget_per_person_php": 4000,
+    "budget_php": 12000,
+    "interests": [
+      "Wellness"
+    ],
+    "group_size": 3,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-18"
+  },
+  {
+    "id": "S15",
+    "duration_days": 2,
+    "budget_per_person_php": 2000,
+    "budget_php": 10000,
+    "interests": [
+      "Sightseeing",
+      "Wellness"
+    ],
+    "group_size": 5,
+    "weather_pattern": "rain",
+    "start_date": "2026-10-12"
+  },
+  {
+    "id": "S16",
+    "duration_days": 1,
+    "budget_per_person_php": 1000,
+    "budget_php": 6000,
+    "interests": [
+      "Culture"
+    ],
+    "group_size": 6,
+    "weather_pattern": "rain",
+    "start_date": "2026-10-13"
+  },
+  {
+    "id": "S17",
+    "duration_days": 2,
+    "budget_per_person_php": 1000,
+    "budget_php": 4000,
+    "interests": [
+      "Entertainment",
+      "Food"
+    ],
+    "group_size": 4,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-14"
+  },
+  {
+    "id": "S18",
+    "duration_days": 2,
+    "budget_per_person_php": 2000,
+    "budget_php": 4000,
+    "interests": [
+      "Sightseeing",
+      "Nature",
+      "Shopping"
+    ],
+    "group_size": 2,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-15"
+  },
+  {
+    "id": "S19",
+    "duration_days": 1,
+    "budget_per_person_php": 4000,
+    "budget_php": 12000,
+    "interests": [
+      "Sightseeing",
+      "Wellness"
+    ],
+    "group_size": 3,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-16"
+  },
+  {
+    "id": "S20",
+    "duration_days": 3,
+    "budget_per_person_php": 1000,
+    "budget_php": 2000,
+    "interests": [
+      "Nature",
+      "Sightseeing",
+      "Culture"
+    ],
+    "group_size": 2,
+    "weather_pattern": "mixed",
+    "start_date": "2026-10-17"
+  },
+  {
+    "id": "S21",
+    "duration_days": 3,
+    "budget_per_person_php": 2000,
+    "budget_php": 8000,
+    "interests": [
+      "Sightseeing",
+      "Shopping",
+      "Food"
+    ],
+    "group_size": 4,
+    "weather_pattern": "mixed",
+    "start_date": "2026-10-18"
+  },
+  {
+    "id": "S22",
+    "duration_days": 2,
+    "budget_per_person_php": 2000,
+    "budget_php": 4000,
+    "interests": [
+      "Entertainment",
+      "Food"
+    ],
+    "group_size": 2,
+    "weather_pattern": "mixed",
+    "start_date": "2026-10-12"
+  },
+  {
+    "id": "S23",
+    "duration_days": 2,
+    "budget_per_person_php": 4000,
+    "budget_php": 12000,
+    "interests": [
+      "Sightseeing",
+      "Culture"
+    ],
+    "group_size": 3,
+    "weather_pattern": "mixed",
+    "start_date": "2026-10-13"
+  },
+  {
+    "id": "S24",
+    "duration_days": 1,
+    "budget_per_person_php": 2000,
+    "budget_php": 8000,
+    "interests": [
+      "Nature"
+    ],
+    "group_size": 4,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-14"
+  },
+  {
+    "id": "S25",
+    "duration_days": 2,
+    "budget_per_person_php": 1000,
+    "budget_php": 2000,
+    "interests": [
+      "Food"
+    ],
+    "group_size": 2,
+    "weather_pattern": "rain",
+    "start_date": "2026-10-15"
+  },
+  {
+    "id": "S26",
+    "duration_days": 3,
+    "budget_per_person_php": 1000,
+    "budget_php": 3000,
+    "interests": [
+      "Sightseeing"
+    ],
+    "group_size": 3,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-16"
+  },
+  {
+    "id": "S27",
+    "duration_days": 3,
+    "budget_per_person_php": 4000,
+    "budget_php": 8000,
+    "interests": [
+      "Nature",
+      "Wellness"
+    ],
+    "group_size": 2,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-17"
+  },
+  {
+    "id": "S28",
+    "duration_days": 1,
+    "budget_per_person_php": 2000,
+    "budget_php": 8000,
+    "interests": [
+      "Nature",
+      "Culture",
+      "Shopping"
+    ],
+    "group_size": 4,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-18"
+  },
+  {
+    "id": "S29",
+    "duration_days": 1,
+    "budget_per_person_php": 4000,
+    "budget_php": 16000,
+    "interests": [
+      "Nature",
+      "Shopping",
+      "Sightseeing"
+    ],
+    "group_size": 4,
+    "weather_pattern": "rain",
+    "start_date": "2026-10-12"
+  },
+  {
+    "id": "S30",
+    "duration_days": 3,
+    "budget_per_person_php": 4000,
+    "budget_php": 8000,
+    "interests": [
+      "Wellness",
+      "Sightseeing",
+      "Culture"
+    ],
+    "group_size": 2,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-13"
+  }
+]
