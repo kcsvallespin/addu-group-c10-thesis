@@ -1,0 +1,604 @@
+{
+  "scenario": {
+    "id": "S02",
+    "duration_days": 3,
+    "budget_per_person_php": 4000,
+    "budget_php": 4000,
+    "interests": [
+      "Nature",
+      "Wellness",
+      "Accommodation"
+    ],
+    "group_size": 1,
+    "weather_pattern": "rain",
+    "start_date": "2026-10-13"
+  },
+  "weather": [
+    {
+      "date": "2026-10-13",
+      "condition": "Rain",
+      "pop": 1.0,
+      "is_outdoor_suitable": false
+    },
+    {
+      "date": "2026-10-14",
+      "condition": "Rain",
+      "pop": 1.0,
+      "is_outdoor_suitable": false
+    },
+    {
+      "date": "2026-10-15",
+      "condition": "Rain",
+      "pop": 1.0,
+      "is_outdoor_suitable": false
+    }
+  ],
+  "data_version": "689ece30b82a",
+  "candidates": [
+    {
+      "venue_id": "dvo_poi_1231",
+      "name": "Los Amigos Park",
+      "category": [
+        "Nature"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.1411821,
+      "longitude": 125.4798632
+    },
+    {
+      "venue_id": "dvo_poi_0723",
+      "name": "Freedom Park",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0730311,
+      "longitude": 125.61138469999999
+    },
+    {
+      "venue_id": "dvo_poi_0524",
+      "name": "Crocodile Park Picnic Grounds",
+      "category": [
+        "Nature"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.098109999999999,
+      "longitude": 125.59810829999999
+    },
+    {
+      "venue_id": "dvo_poi_0576",
+      "name": "Osmeña Park",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "05:00-22:00",
+        "tue": "05:00-22:00",
+        "wed": "05:00-22:00",
+        "thu": "05:00-22:00",
+        "fri": "05:00-22:00",
+        "sat": "closed",
+        "sun": "closed"
+      },
+      "latitude": 7.063500599999999,
+      "longitude": 125.60937649999998
+    },
+    {
+      "venue_id": "dvo_poi_0658",
+      "name": "Kwagsik Falls",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 50,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.4602086000000005,
+      "longitude": 125.2672445
+    },
+    {
+      "venue_id": "dvo_poi_0270",
+      "name": "Bemwa Farm",
+      "category": [
+        "Nature"
+      ],
+      "est_group_cost_php": 50,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "07:00-17:00",
+        "tue": "07:00-17:00",
+        "wed": "07:00-17:00",
+        "thu": "07:00-17:00",
+        "fri": "07:00-17:00",
+        "sat": "07:00-17:00",
+        "sun": "07:00-17:00"
+      },
+      "latitude": 7.4819382999999995,
+      "longitude": 125.25940240000001
+    },
+    {
+      "venue_id": "dvo_poi_1239",
+      "name": "Philippine Eagle Center",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 150,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "08:00-16:30",
+        "tue": "08:00-16:30",
+        "wed": "08:00-16:30",
+        "thu": "08:00-16:30",
+        "fri": "08:00-16:30",
+        "sat": "08:00-16:30",
+        "sun": "08:00-16:30"
+      },
+      "latitude": 7.18498,
+      "longitude": 125.41528369999999
+    },
+    {
+      "venue_id": "dvo_poi_0108",
+      "name": "Macatabo Farm",
+      "category": [
+        "Food",
+        "Nature"
+      ],
+      "est_group_cost_php": 100,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "10:00-17:00",
+        "tue": "10:00-17:00",
+        "wed": "10:00-17:00",
+        "thu": "10:00-17:00",
+        "fri": "10:00-17:00",
+        "sat": "10:00-17:00",
+        "sun": "10:00-17:00"
+      },
+      "latitude": 7.127819199999999,
+      "longitude": 125.3628292
+    },
+    {
+      "venue_id": "dvo_poi_0711",
+      "name": "De Stress Massage & Spa Matina Pangi Davao branch",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 250,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "10:00-00:00",
+        "tue": "10:00-00:00",
+        "wed": "10:00-00:00",
+        "thu": "10:00-00:00",
+        "fri": "10:00-00:00",
+        "sat": "10:00-00:00",
+        "sun": "10:00-00:00"
+      },
+      "latitude": 7.0621127999999995,
+      "longitude": 125.5702191
+    },
+    {
+      "venue_id": "dvo_poi_0237",
+      "name": "Miso Thai Massage Spa",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 250,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "12:00-23:00",
+        "tue": "12:00-23:00",
+        "wed": "12:00-23:00",
+        "thu": "12:00-23:00",
+        "fri": "12:00-23:00",
+        "sat": "12:00-23:00",
+        "sun": "12:00-23:00"
+      },
+      "latitude": 7.0822878,
+      "longitude": 125.60995919999999
+    },
+    {
+      "venue_id": "dvo_poi_1154",
+      "name": "Solaz Massage & Spa - Ecoland",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 300,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "13:00-00:00",
+        "tue": "13:00-22:00",
+        "wed": "13:00-22:00",
+        "thu": "13:00-22:00",
+        "fri": "13:00-22:00",
+        "sat": "13:00-22:00",
+        "sun": "13:00-22:00"
+      },
+      "latitude": 7.049252,
+      "longitude": 125.59081239999999
+    },
+    {
+      "venue_id": "dvo_poi_1125",
+      "name": "Waka Massage Palace",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 349,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "13:00-01:00",
+        "tue": "13:00-01:00",
+        "wed": "13:00-01:00",
+        "thu": "13:00-01:00",
+        "fri": "13:00-01:00",
+        "sat": "13:00-01:00",
+        "sun": "13:00-01:00"
+      },
+      "latitude": 7.0936189999999995,
+      "longitude": 125.6357724
+    },
+    {
+      "venue_id": "dvo_poi_0928",
+      "name": "Thai Boran - Damosa",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 450,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "13:00-00:00",
+        "tue": "13:00-00:00",
+        "wed": "13:00-00:00",
+        "thu": "13:00-00:00",
+        "fri": "13:00-00:00",
+        "sat": "13:00-00:00",
+        "sun": "13:00-00:00"
+      },
+      "latitude": 7.1054154,
+      "longitude": 125.63254479999999
+    },
+    {
+      "venue_id": "dvo_poi_0182",
+      "name": "Yasumi Head Spa Matina",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 700,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "12:00-00:00",
+        "tue": "12:00-00:00",
+        "wed": "12:00-00:00",
+        "thu": "12:00-00:00",
+        "fri": "12:00-00:00",
+        "sat": "12:00-00:00",
+        "sun": "12:00-00:00"
+      },
+      "latitude": 7.0574996,
+      "longitude": 125.5720957
+    },
+    {
+      "venue_id": "dvo_poi_1038",
+      "name": "Amiya Resort Residences Clubhouse",
+      "category": [
+        "Wellness",
+        "Accommodation"
+      ],
+      "est_group_cost_php": 5000,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "09:00-19:00",
+        "tue": "09:00-19:00",
+        "wed": "09:00-19:00",
+        "thu": "09:00-19:00",
+        "fri": "09:00-19:00",
+        "sat": "09:00-19:00",
+        "sun": "09:00-19:00"
+      },
+      "latitude": 7.0548395,
+      "longitude": 125.52973189999999
+    },
+    {
+      "venue_id": "dvo_poi_1341",
+      "name": "Thai Boran - Catalunan Grande",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 500,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "16:00-00:00",
+        "tue": "16:00-00:00",
+        "wed": "16:00-00:00",
+        "thu": "16:00-00:00",
+        "fri": "15:00-00:00",
+        "sat": "15:00-00:00",
+        "sun": "15:00-00:00"
+      },
+      "latitude": 7.070638799999999,
+      "longitude": 125.54829449999998
+    },
+    {
+      "venue_id": "dvo_poi_0783",
+      "name": "D'Morvie Suites",
+      "category": [
+        "Accommodation"
+      ],
+      "est_group_cost_php": 600,
+      "average_rating": 3.4,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.068409,
+      "longitude": 125.60394230000001
+    },
+    {
+      "venue_id": "dvo_poi_0212",
+      "name": "Davao Royal Suites and Residences",
+      "category": [
+        "Accommodation"
+      ],
+      "est_group_cost_php": 1016,
+      "average_rating": 3.9,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.065243199999999,
+      "longitude": 125.6102829
+    },
+    {
+      "venue_id": "dvo_poi_0595",
+      "name": "The Strand Suites and Dormitel",
+      "category": [
+        "Accommodation"
+      ],
+      "est_group_cost_php": 1299,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.083514,
+      "longitude": 125.60865399999999
+    },
+    {
+      "venue_id": "dvo_poi_0392",
+      "name": "D'Japanese Tunnel Family Resort and Restaurant",
+      "category": [
+        "Food",
+        "Accommodation"
+      ],
+      "est_group_cost_php": 1381,
+      "average_rating": 4.1,
+      "operating_hours": {
+        "mon": "08:00-20:00",
+        "tue": "08:00-20:00",
+        "wed": "08:00-20:00",
+        "thu": "08:00-20:00",
+        "fri": "08:00-20:00",
+        "sat": "08:00-20:00",
+        "sun": "08:00-20:00"
+      },
+      "latitude": 7.0658083,
+      "longitude": 125.5631689
+    },
+    {
+      "venue_id": "dvo_poi_1330",
+      "name": "Sunny Point Hotel",
+      "category": [
+        "Accommodation"
+      ],
+      "est_group_cost_php": 2176,
+      "average_rating": 4.0,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0943005999999995,
+      "longitude": 125.5799397
+    },
+    {
+      "venue_id": "dvo_poi_0903",
+      "name": "Microtel by Wyndham Davao",
+      "category": [
+        "Accommodation"
+      ],
+      "est_group_cost_php": 4264,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.102468,
+      "longitude": 125.6326485
+    },
+    {
+      "venue_id": "dvo_poi_0134",
+      "name": "The Bourke",
+      "category": [
+        "Accommodation"
+      ],
+      "est_group_cost_php": 4995,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.068028600000001,
+      "longitude": 125.60626400000001
+    },
+    {
+      "venue_id": "dvo_poi_0873",
+      "name": "Marco Polo",
+      "category": [
+        "Food",
+        "Accommodation"
+      ],
+      "est_group_cost_php": 3618,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "00:00-23:30",
+        "tue": "00:00-23:30",
+        "wed": "00:00-23:30",
+        "thu": "00:00-23:30",
+        "fri": "00:00-23:30",
+        "sat": "00:00-23:30",
+        "sun": "00:00-23:30"
+      },
+      "latitude": 7.071919899999999,
+      "longitude": 125.6115748
+    }
+  ],
+  "itinerary": {
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2026-10-13",
+        "slots": [
+          {
+            "time_start": "10:00",
+            "time_end": "12:00",
+            "venue_id": "dvo_poi_0711"
+          },
+          {
+            "time_start": "12:30",
+            "time_end": "14:30",
+            "venue_id": "dvo_poi_0237"
+          },
+          {
+            "time_start": "15:00",
+            "time_end": "17:00",
+            "venue_id": "dvo_poi_1154"
+          },
+          {
+            "time_start": "17:30",
+            "time_end": "19:30",
+            "venue_id": "dvo_poi_0783"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2026-10-14",
+        "slots": [
+          {
+            "time_start": "12:00",
+            "time_end": "14:00",
+            "venue_id": "dvo_poi_0182"
+          },
+          {
+            "time_start": "14:30",
+            "time_end": "16:30",
+            "venue_id": "dvo_poi_1125"
+          },
+          {
+            "time_start": "17:00",
+            "time_end": "19:00",
+            "venue_id": "dvo_poi_0928"
+          },
+          {
+            "time_start": "19:30",
+            "time_end": "21:30",
+            "venue_id": "dvo_poi_0595"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "date": "2026-10-15",
+        "slots": [
+          {
+            "time_start": "08:00",
+            "time_end": "10:00",
+            "venue_id": "dvo_poi_0392"
+          },
+          {
+            "time_start": "12:00",
+            "time_end": "14:00",
+            "venue_id": "dvo_poi_0212"
+          },
+          {
+            "time_start": "16:00",
+            "time_end": "18:00",
+            "venue_id": "dvo_poi_1341"
+          }
+        ]
+      }
+    ]
+  }
+}

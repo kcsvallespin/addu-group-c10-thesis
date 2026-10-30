@@ -6824,7 +6824,6 @@
     "place_id": "ChIJ90cC-W4b-TIRW0OsLGi_9Sk",
     "name": "Pulang Bato Falls",
     "category": [
-      "Accommodation",
       "Sightseeing"
     ],
     "primary_type": "tourist_attraction",
@@ -15645,8 +15644,7 @@
     "place_id": "ChIJJyaufCxt-TIR7IH_rrfXbDg",
     "name": "Vista View Resto",
     "category": [
-      "Food",
-      "Accommodation"
+      "Food"
     ],
     "primary_type": "restaurant",
     "google_types": [

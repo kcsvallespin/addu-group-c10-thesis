@@ -1,0 +1,3170 @@
+[
+  {
+    "venue_id": "dvo_poi_0723",
+    "place_id": "ChIJV1yiLJxt-TIRZpvPEZEqKUA",
+    "name": "Freedom Park",
+    "name_key": "freedom park",
+    "category": [
+      "Nature",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "",
+    "price_date": "2026-10-29",
+    "average_rating": 4.3,
+    "rating_count": 232,
+    "quality_score": 10.250406073715853,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.0730311,
+    "longitude": 125.61138469999999,
+    "address": "3JF6+6H6, M. Roxas Ave, Poblacion District, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0576",
+    "place_id": "ChIJOU2cq3ht-TIRTcj-ga4ruFc",
+    "name": "Osmeña Park",
+    "name_key": "osmeña park",
+    "category": [
+      "Nature",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.tripadvisor.com.ph/Attraction_Review-g298459-d4371311-Reviews-Osmena_Park-Davao_City_Davao_del_Sur_Province_Mindanao.html",
+    "price_date": "2026-10-29",
+    "average_rating": 4.3,
+    "rating_count": 504,
+    "quality_score": 11.657141411679685,
+    "operating_hours": {
+      "mon": "05:00-22:00",
+      "tue": "05:00-22:00",
+      "wed": "05:00-22:00",
+      "thu": "05:00-22:00",
+      "fri": "05:00-22:00",
+      "sat": "closed",
+      "sun": "closed"
+    },
+    "latitude": 7.063500599999999,
+    "longitude": 125.60937649999998,
+    "address": "Poblacion District, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0402",
+    "place_id": "ChIJGe4kR6Ft-TIR3cN0fxkmm_8",
+    "name": "Davao Butterfly House Inc.",
+    "name_key": "davao butterfly house inc.",
+    "category": [
+      "Entertainment",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 350.0,
+    "price_source": "https://vismin.ph/?p=5052",
+    "price_date": "2026-10-29",
+    "average_rating": 3.7,
+    "rating_count": 57,
+    "quality_score": 6.756476769993058,
+    "operating_hours": {
+      "mon": "08:00-17:00",
+      "tue": "08:00-17:00",
+      "wed": "08:00-17:00",
+      "thu": "08:00-17:00",
+      "fri": "08:00-17:00",
+      "sat": "08:00-17:00",
+      "sun": "08:00-17:00"
+    },
+    "latitude": 7.095787,
+    "longitude": 125.5956726,
+    "address": "Riverfront Drive, Corporate City, Diversion Highway Ma-a, Davao City, Davao del Sur, 3HWW+877, Talomo, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0108",
+    "place_id": "ChIJ3V_ISHsb-TIRgoquLpIQyTE",
+    "name": "Macatabo Farm",
+    "name_key": "macatabo farm",
+    "category": [
+      "Food",
+      "Nature"
+    ],
+    "price_unit": "per_person",
+    "price_php": 100.0,
+    "price_source": "https://www.facebook.com/macatabofarm/",
+    "price_date": "2026-10-30",
+    "average_rating": 4.7,
+    "rating_count": 54,
+    "quality_score": 8.48904587772427,
+    "operating_hours": {
+      "mon": "10:00-17:00",
+      "tue": "10:00-17:00",
+      "wed": "10:00-17:00",
+      "thu": "10:00-17:00",
+      "fri": "10:00-17:00",
+      "sat": "10:00-17:00",
+      "sun": "10:00-17:00"
+    },
+    "latitude": 7.127819199999999,
+    "longitude": 125.3628292,
+    "address": "Sitio Macatabo, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0651",
+    "place_id": "ChIJS7C_kEBt-TIRagQgb9t_C_E",
+    "name": "OYASUMI Massage by: AC (Dacudao Branch)",
+    "name_key": "oyasumi massage by: ac (dacudao branch)",
+    "category": [
+      "Wellness"
+    ],
+    "price_unit": "per_person",
+    "price_php": 530.0,
+    "price_source": "https://www.facebook.com/DavaoFoodGuidePH/posts/japanese-style-headspa-and-massage-japanese-styie-using-products-from-japanoyasu/1567737724712087/",
+    "price_date": "2026-10-30",
+    "average_rating": 4.4,
+    "rating_count": 30,
+    "quality_score": 7.049063961843035,
+    "operating_hours": {
+      "mon": "10:00-02:00",
+      "tue": "10:00-02:00",
+      "wed": "10:00-02:00",
+      "thu": "10:00-02:00",
+      "fri": "10:00-02:00",
+      "sat": "10:00-02:00",
+      "sun": "10:00-02:00"
+    },
+    "latitude": 7.092725799999999,
+    "longitude": 125.61661210000001,
+    "address": "Dacudao Ave, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0270",
+    "place_id": "ChIJBYYQzawr-TIRaIoN4pfpGhA",
+    "name": "Bemwa Farm",
+    "name_key": "bemwa farm",
+    "category": [
+      "Nature"
+    ],
+    "price_unit": "per_person",
+    "price_php": 50.0,
+    "price_source": "https://vismin.ph/2024/bemwa-farm-davao",
+    "price_date": "2026-10-29",
+    "average_rating": 4.4,
+    "rating_count": 664,
+    "quality_score": 12.446103544755408,
+    "operating_hours": {
+      "mon": "07:00-17:00",
+      "tue": "07:00-17:00",
+      "wed": "07:00-17:00",
+      "thu": "07:00-17:00",
+      "fri": "07:00-17:00",
+      "sat": "07:00-17:00",
+      "sun": "07:00-17:00"
+    },
+    "latitude": 7.4819382999999995,
+    "longitude": 125.25940240000001,
+    "address": "F7J5+QQC, Davao - Buda National Hwy, Marilog District, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0842",
+    "place_id": "ChIJ_RrIGQAN-TIRUyaYrYbUT94",
+    "name": "Bukid Amara Davao",
+    "name_key": "bukid amara davao",
+    "category": [
+      "Nature",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 150.0,
+    "price_source": "https://bukidamara.com/events-patterns/",
+    "price_date": "2026-10-30",
+    "average_rating": 3.9,
+    "rating_count": 93,
+    "quality_score": 7.850065176350171,
+    "operating_hours": {
+      "mon": "08:00-17:30",
+      "tue": "08:00-17:30",
+      "wed": "08:00-17:30",
+      "thu": "08:00-17:30",
+      "fri": "08:00-17:30",
+      "sat": "08:00-17:30",
+      "sun": "08:00-17:30"
+    },
+    "latitude": 7.0436543,
+    "longitude": 125.51443049999997,
+    "address": "2GV7+FQ7, Bago Gallera, Talomo, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0634",
+    "place_id": "ChIJRYDqDV4T-TIR1uKtCQLOCR0",
+    "name": "Green Mountain View",
+    "name_key": "green mountain view",
+    "category": [
+      "Nature"
+    ],
+    "price_unit": "per_person",
+    "price_php": 35.0,
+    "price_source": "https://wanderlog.com/place/details/8130375/green-mountain-view",
+    "price_date": "2026-10-29",
+    "average_rating": 4.1,
+    "rating_count": 52,
+    "quality_score": 7.34880592694284,
+    "operating_hours": {
+      "mon": "05:00-17:00",
+      "tue": "05:00-17:00",
+      "wed": "05:00-17:00",
+      "thu": "05:00-17:00",
+      "fri": "05:00-17:00",
+      "sat": "05:00-17:00",
+      "sun": "05:00-17:00"
+    },
+    "latitude": 7.1306389999999995,
+    "longitude": 125.565327,
+    "address": "4HJ8+744, Unnamed Road, Tugbok, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1341",
+    "place_id": "ChIJx8YeGxET-TIR32QPuVv910k",
+    "name": "Thai Boran - Catalunan Grande",
+    "name_key": "thai boran - catalunan grande",
+    "category": [
+      "Wellness"
+    ],
+    "price_unit": "per_person",
+    "price_php": 500.0,
+    "price_source": "https://www.facebook.com/tbObrero/posts/%F0%9D%90%8F%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%9C%F0%9D%90%9E-%F0%9D%90%94%F0%9D%90%A9%F0%9D%90%9D%F0%9D%90%9A%F0%9D%90%AD%F0%9D%90%9E-%F0%9D%90%8D%F0%9D%90%A8%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%9C%F0%9D%90%9Eto-continue-providing-the-quality-thai-boran-davao-corp-exper/876856258608579/",
+    "price_date": "2026-10-30",
+    "average_rating": 4.8,
+    "rating_count": 28,
+    "quality_score": 7.582961263760688,
+    "operating_hours": {
+      "mon": "16:00-00:00",
+      "tue": "16:00-00:00",
+      "wed": "16:00-00:00",
+      "thu": "16:00-00:00",
+      "fri": "15:00-00:00",
+      "sat": "15:00-00:00",
+      "sun": "15:00-00:00"
+    },
+    "latitude": 7.070638799999999,
+    "longitude": 125.54829449999998,
+    "address": "Door 20-23, DVDC Building, Catalunan Grande Rd, Talomo, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0616",
+    "place_id": "ChIJQy2xOABz-TIRwEATFEIWzOQ",
+    "name": "Thai Royale Spa Davao City - Matina Branch",
+    "name_key": "thai royale spa davao city - matina branch",
+    "category": [
+      "Wellness"
+    ],
+    "price_unit": "per_person",
+    "price_php": 499.0,
+    "price_source": "https://www.facebook.com/photo/?fbid=122162277398969021",
+    "price_date": "2026-10-30",
+    "average_rating": 4.1,
+    "rating_count": 35,
+    "quality_score": 6.778171306478908,
+    "operating_hours": {
+      "mon": "12:00-02:00",
+      "tue": "12:00-02:00",
+      "wed": "12:00-02:00",
+      "thu": "12:00-02:00",
+      "fri": "12:00-03:00",
+      "sat": "12:00-03:00",
+      "sun": "12:00-03:00"
+    },
+    "latitude": 7.0599896,
+    "longitude": 125.59392299999999,
+    "address": "8, Juna Subdivision, Espacio Building, Juna Ave, Matina, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1394",
+    "place_id": "ChIJzyp7kOsJ-TIRbkHlL02VTBA",
+    "name": "Honea Bee Farm",
+    "name_key": "honea bee farm",
+    "category": [
+      "Nature",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 300.0,
+    "price_source": "https://honeabeefarm.com/",
+    "price_date": "2026-10-30",
+    "average_rating": 4.9,
+    "rating_count": 15,
+    "quality_score": 6.849906042492985,
+    "operating_hours": {
+      "mon": "closed",
+      "tue": "closed",
+      "wed": "closed",
+      "thu": "09:00-16:00",
+      "fri": "09:00-16:00",
+      "sat": "09:00-16:00",
+      "sun": "closed"
+    },
+    "latitude": 7.0052525,
+    "longitude": 125.4261684,
+    "address": "Purok 9, Sitio Malinan, Barangay Catigan, Toril, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0876",
+    "place_id": "ChIJaxTz7Hht-TIRhobRXvVF8lM",
+    "name": "Quezon Park",
+    "name_key": "quezon park",
+    "category": [
+      "Nature",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://honeabeefarm.com/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.5,
+    "rating_count": 57,
+    "quality_score": 8.21733661215372,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.0649871,
+    "longitude": 125.60819579999999,
+    "address": "3J75+X7W, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1242",
+    "place_id": "ChIJsZpQzocp-TIRRbKhJu-QLY0",
+    "name": "JACA Mountain Peak",
+    "name_key": "jaca mountain peak",
+    "category": [
+      "Nature",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 500.0,
+    "price_source": "https://www.facebook.com/JacaMountainPeak/",
+    "price_date": "2026-10-30",
+    "average_rating": 4.6,
+    "rating_count": 162,
+    "quality_score": 10.283430855774723,
+    "operating_hours": {
+      "mon": "closed",
+      "tue": "closed",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "08:00-18:00",
+      "sun": "08:00-18:00"
+    },
+    "latitude": 7.422169599999999,
+    "longitude": 125.23192239999997,
+    "address": "C6CJ+VQ7, Arakan Valley Rd, Marilog District, Davao City, Cotabato"
+  },
+  {
+    "venue_id": "dvo_poi_0820",
+    "place_id": "ChIJZSj5Lzps-TIRG9FPQN62t6M",
+    "name": "Our Mother of Perpetual Help Parish - Redemptorist Church",
+    "name_key": "our mother of perpetual help parish - redemptorist church",
+    "category": [
+      "Culture",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/JacaMountainPeak/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.6,
+    "rating_count": 713,
+    "quality_score": 13.152036167554842,
+    "operating_hours": {
+      "mon": "08:30-17:30",
+      "tue": "08:30-17:30",
+      "wed": "08:30-17:30",
+      "thu": "08:30-17:30",
+      "fri": "08:30-17:30",
+      "sat": "08:30-17:30",
+      "sun": "08:30-17:30"
+    },
+    "latitude": 7.092149399999999,
+    "longitude": 125.6097552,
+    "address": "3JR5+VW2, J.P. Laurel Ave, Bajada, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1038",
+    "place_id": "ChIJiQMqjZoN-TIR9qPLL1MXM6Q",
+    "name": "Amiya Resort Residences Clubhouse",
+    "name_key": "amiya resort residences clubhouse",
+    "category": [
+      "Wellness",
+      "Accommodation"
+    ],
+    "price_unit": "room_night",
+    "price_php": 5000.0,
+    "price_source": "https://www.tiktok.com/@kristine_cso/video/7434844601409621266",
+    "price_date": "2026-10-29",
+    "average_rating": 4.5,
+    "rating_count": 204,
+    "quality_score": 10.48686198007136,
+    "operating_hours": {
+      "mon": "09:00-19:00",
+      "tue": "09:00-19:00",
+      "wed": "09:00-19:00",
+      "thu": "09:00-19:00",
+      "fri": "09:00-19:00",
+      "sat": "09:00-19:00",
+      "sun": "09:00-19:00"
+    },
+    "latitude": 7.0548395,
+    "longitude": 125.52973189999999,
+    "address": "Libby Road, Talomo, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1336",
+    "place_id": "ChIJx13AKQBz-TIRK51C7WfGx9Q",
+    "name": "DGT Central Park",
+    "name_key": "dgt central park",
+    "category": [
+      "Nature"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.tiktok.com/@kristine_cso/video/7434844601409621266",
+    "price_date": "2026-10-29",
+    "average_rating": 4.6,
+    "rating_count": 142,
+    "quality_score": 10.036480504545953,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.0563217,
+    "longitude": 125.5819132,
+    "address": "3H4J+GQF, Matina Crossing, Talomo, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0255",
+    "place_id": "ChIJAa5cGq4X-TIRWHkP8Bu3hYo",
+    "name": "Malagos Chocolate Museum",
+    "name_key": "malagos chocolate museum",
+    "category": [
+      "Food"
+    ],
+    "price_unit": "per_person",
+    "price_php": 250.0,
+    "price_source": "https://ahroundph.com/blog/2023/01/14/malagos-garden-resort/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.6,
+    "rating_count": 579,
+    "quality_score": 12.742530356020666,
+    "operating_hours": {
+      "mon": "08:00-16:00",
+      "tue": "08:00-16:00",
+      "wed": "08:00-16:00",
+      "thu": "08:00-16:00",
+      "fri": "08:00-17:00",
+      "sat": "08:00-17:00",
+      "sun": "08:00-17:00"
+    },
+    "latitude": 7.191733300000001,
+    "longitude": 125.42798189999999,
+    "address": "Malagos Garden Resort, Malagos, Baguio District, 5CRH+M5X, Calinan - Baguio Rd, Lungsod ng Dabaw, 8000 Lalawigan ng Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0156",
+    "place_id": "ChIJ62EDggBt-TIRmEw14SCxe5g",
+    "name": "Yasumi Head Spa Buhangin",
+    "name_key": "yasumi head spa buhangin",
+    "category": [
+      "Wellness"
+    ],
+    "price_unit": "per_person",
+    "price_php": 700.0,
+    "price_source": "https://www.facebook.com/photo/?fbid=983579444714103",
+    "price_date": "2026-10-29",
+    "average_rating": 4.4,
+    "rating_count": 71,
+    "quality_score": 8.39733408306606,
+    "operating_hours": {
+      "mon": "12:00-00:00",
+      "tue": "12:00-00:00",
+      "wed": "12:00-00:00",
+      "thu": "12:00-00:00",
+      "fri": "12:00-00:00",
+      "sat": "12:00-00:00",
+      "sun": "12:00-00:00"
+    },
+    "latitude": 7.1020318,
+    "longitude": 125.61474729999999,
+    "address": "2F Unit C & D, Corner, DSTI Building, Buhangin-Lapanday Rd, Buhangin, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0154",
+    "place_id": "ChIJ5zlCrnRt-TIRLtU6AtseLtI",
+    "name": "Cafe Demitasse",
+    "name_key": "cafe demitasse",
+    "category": [
+      "Food"
+    ],
+    "price_unit": "per_person",
+    "price_php": 195.0,
+    "price_source": "https://www.cafedemitasse.ph/",
+    "price_date": "",
+    "average_rating": 4.3,
+    "rating_count": 881,
+    "quality_score": 12.68447412735856,
+    "operating_hours": {
+      "mon": "08:00-22:00",
+      "tue": "08:00-22:00",
+      "wed": "08:00-22:00",
+      "thu": "08:00-22:00",
+      "fri": "08:00-00:00",
+      "sat": "08:00-00:00",
+      "sun": "08:00-22:00"
+    },
+    "latitude": 7.0772834,
+    "longitude": 125.6052335,
+    "address": "727 F. Torres St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0047",
+    "place_id": "ChIJ14ROWwlt-TIRIrts-9WGB0g",
+    "name": "Bioessence Gold Marfori",
+    "name_key": "bioessence gold marfori",
+    "category": [
+      "Wellness"
+    ],
+    "price_unit": "per_person",
+    "price_php": 1000.0,
+    "price_source": "https://www.bioessence.com.ph/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.3,
+    "rating_count": 59,
+    "quality_score": 7.907051090170197,
+    "operating_hours": {
+      "mon": "09:00-20:00",
+      "tue": "09:00-20:00",
+      "wed": "09:00-20:00",
+      "thu": "09:00-20:00",
+      "fri": "09:00-20:00",
+      "sat": "09:00-20:00",
+      "sun": "09:00-18:00"
+    },
+    "latitude": 7.0822991,
+    "longitude": 125.60505699999999,
+    "address": "Marfori Heights, 46 Circumferential Rd, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0633",
+    "place_id": "ChIJRXpRhRgp-TIRzP5cLbkiE7Q",
+    "name": "ClaudMaru Rainforest",
+    "name_key": "claudmaru rainforest",
+    "category": [
+      "Entertainment",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 450.0,
+    "price_source": "https://www.facebook.com/photo/?fbid=1003998015497494",
+    "price_date": "2026-10-29",
+    "average_rating": 4.3,
+    "rating_count": 112,
+    "quality_score": 8.971347271901418,
+    "operating_hours": {
+      "mon": "07:00-00:00",
+      "tue": "07:00-00:00",
+      "wed": "07:00-00:00",
+      "thu": "07:00-00:00",
+      "fri": "07:00-00:00",
+      "sat": "07:00-00:00",
+      "sun": "07:00-00:00"
+    },
+    "latitude": 7.4308815,
+    "longitude": 125.2472989,
+    "address": "C6JW+9W3, Marilog District, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0040",
+    "place_id": "ChIJ0xrnLf1s-TIRG7bBbtynfa4",
+    "name": "Davao Riverfront Crocodile Park & Zoo",
+    "name_key": "davao riverfront crocodile park & zoo",
+    "category": [
+      "Entertainment",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 350.0,
+    "price_source": "https://ahroundph.com/blog/2023/01/14/crocodile-park/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.4,
+    "rating_count": 4153,
+    "quality_score": 15.92538820790182,
+    "operating_hours": {
+      "mon": "08:00-17:00",
+      "tue": "08:00-17:00",
+      "wed": "08:00-17:00",
+      "thu": "08:00-17:00",
+      "fri": "08:00-17:00",
+      "sat": "08:00-17:00",
+      "sun": "08:00-17:00"
+    },
+    "latitude": 7.0970749,
+    "longitude": 125.599249,
+    "address": "3HWX+RMH, Gadi Road, Talomo, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0711",
+    "place_id": "ChIJU_QqeYBt-TIRToIr_O-s_1E",
+    "name": "De Stress Massage & Spa Matina Pangi Davao branch",
+    "name_key": "de stress massage & spa matina pangi davao branch",
+    "category": [
+      "Wellness"
+    ],
+    "price_unit": "per_person",
+    "price_php": 250.0,
+    "price_source": "https://www.facebook.com/photo.php?fbid=122186992574216104&type=3",
+    "price_date": "2026-10-30",
+    "average_rating": 4.7,
+    "rating_count": 23,
+    "quality_score": 7.137015517426072,
+    "operating_hours": {
+      "mon": "10:00-00:00",
+      "tue": "10:00-00:00",
+      "wed": "10:00-00:00",
+      "thu": "10:00-00:00",
+      "fri": "10:00-00:00",
+      "sat": "10:00-00:00",
+      "sun": "10:00-00:00"
+    },
+    "latitude": 7.0621127999999995,
+    "longitude": 125.5702191,
+    "address": "Matina crossing, Pangi road, Talomo, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1024",
+    "place_id": "ChIJhYQnU2sT-TIRnn9yxaPxQxE",
+    "name": "Deca wakeboard park davao city",
+    "name_key": "deca wakeboard park davao city",
+    "category": [
+      "Entertainment"
+    ],
+    "price_unit": "per_person",
+    "price_php": 1000.0,
+    "price_source": "https://wayph.com/deca-wakeboard-park-tacunan-davao-city",
+    "price_date": "2026-10-29",
+    "average_rating": 4.7,
+    "rating_count": 22,
+    "quality_score": 7.074204898103559,
+    "operating_hours": {
+      "mon": "closed",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "09:00-17:00",
+      "sun": "09:00-17:00"
+    },
+    "latitude": 7.1094201,
+    "longitude": 125.50120050000001,
+    "address": "75 Gulper, Tugbok, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0462",
+    "place_id": "ChIJJ45YXNVt-TIRhPDHm6F45uc",
+    "name": "NCCC Cinemas",
+    "name_key": "nccc cinemas",
+    "category": [
+      "Entertainment"
+    ],
+    "price_unit": "per_person",
+    "price_php": 270.0,
+    "price_source": "https://cinemas.nccc.com.ph/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.4,
+    "rating_count": 7,
+    "quality_score": 5.413975254064406,
+    "operating_hours": {
+      "mon": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "closed",
+      "sun": "closed"
+    },
+    "latitude": 7.110398399999999,
+    "longitude": 125.61174930000001,
+    "address": "4th Floor, NCCC Mall, KM 7 Tigatto Rd, Buhangin, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0970",
+    "place_id": "ChIJf7hQMHZt-TIRGg4U2az0c6M",
+    "name": "People’s Park",
+    "name_key": "people’s park",
+    "category": [
+      "Nature",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://tourism.davaocity.gov.ph/?p=452",
+    "price_date": "2026-10-29",
+    "average_rating": 4.5,
+    "rating_count": 5601,
+    "quality_score": 16.870681209165557,
+    "operating_hours": {
+      "mon": "13:00-22:00",
+      "tue": "13:00-22:00",
+      "wed": "13:00-22:00",
+      "thu": "13:00-22:00",
+      "fri": "13:00-22:00",
+      "sat": "13:00-22:00",
+      "sun": "13:00-22:00"
+    },
+    "latitude": 7.070526399999999,
+    "longitude": 125.60846640000001,
+    "address": "J. Palma Gil St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1033",
+    "place_id": "ChIJi3l-MEps-TIRjUxJeAJzFsI",
+    "name": "The Fountain Court",
+    "name_key": "the fountain court",
+    "category": [
+      "Entertainment"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/100066101233175/posts/look-vibrant-night-at-sm-lanang-premiere-davao-cityspanning-an-impressive-122-me/1049498337263531/",
+    "price_date": "2026-10-30",
+    "average_rating": 4.5,
+    "rating_count": 85,
+    "quality_score": 8.899756223799816,
+    "operating_hours": {
+      "mon": "07:00-21:00",
+      "tue": "07:00-21:00",
+      "wed": "07:00-21:00",
+      "thu": "07:00-21:00",
+      "fri": "07:00-21:00",
+      "sat": "07:00-21:00",
+      "sun": "07:00-21:00"
+    },
+    "latitude": 7.0978613,
+    "longitude": 125.63159200000001,
+    "address": "SM Lanang Premier Complex, 3JXJ+4JW, J.P. Laurel Ave, Agdao, Lungsod ng Dabaw, 8000 Lalawigan ng Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1230",
+    "place_id": "ChIJs27KaJlt-TIRdROospuFrYU",
+    "name": "Bible Baptist Church",
+    "name_key": "bible baptist church",
+    "category": [
+      "Culture"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/bbcguerrerodavaocity/",
+    "price_date": "2026-10-30",
+    "average_rating": 4.9,
+    "rating_count": 15,
+    "quality_score": 6.849906042492985,
+    "operating_hours": {
+      "mon": "closed",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:30",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "08:00-18:00",
+      "sun": "07:30-18:30"
+    },
+    "latitude": 7.0713577999999995,
+    "longitude": 125.61674800000002,
+    "address": "Bible Baptist Church, 35 L. Ma. Guerrero Street, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0522",
+    "place_id": "ChIJLUq6MUBs-TIRNX1nd43_ZMo",
+    "name": "Christmas Mansion",
+    "name_key": "christmas mansion",
+    "category": [
+      "Entertainment",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 30.0,
+    "price_source": "https://www.sunstar.com.ph/more-articles/roseville-christmas-mansion-christmas-spirit-all-year-round",
+    "price_date": "2026-10-29",
+    "average_rating": 4.2,
+    "rating_count": 236,
+    "quality_score": 10.041927449834194,
+    "operating_hours": {
+      "mon": "17:00-22:00",
+      "tue": "17:00-22:00",
+      "wed": "17:00-22:00",
+      "thu": "17:00-22:00",
+      "fri": "17:00-22:00",
+      "sat": "17:00-22:00",
+      "sun": "17:00-22:00"
+    },
+    "latitude": 7.1105882,
+    "longitude": 125.62924760000001,
+    "address": "Roxas Guerrero Daisy Vandals, 4J6H+6MQ, Buhangin, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0516",
+    "place_id": "ChIJL66jCNxs-TIRxRjer6Ox3f4",
+    "name": "St. Francis of Assisi Parish",
+    "name_key": "st. francis of assisi parish",
+    "category": [
+      "Culture"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/SFAPMAA/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.7,
+    "rating_count": 332,
+    "quality_score": 11.909922698463834,
+    "operating_hours": {
+      "mon": "08:00-12:00, 14:00-17:00",
+      "tue": "08:00-12:00, 14:00-17:00",
+      "wed": "08:00-12:00, 14:00-17:00",
+      "thu": "08:00-12:00, 14:00-17:00",
+      "fri": "08:00-12:00, 14:00-17:00",
+      "sat": "08:00-12:00, 14:00-17:00",
+      "sun": "08:00-12:00, 14:00-17:00"
+    },
+    "latitude": 7.1025168999999995,
+    "longitude": 125.58237229999999,
+    "address": "Don Julian Rodriguez Sr. Ave, Talomo, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0372",
+    "place_id": "ChIJF_W_dgBt-TIRrlUf8Rtqwek",
+    "name": "Upside Down House Museum Davao",
+    "name_key": "upside down house museum davao",
+    "category": [
+      "Culture",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 250.0,
+    "price_source": "https://www.sunstar.com.ph/davao/feature/4-new-davao-places-worthy-of-visits",
+    "price_date": "2026-10-29",
+    "average_rating": 4.5,
+    "rating_count": 26,
+    "quality_score": 7.003361253452793,
+    "operating_hours": {
+      "mon": "08:00-21:00",
+      "tue": "08:00-21:00",
+      "wed": "08:00-21:00",
+      "thu": "08:00-21:00",
+      "fri": "08:00-21:00",
+      "sat": "08:00-21:00",
+      "sun": "08:00-21:00"
+    },
+    "latitude": 7.0717783999999995,
+    "longitude": 125.61127439999999,
+    "address": "3JC6+MMM, C. M. Recto St, Poblacion District, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0925",
+    "place_id": "ChIJd8BKX1kN-TIRr85B3LRcBXg",
+    "name": "Jollibee",
+    "name_key": "jollibee",
+    "category": [
+      "Food"
+    ],
+    "price_unit": "per_person",
+    "price_php": 165.0,
+    "price_source": "https://jollibee-menu.com/",
+    "price_date": "",
+    "average_rating": 4.2,
+    "rating_count": 1206,
+    "quality_score": 12.956721014734207,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.0595721,
+    "longitude": 125.55038950000001,
+    "address": "3G5X+59, National Highway, Talomo, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0248",
+    "place_id": "ChIJAQB4VTgM-TIRpmb5M14-1V8",
+    "name": "Blind Massage Center",
+    "name_key": "blind massage center",
+    "category": [
+      "Wellness"
+    ],
+    "price_unit": "per_person",
+    "price_php": 350.0,
+    "price_source": "https://www.google.com/maps/place/Blind+Massage+Center/@7.0522745,125.5913929,21z/data=!4m6!3m5!1s0x32f97299c3feeb33:0x8046ff74fdc6e867!8m2!3d7.0522459!4d125.5915985!16s%2Fg%2F11cs0rw63p?entry=ttu&g_ep=EgoyMDI2MTAyNy4wIKXMDSoASAFQAw%3D%3D",
+    "price_date": "2026-10-29",
+    "average_rating": 4.5,
+    "rating_count": 22,
+    "quality_score": 6.773174902439577,
+    "operating_hours": {
+      "mon": "09:00-23:59",
+      "tue": "09:00-23:59",
+      "wed": "09:00-23:59",
+      "thu": "09:00-23:59",
+      "fri": "09:00-23:59",
+      "sat": "09:00-23:59",
+      "sun": "09:00-23:59"
+    },
+    "latitude": 7.0212809,
+    "longitude": 125.4975329,
+    "address": "Door 2, Astillo Building, Purok 13 McArthur Highway, Toril, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0895",
+    "place_id": "ChIJbwfsapZt-TIRgDZM9muZOjA",
+    "name": "Chinatown Arch",
+    "name_key": "chinatown arch",
+    "category": [
+      "Culture",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://en.wikipedia.org/wiki/Davao_Chinatown",
+    "price_date": "2026-10-30",
+    "average_rating": 4.2,
+    "rating_count": 112,
+    "quality_score": 8.762711288833943,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.0743260999999995,
+    "longitude": 125.6246898,
+    "address": "Kapayapaan village, lot 13 Ramon Magsaysay Ave, Poblacion District, Davao City, 8004 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0498",
+    "place_id": "ChIJKY5qzJxt-TIRnhJ0Rgdx62s",
+    "name": "Faith Tabernacle Church - Metro Davao",
+    "name_key": "faith tabernacle church - metro davao",
+    "category": [
+      "Culture"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/ftcmetrodavao.ph/",
+    "price_date": "2026-10-30",
+    "average_rating": 4.8,
+    "rating_count": 8,
+    "quality_score": 6.025308024495868,
+    "operating_hours": {
+      "mon": "17:00-20:00",
+      "tue": "closed",
+      "wed": "closed",
+      "thu": "16:30-20:30",
+      "fri": "16:30-22:00",
+      "sat": "closed",
+      "sun": "08:00-12:00"
+    },
+    "latitude": 7.0678575,
+    "longitude": 125.61330989999999,
+    "address": "77 Artiaga St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0623",
+    "place_id": "ChIJR70Fvaty-TIRoQQcc_Jz0eI",
+    "name": "NCCC Centerpoint",
+    "name_key": "nccc centerpoint",
+    "category": [
+      "Shopping"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/NCCCCenterpoint/",
+    "price_date": "2026-10-30",
+    "average_rating": 4.0,
+    "rating_count": 962,
+    "quality_score": 11.950665059705099,
+    "operating_hours": {
+      "mon": "08:00-20:00",
+      "tue": "08:00-20:00",
+      "wed": "08:00-20:00",
+      "thu": "08:00-20:00",
+      "fri": "08:00-20:00",
+      "sat": "08:00-20:00",
+      "sun": "08:00-20:00"
+    },
+    "latitude": 7.059317,
+    "longitude": 125.5693984,
+    "address": "Center Point Plaza, Matina Pangi Rd, Talomo, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0065",
+    "place_id": "ChIJ1c7oP2YW-TIRm36SiS4PXKY",
+    "name": "Philippine-Japanese Historical Museum",
+    "name_key": "philippine-japanese historical museum",
+    "category": [
+      "Culture",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 100.0,
+    "price_source": "https://pia.gov.ph/features/imin-museum-remembering-the-near-forgotten-little-tokyo/",
+    "price_date": "2026-10-30",
+    "average_rating": 4.5,
+    "rating_count": 40,
+    "quality_score": 7.645365019512084,
+    "operating_hours": {
+      "mon": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "09:00-17:00",
+      "sun": "closed"
+    },
+    "latitude": 7.1884475,
+    "longitude": 125.46061230000001,
+    "address": "Philippine Nikkei Jin Kai, PNJK) School of Calinan Compound, Durian Village, Calinan, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0449",
+    "place_id": "ChIJIXMxOoZz-TIRzSaCsk22DVo",
+    "name": "SM City Davao",
+    "name_key": "sm city davao",
+    "category": [
+      "Shopping"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.smsupermalls.com/mall-directory/sm-city-davao/information",
+    "price_date": "2026-10-29",
+    "average_rating": 4.5,
+    "rating_count": 11624,
+    "quality_score": 18.29578076758057,
+    "operating_hours": {
+      "mon": "10:00-21:00",
+      "tue": "10:00-21:00",
+      "wed": "10:00-21:00",
+      "thu": "10:00-21:00",
+      "fri": "10:00-22:00",
+      "sat": "10:00-22:00",
+      "sun": "10:00-21:00"
+    },
+    "latitude": 7.0506082999999995,
+    "longitude": 125.58825230000001,
+    "address": "Quimpo Blvd cor. Tulip and Ecoland Drive, Ecoland Subdivision Basketball Court, Matina Pangi Road, Talomo, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0302",
+    "place_id": "ChIJD5DSsoNt-TIRStAgRhNGg8k",
+    "name": "San Pedro Metropolitan Cathedral",
+    "name_key": "san pedro metropolitan cathedral",
+    "category": [
+      "Culture",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.sanpedrocathedral.com/",
+    "price_date": "2026-10-30",
+    "average_rating": 4.6,
+    "rating_count": 1649,
+    "quality_score": 14.81129337571206,
+    "operating_hours": {
+      "mon": "08:30-18:00",
+      "tue": "08:30-18:00",
+      "wed": "08:30-18:00",
+      "thu": "08:30-18:00",
+      "fri": "08:30-18:00",
+      "sat": "08:30-18:00",
+      "sun": "08:30-18:00"
+    },
+    "latitude": 7.065026899999999,
+    "longitude": 125.60918099999999,
+    "address": "3J85+2M7, San Pedro St, Barangay 38-D, Poblacion District, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0620",
+    "place_id": "ChIJR2j38oJt-TIR_CyxqgYmMNk",
+    "name": "The Church of Jesus Christ of Latter-day Saints",
+    "name_key": "the church of jesus christ of latter-day saints",
+    "category": [
+      "Culture"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://local.churchofjesuschrist.org/en/ph/davao-city/cm-recto-corner-rizal-streets",
+    "price_date": "2026-10-30",
+    "average_rating": 4.9,
+    "rating_count": 22,
+    "quality_score": 7.37523489376754,
+    "operating_hours": {
+      "mon": "09:00-18:00",
+      "tue": "09:00-18:00",
+      "wed": "09:00-18:00",
+      "thu": "09:00-18:00",
+      "fri": "09:00-18:00",
+      "sat": "09:00-18:00",
+      "sun": "09:00-12:00, 13:00-16:00"
+    },
+    "latitude": 7.0659226,
+    "longitude": 125.61108530000001,
+    "address": "Cnr C.M. Recto, Rizal St, Poblacion District, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1125",
+    "place_id": "ChIJmU8Jhitt-TIRB3Zi4uJrPAM",
+    "name": "Waka Massage Palace",
+    "name_key": "waka massage palace",
+    "category": [
+      "Wellness"
+    ],
+    "price_unit": "per_person",
+    "price_php": 349.0,
+    "price_source": "https://www.facebook.com/photo/?fbid=1632170075592334&set=pb.100063980706191.-2207520000",
+    "price_date": "2026-10-29",
+    "average_rating": 4.2,
+    "rating_count": 76,
+    "quality_score": 8.124893495222985,
+    "operating_hours": {
+      "mon": "13:00-01:00",
+      "tue": "13:00-01:00",
+      "wed": "13:00-01:00",
+      "thu": "13:00-01:00",
+      "fri": "13:00-01:00",
+      "sat": "13:00-01:00",
+      "sun": "13:00-01:00"
+    },
+    "latitude": 7.0936189999999995,
+    "longitude": 125.6357724,
+    "address": "R. Castillo St, Agdao, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0182",
+    "place_id": "ChIJ7RjfNN5z-TIRQwj6l6nBrz8",
+    "name": "Yasumi Head Spa Matina",
+    "name_key": "yasumi head spa matina",
+    "category": [
+      "Wellness"
+    ],
+    "price_unit": "per_person",
+    "price_php": 700.0,
+    "price_source": "https://www.facebook.com/photo/?fbid=983579444714103",
+    "price_date": "2026-10-30",
+    "average_rating": 4.3,
+    "rating_count": 95,
+    "quality_score": 8.691113986000735,
+    "operating_hours": {
+      "mon": "12:00-00:00",
+      "tue": "12:00-00:00",
+      "wed": "12:00-00:00",
+      "thu": "12:00-00:00",
+      "fri": "12:00-00:00",
+      "sat": "12:00-00:00",
+      "sun": "12:00-00:00"
+    },
+    "latitude": 7.0574996,
+    "longitude": 125.5720957,
+    "address": "2F, GSIS, PGI Building, Matina Pangi Rd, Talomo, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1025",
+    "place_id": "ChIJh_40xZdy-TIRr3xDguWHtkU",
+    "name": "Zoofari Kids Adventure - SM City Davao",
+    "name_key": "zoofari kids adventure - sm city davao",
+    "category": [
+      "Entertainment"
+    ],
+    "price_unit": "per_person",
+    "price_php": 20.0,
+    "price_source": "https://www.scribd.com/document/75536177/Zoofari-Brochure",
+    "price_date": "2026-10-30",
+    "average_rating": 4.1,
+    "rating_count": 32,
+    "quality_score": 6.655322090631392,
+    "operating_hours": {
+      "mon": "10:00-21:00",
+      "tue": "10:00-21:00",
+      "wed": "10:00-21:00",
+      "thu": "10:00-21:00",
+      "fri": "10:00-21:00",
+      "sat": "10:00-21:00",
+      "sun": "10:00-21:00"
+    },
+    "latitude": 7.049211,
+    "longitude": 125.587848,
+    "address": "SM City Davao, Quimpo Boulevard, Corner Tulip Drive, Ecoland, Matina, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0166",
+    "place_id": "ChIJ6Xhpp3dt-TIRpTWfKdRe7bc",
+    "name": "Davao Dencia's Restaurant",
+    "name_key": "davao dencia's restaurant",
+    "category": [
+      "Food"
+    ],
+    "price_unit": "per_person",
+    "price_php": 500.0,
+    "price_source": "https://www.facebook.com/share/p/1JKaneHkHo/",
+    "price_date": "",
+    "average_rating": 4.3,
+    "rating_count": 1086,
+    "quality_score": 13.071185382837907,
+    "operating_hours": {
+      "mon": "07:00-20:30",
+      "tue": "07:00-20:30",
+      "wed": "07:00-20:30",
+      "thu": "07:00-20:30",
+      "fri": "07:00-20:30",
+      "sat": "07:00-20:30",
+      "sun": "07:00-20:30"
+    },
+    "latitude": 7.0696959999999995,
+    "longitude": 125.60685950000001,
+    "address": "General Luna St, Poblacion District, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0736",
+    "place_id": "ChIJVVVVVVUR-TIRkuyUU_got4U",
+    "name": "Yellow Fin Seafood Restaurant",
+    "name_key": "yellow fin seafood restaurant",
+    "category": [
+      "Food"
+    ],
+    "price_unit": "per_person",
+    "price_php": 360.0,
+    "price_source": "https://www.facebook.com/share/p/1DR7bhxYzR/",
+    "price_date": "",
+    "average_rating": 4.4,
+    "rating_count": 849,
+    "quality_score": 12.909569920857468,
+    "operating_hours": {
+      "mon": "10:30-20:30",
+      "tue": "10:30-20:30",
+      "wed": "10:30-20:30",
+      "thu": "10:30-20:30",
+      "fri": "10:30-20:30",
+      "sat": "10:30-20:30",
+      "sun": "10:30-20:30"
+    },
+    "latitude": 7.055600300000001,
+    "longitude": 125.5994127,
+    "address": "Sandawa Plaza, Quimpo Blvd, Talomo, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0113",
+    "place_id": "ChIJ3bYENwxt-TIRlMh3Qpz4TDA",
+    "name": "Botanical Garden",
+    "name_key": "botanical garden",
+    "category": [
+      "Nature"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://davaoenaday.wordpress.com/2018/09/17/suroy-ta-marfori-botanical-garden/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.4,
+    "rating_count": 146,
+    "quality_score": 9.649748232759633,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.0809522,
+    "longitude": 125.6019206,
+    "address": "Marfori Heights Subdivision, Barangay Maa, 3JJ2+9QM, Ruby St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1189",
+    "place_id": "ChIJpfTKaXZt-TIRRQ2zhV7Z4FI",
+    "name": "Davao Central Seventh-day Adventist Church of Davao Mission",
+    "name_key": "davao central seventh-day adventist church of davao mission",
+    "category": [
+      "Culture"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/p/Davao-Central-Seventh-day-Adventist-Church-of-Davao-Mission-61576242165845/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.7,
+    "rating_count": 38,
+    "quality_score": 7.90183381566526,
+    "operating_hours": {
+      "mon": "closed",
+      "tue": "closed",
+      "wed": "17:30-21:30",
+      "thu": "closed",
+      "fri": "17:30-21:30",
+      "sat": "06:30-20:00",
+      "sun": "closed"
+    },
+    "latitude": 7.0714647,
+    "longitude": 125.6077114,
+    "address": "Camus Street, 3JC5+H3P, Pelayo St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1207",
+    "place_id": "ChIJqT75D3Rt-TIRDUGTEHoPSdc",
+    "name": "Foursquare Gospel Church",
+    "name_key": "foursquare gospel church",
+    "category": [
+      "Culture"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/fgcdavao/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.8,
+    "rating_count": 38,
+    "quality_score": 8.069957939402817,
+    "operating_hours": {
+      "mon": "closed",
+      "tue": "08:00-17:00",
+      "wed": "08:00-17:00",
+      "thu": "08:00-17:00",
+      "fri": "08:00-17:00",
+      "sat": "closed",
+      "sun": "06:30-19:30"
+    },
+    "latitude": 7.0736098,
+    "longitude": 125.6047204,
+    "address": "# 7 Lopez Jaena St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0433",
+    "place_id": "ChIJI0O3a0cS-TIRT5p7LnZPGCs",
+    "name": "Mintal Public Market",
+    "name_key": "mintal public market",
+    "category": [
+      "Shopping"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/fgcdavao/",
+    "price_date": "2026-10-29",
+    "average_rating": 3.9,
+    "rating_count": 441,
+    "quality_score": 10.351288513324045,
+    "operating_hours": {
+      "mon": "04:00-21:00",
+      "tue": "04:00-21:00",
+      "wed": "04:00-21:00",
+      "thu": "04:00-21:00",
+      "fri": "04:00-21:00",
+      "sat": "03:00-20:00",
+      "sun": "03:00-21:00"
+    },
+    "latitude": 7.0920263,
+    "longitude": 125.5015785,
+    "address": "3GR2+RJ8, Tugbok, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1313",
+    "place_id": "ChIJw-iIuHht-TIRuHD9GFv9LVA",
+    "name": "Rizal Park",
+    "name_key": "rizal park",
+    "category": [
+      "Nature",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://airial.travel/attractions/philippines/davao-city/rizal-park-davao-CY9OOhoC",
+    "price_date": "2026-10-29",
+    "average_rating": 4.3,
+    "rating_count": 1069,
+    "quality_score": 13.041992212136515,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.064481700000001,
+    "longitude": 125.6084137,
+    "address": "3J75+VCM, Bolton St, Poblacion District, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1154",
+    "place_id": "ChIJo2Dk_ZZy-TIR_ghgIcUdI9A",
+    "name": "Solaz Massage & Spa - Ecoland",
+    "name_key": "solaz massage & spa - ecoland",
+    "category": [
+      "Wellness"
+    ],
+    "price_unit": "per_person",
+    "price_php": 300.0,
+    "price_source": "https://whatisindavaocity.blogspot.com/2016/07/solaz-massge-and-spa.html",
+    "price_date": "2026-10-30",
+    "average_rating": 4.3,
+    "rating_count": 88,
+    "quality_score": 8.562272125477728,
+    "operating_hours": {
+      "mon": "13:00-00:00",
+      "tue": "13:00-22:00",
+      "wed": "13:00-22:00",
+      "thu": "13:00-22:00",
+      "fri": "13:00-22:00",
+      "sat": "13:00-22:00",
+      "sun": "13:00-22:00"
+    },
+    "latitude": 7.049252,
+    "longitude": 125.59081239999999,
+    "address": "2HXR+P83, Tulip Drive Corner, Walnut Drive, Ecoland Subdivision, Phase 1, Ecoland, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0928",
+    "place_id": "ChIJd96Nvjhs-TIRFajcnBBWbGQ",
+    "name": "Thai Boran - Damosa",
+    "name_key": "thai boran - damosa",
+    "category": [
+      "Wellness"
+    ],
+    "price_unit": "per_person",
+    "price_php": 450.0,
+    "price_source": "https://www.tripadvisor.com.ph/Attraction_Review-g298459-d7745999-Reviews-Thai_Boran_Massage-Davao_City_Davao_del_Sur_Province_Mindanao.html",
+    "price_date": "2026-10-29",
+    "average_rating": 4.4,
+    "rating_count": 58,
+    "quality_score": 8.063039215907441,
+    "operating_hours": {
+      "mon": "13:00-00:00",
+      "tue": "13:00-00:00",
+      "wed": "13:00-00:00",
+      "thu": "13:00-00:00",
+      "fri": "13:00-00:00",
+      "sat": "13:00-00:00",
+      "sun": "13:00-00:00"
+    },
+    "latitude": 7.1054154,
+    "longitude": 125.63254479999999,
+    "address": "Mamay Rd, Lanang, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0139",
+    "place_id": "ChIJ4_fpf6xy-TIRNtscAvlJtHI",
+    "name": "The Church of Jesus Christ of Latter-day Saints",
+    "name_key": "the church of jesus christ of latter-day saints",
+    "category": [
+      "Culture"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://local.churchofjesuschrist.org/en/ph/davao-city/matina-crossing",
+    "price_date": "2026-10-29",
+    "average_rating": 4.7,
+    "rating_count": 15,
+    "quality_score": 6.570318040758577,
+    "operating_hours": {
+      "mon": "09:00-18:00",
+      "tue": "09:00-18:00",
+      "wed": "09:00-18:00",
+      "thu": "09:00-18:00",
+      "fri": "09:00-18:00",
+      "sat": "09:00-18:00",
+      "sun": "09:00-12:00, 13:30-16:30"
+    },
+    "latitude": 7.0579467,
+    "longitude": 125.56869010000001,
+    "address": "Matina Crossing, Barangay, Matina Aplaya Rd, Talomo, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0783",
+    "place_id": "ChIJXye5q3Bt-TIRYaYUWa6dlPw",
+    "name": "D'Morvie Suites",
+    "name_key": "d'morvie suites",
+    "category": [
+      "Accommodation"
+    ],
+    "price_unit": "room_night",
+    "price_php": 600.0,
+    "price_source": "https://davaoportal.com/business/d-morvie-suites-san-pedro-branch/",
+    "price_date": "2026-10-29",
+    "average_rating": 3.4,
+    "rating_count": 1238,
+    "quality_score": 10.527129590177777,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.068409,
+    "longitude": 125.60394230000001,
+    "address": "224 San Pedro St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1284",
+    "place_id": "ChIJuVxXIKJt-TIRRtRyuUciOQc",
+    "name": "Davao Chinese Baptist Church",
+    "name_key": "davao chinese baptist church",
+    "category": [
+      "Culture"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/DavaoChineseBaptistChurch/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.9,
+    "rating_count": 126,
+    "quality_score": 10.454340651014066,
+    "operating_hours": {
+      "mon": "closed",
+      "tue": "closed",
+      "wed": "08:00-18:30",
+      "thu": "closed",
+      "fri": "08:00-18:30",
+      "sat": "closed",
+      "sun": "08:00-18:30"
+    },
+    "latitude": 7.0773243,
+    "longitude": 125.61529800000001,
+    "address": "C Guzman St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0212",
+    "place_id": "ChIJ92YHcoJt-TIRcAY3YoYXzb8",
+    "name": "Davao Royal Suites and Residences",
+    "name_key": "davao royal suites and residences",
+    "category": [
+      "Accommodation"
+    ],
+    "price_unit": "room_night",
+    "price_php": 1016.0,
+    "price_source": "https://www.kayak.com.ph/Davao-City-Hotels-Davao-Royal-Suites-And-Residences.3806883.ksp",
+    "price_date": "2026-10-29",
+    "average_rating": 3.9,
+    "rating_count": 490,
+    "quality_score": 10.525983016910473,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.065243199999999,
+    "longitude": 125.6102829,
+    "address": "34 C. M. Recto St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0320",
+    "place_id": "ChIJDdS9wpdy-TIRzaxwi8SNeeU",
+    "name": "Felcris Centrale",
+    "name_key": "felcris centrale",
+    "category": [
+      "Shopping"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/centraledavao/",
+    "price_date": "2026-10-29",
+    "average_rating": 3.9,
+    "rating_count": 853,
+    "quality_score": 11.450442103289317,
+    "operating_hours": {
+      "mon": "09:00-19:00",
+      "tue": "09:00-19:00",
+      "wed": "09:00-19:00",
+      "thu": "09:00-19:00",
+      "fri": "09:00-19:00",
+      "sat": "09:00-19:00",
+      "sun": "09:00-19:00"
+    },
+    "latitude": 7.0600099,
+    "longitude": 125.60955769999998,
+    "address": "Brgy, 40-D Quimpo Blvd, Talomo, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1325",
+    "place_id": "ChIJwUvaoClt-TIRmqSnEBQDnNg",
+    "name": "Gap Farming Resort",
+    "name_key": "gap farming resort",
+    "category": [
+      "Nature",
+      "Accommodation"
+    ],
+    "price_unit": "room_night",
+    "price_php": 1800.0,
+    "price_source": "https://www.facebook.com/reel/26228923066773241",
+    "price_date": "2026-10-29",
+    "average_rating": 4.0,
+    "rating_count": 581,
+    "quality_score": 11.086349923525022,
+    "operating_hours": {
+      "mon": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "09:00-17:00",
+      "sun": "09:00-17:00"
+    },
+    "latitude": 7.0960348,
+    "longitude": 125.5722797,
+    "address": "Carlos P. Garcia National Hwy, Talomo, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0658",
+    "place_id": "ChIJSaQEB3Qr-TIRHJjj7_SSRdI",
+    "name": "Kwagsik Falls",
+    "name_key": "kwagsik falls",
+    "category": [
+      "Nature",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 50.0,
+    "price_source": "https://wanderlog.com/place/details/4456233/kwagsik-falls",
+    "price_date": "2026-10-29",
+    "average_rating": 4.6,
+    "rating_count": 12,
+    "quality_score": 6.175144331782148,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.4602086000000005,
+    "longitude": 125.2672445,
+    "address": "F768+3VQ, Marilog District, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0687",
+    "place_id": "ChIJTXJWqI9t-TIRH-sdETo2e-8",
+    "name": "Landers Superstore Davao",
+    "name_key": "landers superstore davao",
+    "category": [
+      "Shopping"
+    ],
+    "price_unit": "per_person",
+    "price_php": 700.0,
+    "price_source": "https://www.landers.ph/lofcustomermembership/buy",
+    "price_date": "2026-10-29",
+    "average_rating": 4.2,
+    "rating_count": 375,
+    "quality_score": 10.858935063935704,
+    "operating_hours": {
+      "mon": "09:00-21:00",
+      "tue": "09:00-21:00",
+      "wed": "09:00-21:00",
+      "thu": "09:00-21:00",
+      "fri": "09:00-21:00",
+      "sat": "09:00-21:00",
+      "sun": "09:00-21:00"
+    },
+    "latitude": 7.081287499999999,
+    "longitude": 125.611042,
+    "address": "OT 1,K-1 AND C, 4 F. Torres St, Barangay 12-B, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0116",
+    "place_id": "ChIJ3fEWz2lt-TIRY6-7wNOqaXE",
+    "name": "Lots for Less Maa Branch",
+    "name_key": "lots for less maa branch",
+    "category": [
+      "Shopping"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/LotsForLessPH/",
+    "price_date": "",
+    "average_rating": 4.2,
+    "rating_count": 209,
+    "quality_score": 9.829865282328498,
+    "operating_hours": {
+      "mon": "08:00-19:30",
+      "tue": "08:00-19:30",
+      "wed": "08:00-19:30",
+      "thu": "08:00-19:30",
+      "fri": "08:00-19:30",
+      "sat": "08:00-19:30",
+      "sun": "08:00-19:30"
+    },
+    "latitude": 7.0822892,
+    "longitude": 125.58227160000001,
+    "address": "3HJJ+WW6, Don Julian Rodriguez Sr. Ave, Talomo, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0873",
+    "place_id": "ChIJae3w251t-TIRDDXIoEGIVRc",
+    "name": "Marco Polo",
+    "name_key": "marco polo",
+    "category": [
+      "Food",
+      "Accommodation"
+    ],
+    "price_unit": "room_night",
+    "price_php": 3618.0,
+    "price_source": "https://hotel-marco-polo-davao.h-rez.com/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.5,
+    "rating_count": 1818,
+    "quality_score": 14.678892861290157,
+    "operating_hours": {
+      "mon": "00:00-23:30",
+      "tue": "00:00-23:30",
+      "wed": "00:00-23:30",
+      "thu": "00:00-23:30",
+      "fri": "00:00-23:30",
+      "sat": "00:00-23:30",
+      "sun": "00:00-23:30"
+    },
+    "latitude": 7.071919899999999,
+    "longitude": 125.6115748,
+    "address": "C. M. Recto Avenue, corner M. Roxas Ave, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0903",
+    "place_id": "ChIJc5wBKWVt-TIRLk5lahkNk7k",
+    "name": "Microtel by Wyndham Davao",
+    "name_key": "microtel by wyndham davao",
+    "category": [
+      "Accommodation"
+    ],
+    "price_unit": "room_night",
+    "price_php": 4264.0,
+    "price_source": "https://www.kayak.com.ph/Davao-City-Hotels-Microtel-by-Wyndham-Davao.186885.ksp",
+    "price_date": "2026-10-29",
+    "average_rating": 4.3,
+    "rating_count": 297,
+    "quality_score": 10.694695014551902,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.102468,
+    "longitude": 125.6326485,
+    "address": "Mamay Rd, Agdao, Buhangin, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0558",
+    "place_id": "ChIJN7ZquNBt-TIRDoPII7BE7JU",
+    "name": "NCCC Mall Buhangin",
+    "name_key": "nccc mall buhangin",
+    "category": [
+      "Shopping"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/NCCCMallBuhangin/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.2,
+    "rating_count": 1525,
+    "quality_score": 13.381655195215462,
+    "operating_hours": {
+      "mon": "09:00-21:00",
+      "tue": "09:00-21:00",
+      "wed": "09:00-21:00",
+      "thu": "09:00-21:00",
+      "fri": "09:00-21:00",
+      "sat": "09:00-21:00",
+      "sun": "09:00-21:00"
+    },
+    "latitude": 7.1103454,
+    "longitude": 125.61181350000001,
+    "address": "Km.7 Mandug Rd, Buhangin, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1390",
+    "place_id": "ChIJzdIGkF1p-TIRWETF76dkNaM",
+    "name": "NCCC Panacan",
+    "name_key": "nccc panacan",
+    "category": [
+      "Shopping"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/ncccsupermarkets/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.0,
+    "rating_count": 462,
+    "quality_score": 10.695767994536352,
+    "operating_hours": {
+      "mon": "09:00-19:00",
+      "tue": "09:00-19:00",
+      "wed": "09:00-19:00",
+      "thu": "09:00-19:00",
+      "fri": "09:00-19:00",
+      "sat": "09:00-19:00",
+      "sun": "09:00-19:00"
+    },
+    "latitude": 7.1438166999999995,
+    "longitude": 125.66100189999999,
+    "address": "Davao City-Panabo City Rd, Buhangin, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1199",
+    "place_id": "ChIJq5RWCQBt-TIROICJqqioetc",
+    "name": "National Museum of the Philippines - Davao",
+    "name_key": "national museum of the philippines - davao",
+    "category": [
+      "Culture"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.sunstar.com.ph/davao/national-museum-in-davao-to-reopen-to-public-on-jan-11",
+    "price_date": "2026-10-29",
+    "average_rating": 4.8,
+    "rating_count": 218,
+    "quality_score": 11.318087265602179,
+    "operating_hours": {
+      "mon": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "09:00-17:00",
+      "sun": "09:00-17:00"
+    },
+    "latitude": 7.070172899999999,
+    "longitude": 125.60903929999998,
+    "address": "Palma Gil St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0542",
+    "place_id": "ChIJM6ZCFMVt-TIRBCewNJvfxX8",
+    "name": "Poblacion Market Central",
+    "name_key": "poblacion market central",
+    "category": [
+      "Shopping"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/OfficialPoblacionMarketCentral/",
+    "price_date": "2026-10-30",
+    "average_rating": 4.5,
+    "rating_count": 386,
+    "quality_score": 11.689628336664805,
+    "operating_hours": {
+      "mon": "09:00-19:00",
+      "tue": "09:00-19:00",
+      "wed": "09:00-19:00",
+      "thu": "09:00-19:00",
+      "fri": "09:00-19:00",
+      "sat": "09:00-19:00",
+      "sun": "09:00-19:00"
+    },
+    "latitude": 7.0744688,
+    "longitude": 125.61106139999998,
+    "address": "3JF6+QCM former location of Madrazo Fruit Stand, C. Bangoy St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0953",
+    "place_id": "ChIJeUusayRt-TIR-uCt7RnwE7Q",
+    "name": "SM Lanang Premier",
+    "name_key": "sm lanang premier",
+    "category": [
+      "Shopping"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.smsupermalls.com/mall-directory/sm-lanang/information",
+    "price_date": "2026-10-30",
+    "average_rating": 4.5,
+    "rating_count": 10561,
+    "quality_score": 18.10852232772047,
+    "operating_hours": {
+      "mon": "10:00-21:00",
+      "tue": "10:00-21:00",
+      "wed": "10:00-21:00",
+      "thu": "10:00-21:00",
+      "fri": "10:00-22:00",
+      "sat": "10:00-22:00",
+      "sun": "10:00-21:00"
+    },
+    "latitude": 7.0990116,
+    "longitude": 125.63152269999999,
+    "address": "J.P. Laurel Ave, Agdao District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1330",
+    "place_id": "ChIJwwLF8iZt-TIRV0zbIYLFNnY",
+    "name": "Sunny Point Hotel",
+    "name_key": "sunny point hotel",
+    "category": [
+      "Accommodation"
+    ],
+    "price_unit": "room_night",
+    "price_php": 2176.0,
+    "price_source": "https://www.kayak.com.ph/Davao-City-Hotels-Sunny-Point-Hotel.660895.ksp",
+    "price_date": "2026-10-29",
+    "average_rating": 4.0,
+    "rating_count": 440,
+    "quality_score": 10.612850055101374,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.0943005999999995,
+    "longitude": 125.5799397,
+    "address": "818 Don Julian Rodriguez Sr. Ave, Ma-a Rd, Talomo, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0893",
+    "place_id": "ChIJbf_go3ht-TIRO69DiDqNgsc",
+    "name": "The Commemorative Monument of Peace and Unity",
+    "name_key": "the commemorative monument of peace and unity",
+    "category": [
+      "Culture",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.expedia.com/Monument-Of-Peace-And-Unity-Poblacion-District.d6115112.Vacation-Attraction",
+    "price_date": "2026-10-29",
+    "average_rating": 4.7,
+    "rating_count": 25,
+    "quality_score": 7.257119808446296,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.0642831,
+    "longitude": 125.60919460000001,
+    "address": "3J75+PM8, San Pedro St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0595",
+    "place_id": "ChIJPcQE9adt-TIRdZn6eS0NgKc",
+    "name": "The Strand Suites and Dormitel",
+    "name_key": "the strand suites and dormitel",
+    "category": [
+      "Accommodation"
+    ],
+    "price_unit": "room_night",
+    "price_php": 1299.0,
+    "price_source": "https://www.kayak.com.ph/Davao-City-Hotels-The-Strand-Suites-and-Dormitel.3414359.ksp",
+    "price_date": "2026-10-29",
+    "average_rating": 4.3,
+    "rating_count": 256,
+    "quality_score": 10.426991037513588,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.083514,
+    "longitude": 125.60865399999999,
+    "address": "Dona Vicenta, 4 Rd 2, Bajada, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0754",
+    "place_id": "ChIJW1JPCXlt-TIRrFo2ykGV99s",
+    "name": "Wisons Shopping Center",
+    "name_key": "wisons shopping center",
+    "category": [
+      "Shopping"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://wanderlog.com/place/details/13039214/wisons-shopping-center",
+    "price_date": "2026-10-29",
+    "average_rating": 4.0,
+    "rating_count": 392,
+    "quality_score": 10.41690421233788,
+    "operating_hours": {
+      "mon": "08:00-20:00",
+      "tue": "08:00-20:00",
+      "wed": "08:00-20:00",
+      "thu": "08:00-20:00",
+      "fri": "08:00-20:00",
+      "sat": "08:00-20:00",
+      "sun": "08:00-20:00"
+    },
+    "latitude": 7.065713799999999,
+    "longitude": 125.6057577,
+    "address": "124 A. Pichon St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1229",
+    "place_id": "ChIJs1DWLlJt-TIR3tB_MHpQenA",
+    "name": "Asian Cow by Chef Patrick Co",
+    "name_key": "asian cow by chef patrick co",
+    "category": [
+      "Food"
+    ],
+    "price_unit": "per_person",
+    "price_php": 350.0,
+    "price_source": "https://m.yelp.com/biz_photos/asian-cow-davao-city?select=GQqAt3dlrzrryWi1PA74Jg&utm_campaign=www_photo_share_popup&utm_medium=copy_link&utm_source=%28direct%29",
+    "price_date": "",
+    "average_rating": 4.8,
+    "rating_count": 2439,
+    "quality_score": 16.267146168598625,
+    "operating_hours": {
+      "mon": "11:00-22:00",
+      "tue": "11:00-22:00",
+      "wed": "11:00-22:00",
+      "thu": "11:00-22:00",
+      "fri": "11:00-22:00",
+      "sat": "11:00-22:00",
+      "sun": "11:00-22:00"
+    },
+    "latitude": 7.074192999999999,
+    "longitude": 125.60836769999999,
+    "address": "1020 Mabini Place, Corner Quirino and, Mabini St, Poblacion District, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0355",
+    "place_id": "ChIJEzkx8k0N-TIROcWbV_gq1t0",
+    "name": "Junex Tuna & Seafood",
+    "name_key": "junex tuna & seafood",
+    "category": [
+      "Food"
+    ],
+    "price_unit": "per_person",
+    "price_php": 175.0,
+    "price_source": "https://www.facebook.com/share/p/1DyJotxv6n/",
+    "price_date": "",
+    "average_rating": 4.3,
+    "rating_count": 794,
+    "quality_score": 12.492601009618339,
+    "operating_hours": {
+      "mon": "08:30-22:15",
+      "tue": "08:30-22:15",
+      "wed": "08:30-22:15",
+      "thu": "08:30-22:15",
+      "fri": "08:30-22:15",
+      "sat": "08:30-22:15",
+      "sun": "08:30-22:15"
+    },
+    "latitude": 7.0538827,
+    "longitude": 125.56091789999999,
+    "address": "80 Cordillera, Talomo, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0206",
+    "place_id": "ChIJ8bChomNt-TIRmCWLu1JwtZI",
+    "name": "Ta-Cow Davao",
+    "name_key": "ta-cow davao",
+    "category": [
+      "Food"
+    ],
+    "price_unit": "per_person",
+    "price_php": 298.0,
+    "price_source": "https://thefatcowgroup.com/collections/ta-cow",
+    "price_date": "",
+    "average_rating": 4.8,
+    "rating_count": 4262,
+    "quality_score": 17.4270299712984,
+    "operating_hours": {
+      "mon": "11:00-22:00",
+      "tue": "11:00-22:00",
+      "wed": "11:00-22:00",
+      "thu": "11:00-22:00",
+      "fri": "11:00-22:00",
+      "sat": "11:00-22:00",
+      "sun": "11:00-22:00"
+    },
+    "latitude": 7.0793323,
+    "longitude": 125.6194877,
+    "address": "Corner Lapu-Lapu St, Porras St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0482",
+    "place_id": "ChIJJyaufCxt-TIR7IH_rrfXbDg",
+    "name": "Vista View Resto",
+    "name_key": "vista view resto",
+    "category": [
+      "Food"
+    ],
+    "price_unit": "per_person",
+    "price_php": 380.0,
+    "price_source": "https://vista-view-resto.wheree.com/menu",
+    "price_date": "",
+    "average_rating": 4.3,
+    "rating_count": 914,
+    "quality_score": 12.752389476246458,
+    "operating_hours": {
+      "mon": "10:30-22:30",
+      "tue": "10:30-22:30",
+      "wed": "10:30-22:30",
+      "thu": "10:30-22:30",
+      "fri": "10:30-22:30",
+      "sat": "10:30-22:30",
+      "sun": "10:30-22:30"
+    },
+    "latitude": 7.0933287,
+    "longitude": 125.5687121,
+    "address": "3HV9+8FP, Langub Rd, Talomo, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0767",
+    "place_id": "ChIJWegL26tt-TIRkvxQvSLLpeM",
+    "name": "WYNWARD GARDEN BISTRO",
+    "name_key": "wynward garden bistro",
+    "category": [
+      "Food",
+      "Nature"
+    ],
+    "price_unit": "per_person",
+    "price_php": 250.0,
+    "price_source": "https://www.facebook.com/share/p/1EyEhXsjUz/",
+    "price_date": "",
+    "average_rating": 4.5,
+    "rating_count": 103,
+    "quality_score": 9.238852995675387,
+    "operating_hours": {
+      "mon": "10:00-21:00",
+      "tue": "10:00-21:00",
+      "wed": "10:00-21:00",
+      "thu": "10:00-21:00",
+      "fri": "10:00-21:00",
+      "sat": "10:00-21:00",
+      "sun": "10:00-21:00"
+    },
+    "latitude": 7.0904484,
+    "longitude": 125.61311800000001,
+    "address": "3JR7+56H, Poblacion District, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1373",
+    "place_id": "ChIJyxJbWnRt-TIRPyQ4KzupKX8",
+    "name": "Cathedral of Praise - Davao",
+    "name_key": "cathedral of praise - davao",
+    "category": [
+      "Culture"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/cop.davao/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.8,
+    "rating_count": 21,
+    "quality_score": 7.158536130404508,
+    "operating_hours": {
+      "mon": "closed",
+      "tue": "closed",
+      "wed": "05:30-18:00",
+      "thu": "05:30-18:00",
+      "fri": "05:30-21:00",
+      "sat": "08:00-20:00",
+      "sun": "06:30-18:30"
+    },
+    "latitude": 7.0753509,
+    "longitude": 125.6197143,
+    "address": "LHL Building, Monteverde, Corner Sales St, Poblacion District, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0716",
+    "place_id": "ChIJUeQY_XRt-TIRMsQdPand52o",
+    "name": "Christ Fellowship Church",
+    "name_key": "christ fellowship church",
+    "category": [
+      "Culture"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/cfcofdavao/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.8,
+    "rating_count": 17,
+    "quality_score": 6.870546067963139,
+    "operating_hours": {
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "08:00-18:00",
+      "sun": "08:00-18:00"
+    },
+    "latitude": 7.0754787,
+    "longitude": 125.6065047,
+    "address": "777 V. Mapa St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0524",
+    "place_id": "ChIJLVgAqKRt-TIR5b5on97n1JQ",
+    "name": "Crocodile Park Picnic Grounds",
+    "name_key": "crocodile park picnic grounds",
+    "category": [
+      "Nature"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.sunstar.com.ph/davao/opinion/valderrama-spending-a-weekend-at-davao-crocodile-park",
+    "price_date": "2026-10-29",
+    "average_rating": 4.7,
+    "rating_count": 85,
+    "quality_score": 9.295300944857585,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.098109999999999,
+    "longitude": 125.59810829999999,
+    "address": "3HXX+66, Talomo, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0392",
+    "place_id": "ChIJGSAECasS-TIRb9gKKKM6Mlg",
+    "name": "D'Japanese Tunnel Family Resort and Restaurant",
+    "name_key": "d'japanese tunnel family resort and restaurant",
+    "category": [
+      "Food",
+      "Accommodation"
+    ],
+    "price_unit": "room_night",
+    "price_php": 1381.0,
+    "price_source": "https://www.expedia.com.ph/Davao-Hotels-DJapanese-Tunnel-Family-Resort.h14587797.Hotel-Information",
+    "price_date": "2026-10-29",
+    "average_rating": 4.1,
+    "rating_count": 756,
+    "quality_score": 11.825337955493676,
+    "operating_hours": {
+      "mon": "08:00-20:00",
+      "tue": "08:00-20:00",
+      "wed": "08:00-20:00",
+      "thu": "08:00-20:00",
+      "fri": "08:00-20:00",
+      "sat": "08:00-20:00",
+      "sun": "08:00-20:00"
+    },
+    "latitude": 7.0658083,
+    "longitude": 125.5631689,
+    "address": "Hillcrest Subdivision, Balusong, Extension Hillcrest Subdivision Diversion Rd, Matina, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0174",
+    "place_id": "ChIJ6zgv_hQX-TIRTi_BetVxpNY",
+    "name": "Davao Bamboo Sanctuary and Ecological Park",
+    "name_key": "davao bamboo sanctuary and ecological park",
+    "category": [
+      "Food",
+      "Accommodation"
+    ],
+    "price_unit": "room_night",
+    "price_php": 2800.0,
+    "price_source": "https://www.davaoeagle.com/2018/02/bambu-davao-bamboo-sanctuary-ecological-park/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.1,
+    "rating_count": 601,
+    "quality_score": 11.422768961994471,
+    "operating_hours": {
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "08:00-18:00",
+      "sun": "08:00-18:00"
+    },
+    "latitude": 7.1684920000000005,
+    "longitude": 125.41496799999999,
+    "address": "Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0259",
+    "place_id": "ChIJB0PRfqNr-TIRyMFPJCA9B08",
+    "name": "Gaisano Grand Citygate Mall Davao (GMALL)",
+    "name_key": "gaisano grand citygate mall davao (gmall)",
+    "category": [
+      "Shopping"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/GaisanoGrandCitygateMall/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.3,
+    "rating_count": 2410,
+    "quality_score": 14.550406073715854,
+    "operating_hours": {
+      "mon": "08:00-20:00",
+      "tue": "08:00-20:00",
+      "wed": "08:00-20:00",
+      "thu": "08:00-20:00",
+      "fri": "08:00-20:00",
+      "sat": "08:00-20:00",
+      "sun": "08:00-19:00"
+    },
+    "latitude": 7.109988700000001,
+    "longitude": 125.6127839,
+    "address": "Buhangin, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1107",
+    "place_id": "ChIJlXgf4gpt-TIRw-GIypPwd9k",
+    "name": "Hotel Emilia",
+    "name_key": "hotel emilia",
+    "category": [
+      "Accommodation"
+    ],
+    "price_unit": "room_night",
+    "price_php": 2304.0,
+    "price_source": "https://www.trivago.com.ph/en-PH/oar/hotel-emilia-davao-city?search=100-2295372",
+    "price_date": "2026-10-29",
+    "average_rating": 4.2,
+    "rating_count": 180,
+    "quality_score": 9.570765124001882,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.0768348,
+    "longitude": 125.6050956,
+    "address": "ground floor, F. Torres St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1127",
+    "place_id": "ChIJmVKqCVxt-TIROsQL0glR6Ng",
+    "name": "Jack's Ridge",
+    "name_key": "jack's ridge",
+    "category": [
+      "Food"
+    ],
+    "price_unit": "per_person",
+    "price_php": 450.0,
+    "price_source": "https://www.jacksridgedavao.com/rates_regular_menu.php",
+    "price_date": "2026-10-30",
+    "average_rating": 4.4,
+    "rating_count": 3703,
+    "quality_score": 15.7067897765951,
+    "operating_hours": {
+      "mon": "08:00-22:30",
+      "tue": "08:00-22:30",
+      "wed": "08:00-22:30",
+      "thu": "08:00-22:30",
+      "fri": "08:00-22:30",
+      "sat": "08:00-22:30",
+      "sun": "08:00-22:30"
+    },
+    "latitude": 7.0664234,
+    "longitude": 125.5823669,
+    "address": "117 Shrine Hills Rd, Talomo, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0549",
+    "place_id": "ChIJMetRV39t-TIRl7THE0AwKBg",
+    "name": "Museo Dabawenyo",
+    "name_key": "museo dabawenyo",
+    "category": [
+      "Culture",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.wheninmanila.com/museo-dabawenyo-what-to-see/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.4,
+    "rating_count": 537,
+    "quality_score": 12.047144235867098,
+    "operating_hours": {
+      "mon": "09:00-18:00",
+      "tue": "09:00-18:00",
+      "wed": "09:00-18:00",
+      "thu": "09:00-18:00",
+      "fri": "09:00-18:00",
+      "sat": "09:00-18:00",
+      "sun": "closed"
+    },
+    "latitude": 7.0791656,
+    "longitude": 125.60464659999998,
+    "address": "Barangay 10-A Mabini St, Poblacion District, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0211",
+    "place_id": "ChIJ90cC-W4b-TIRW0OsLGi_9Sk",
+    "name": "Pulang Bato Falls",
+    "name_key": "pulang bato falls",
+    "category": [
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.wheninmanila.com/museo-dabawenyo-what-to-see/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.8,
+    "rating_count": 33,
+    "quality_score": 7.840648586782015,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.0980069,
+    "longitude": 125.3386654,
+    "address": "Purok 6, Tamayong, Calinan District, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1149",
+    "place_id": "ChIJndIvC5Zt-TIR7F7cqFLMdP0",
+    "name": "Ramon Magsaysay Park",
+    "name_key": "ramon magsaysay park",
+    "category": [
+      "Nature",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.vigattintourism.com/tourism/articles/Ramon-Magsaysay-Park-Davao-City",
+    "price_date": "2026-10-29",
+    "average_rating": 4.2,
+    "rating_count": 2452,
+    "quality_score": 14.24340980410025,
+    "operating_hours": {
+      "mon": "04:00-22:00",
+      "tue": "04:00-22:00",
+      "wed": "04:00-22:00",
+      "thu": "04:00-22:00",
+      "fri": "04:00-22:00",
+      "sat": "04:00-22:00",
+      "sun": "04:00-22:00"
+    },
+    "latitude": 7.074384299999999,
+    "longitude": 125.62560810000001,
+    "address": "5 Ramon Magsaysay Ave, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0225",
+    "place_id": "ChIJ9UTyY5xt-TIRVk5Tw38mvPQ",
+    "name": "Roxas Night Market",
+    "name_key": "roxas night market",
+    "category": [
+      "Food",
+      "Shopping"
+    ],
+    "price_unit": "per_person",
+    "price_php": 90.0,
+    "price_source": "https://www.roxasnightmarket.sbs/food/what-%E2%82%B1500-can-get-you-at-roxas-night-market/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.4,
+    "rating_count": 5381,
+    "quality_score": 16.419345060046002,
+    "operating_hours": {
+      "mon": "17:00-00:00",
+      "tue": "17:00-00:00",
+      "wed": "17:00-00:00",
+      "thu": "17:00-00:00",
+      "fri": "17:00-00:00",
+      "sat": "17:00-00:00",
+      "sun": "17:00-00:00"
+    },
+    "latitude": 7.071797900000001,
+    "longitude": 125.61229180000001,
+    "address": "3JC6+PW7, M. Roxas Ave, Poblacion District, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0356",
+    "place_id": "ChIJF1LDh1lt-TIRIqT_cmafcMc",
+    "name": "Shrine of the Holy Infant Jesus of Prague",
+    "name_key": "shrine of the holy infant jesus of prague",
+    "category": [
+      "Culture",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.easybook.com/en-ph/tour/destination/philippines/davao/davao-city/holy-infant-jesus-of-prague-shrine",
+    "price_date": "2026-10-29",
+    "average_rating": 4.7,
+    "rating_count": 526,
+    "quality_score": 12.82707451155602,
+    "operating_hours": {
+      "mon": "07:00-18:00",
+      "tue": "07:00-18:00",
+      "wed": "07:00-18:00",
+      "thu": "07:00-18:00",
+      "fri": "07:00-18:00",
+      "sat": "07:00-18:00",
+      "sun": "07:00-18:00"
+    },
+    "latitude": 7.0663979,
+    "longitude": 125.5784089,
+    "address": "3HCH+363, Shrine Hills Rd, Talomo, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1141",
+    "place_id": "ChIJn6XY7pRy-TIRViH6QmiTr_o",
+    "name": "Times Beach",
+    "name_key": "times beach",
+    "category": [
+      "Nature"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.airial.travel/attractions/philippines/davao-city/times-beach-matina-aplaya-ZzeleKw3",
+    "price_date": "2026-10-29",
+    "average_rating": 3.8,
+    "rating_count": 233,
+    "quality_score": 9.065303839673586,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.043740100000001,
+    "longitude": 125.5912527,
+    "address": "Times Beach, Times Beach St, Talomo, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0332",
+    "place_id": "ChIJE2thjnht-TIR7Lga8n4mawc",
+    "name": "Unitop",
+    "name_key": "unitop",
+    "category": [
+      "Shopping"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/unitop25/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.1,
+    "rating_count": 381,
+    "quality_score": 10.627924705323053,
+    "operating_hours": {
+      "mon": "09:00-20:00",
+      "tue": "09:00-20:00",
+      "wed": "09:00-20:00",
+      "thu": "09:00-20:00",
+      "fri": "09:00-20:00",
+      "sat": "09:00-20:00",
+      "sun": "09:00-20:00"
+    },
+    "latitude": 7.065190299999999,
+    "longitude": 125.60851140000001,
+    "address": "Unitop Building, San Pedro St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0557",
+    "place_id": "ChIJN26rayBs-TIRa5-Aj6ufARE",
+    "name": "Garden Bay Restaurant & Resort",
+    "name_key": "garden bay restaurant & resort",
+    "category": [
+      "Food"
+    ],
+    "price_unit": "per_person",
+    "price_php": 460.0,
+    "price_source": "https://www.facebook.com/share/p/1Kk3JZZyQm/",
+    "price_date": "",
+    "average_rating": 4.8,
+    "rating_count": 3456,
+    "quality_score": 16.99117708021391,
+    "operating_hours": {
+      "mon": "06:00-22:00",
+      "tue": "06:00-22:00",
+      "wed": "06:00-22:00",
+      "thu": "06:00-23:00",
+      "fri": "06:00-23:00",
+      "sat": "06:00-23:00",
+      "sun": "06:00-22:00"
+    },
+    "latitude": 7.108081599999999,
+    "longitude": 125.65173999999998,
+    "address": "Maryknoll Dr, Lanang, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0732",
+    "place_id": "ChIJVVVVVVUR-TIR8-gqNHJhuZg",
+    "name": "Italianni's Restaurant - Abreeza Mall",
+    "name_key": "italianni's restaurant - abreeza mall",
+    "category": [
+      "Food"
+    ],
+    "price_unit": "per_person",
+    "price_php": 420.0,
+    "price_source": "https://www.foodpanda.ph/restaurant/nr98/italiannis-midtown",
+    "price_date": "",
+    "average_rating": 4.7,
+    "rating_count": 517,
+    "quality_score": 12.79250989149897,
+    "operating_hours": {
+      "mon": "11:00-21:00",
+      "tue": "11:00-21:00",
+      "wed": "11:00-21:00",
+      "thu": "11:00-21:00",
+      "fri": "10:00-21:00",
+      "sat": "10:00-21:00",
+      "sun": "10:00-21:00"
+    },
+    "latitude": 7.091969,
+    "longitude": 125.612337,
+    "address": "Abreeza Mall, 192 J.P. Laurel Ave, Bajada, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1262",
+    "place_id": "ChIJtbg9eXht-TIRaOP_n9_37R0",
+    "name": "Jollibee Davao Bolton",
+    "name_key": "jollibee davao bolton",
+    "category": [
+      "Food"
+    ],
+    "price_unit": "per_person",
+    "price_php": 184.0,
+    "price_source": "https://www.foodpanda.ph/restaurant/p0nf/jollibee-davao-bolton-p0nf",
+    "price_date": "",
+    "average_rating": 4.2,
+    "rating_count": 1281,
+    "quality_score": 13.065890217518966,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.066188899999999,
+    "longitude": 125.60932819999998,
+    "address": "Cor. Rizal and, Bolton St, Poblacion District, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0779",
+    "place_id": "ChIJXWLn2k1t-TIRmM31aYllUX8",
+    "name": "Marinatuna Seafood Restaurant",
+    "name_key": "marinatuna seafood restaurant",
+    "category": [
+      "Food"
+    ],
+    "price_unit": "per_person",
+    "price_php": 340.0,
+    "price_source": "https://www.facebook.com/share/p/14uM2WLi2dV/",
+    "price_date": "",
+    "average_rating": 4.5,
+    "rating_count": 979,
+    "quality_score": 13.478383312187306,
+    "operating_hours": {
+      "mon": "07:00-21:00",
+      "tue": "07:00-21:00",
+      "wed": "07:00-21:00",
+      "thu": "07:00-21:00",
+      "fri": "07:00-21:00",
+      "sat": "07:00-21:00",
+      "sun": "07:00-21:00"
+    },
+    "latitude": 7.1128972,
+    "longitude": 125.6515513,
+    "address": "Km. 8, Davao Agusan Road, Bo. Pampanga, Lanang, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1288",
+    "place_id": "ChIJu_ZZlDds-TIR7R6lDW1vXrw",
+    "name": "The Swiss Deli & Restaurant - Mamay",
+    "name_key": "the swiss deli & restaurant - mamay",
+    "category": [
+      "Food"
+    ],
+    "price_unit": "per_person",
+    "price_php": 650.0,
+    "price_source": "https://www.facebook.com/theSwissDeli.dvo/posts/pfbid02TRRY2G1ZXZo3uQKYh1fDaKDa1X4rGSYfJrtUJmKxZpiGbJrUGEf1nZdYDeRMdxMil",
+    "price_date": "",
+    "average_rating": 4.4,
+    "rating_count": 860,
+    "quality_score": 12.933884711521923,
+    "operating_hours": {
+      "mon": "08:00-22:00",
+      "tue": "08:00-22:00",
+      "wed": "08:00-22:00",
+      "thu": "08:00-22:00",
+      "fri": "08:00-22:00",
+      "sat": "08:00-22:00",
+      "sun": "08:00-22:00"
+    },
+    "latitude": 7.115999200000001,
+    "longitude": 125.6288824,
+    "address": "Mamay Rd, Buhangin, Davao City, Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0915",
+    "place_id": "ChIJcdU-eHBt-TIR61dFotXLJrM",
+    "name": "Bankerohan Public Market",
+    "name_key": "bankerohan public market",
+    "category": [
+      "Shopping"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/unitop25/",
+    "price_date": "2026-10-30",
+    "average_rating": 4.2,
+    "rating_count": 4342,
+    "quality_score": 15.282493324098521,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.0686275,
+    "longitude": 125.6008868,
+    "address": "Building No: 2, Barangay, Marfori Street, Barangay 5-A, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0360",
+    "place_id": "ChIJF3QI63Rt-TIRSUWhw9UQVrw",
+    "name": "Davao Bible Community Church",
+    "name_key": "davao bible community church",
+    "category": [
+      "Culture"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/photo.php?fbid=1054630937418187&type=3",
+    "price_date": "2026-10-30",
+    "average_rating": 4.8,
+    "rating_count": 6,
+    "quality_score": 5.779775916748439,
+    "operating_hours": {
+      "mon": "closed",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "08:00-18:00",
+      "sun": "08:00-18:00"
+    },
+    "latitude": 7.0757666,
+    "longitude": 125.60550739999998,
+    "address": "3JG4+862 Tavera Streets, Araullo St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0142",
+    "place_id": "ChIJ4xGWuVNs-TIRXFe4dkNrwIM",
+    "name": "Davao Mission of Seventh-day Adventist Church",
+    "name_key": "davao mission of seventh-day adventist church",
+    "category": [
+      "Culture"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/davaoadventists/",
+    "price_date": "2026-10-30",
+    "average_rating": 4.9,
+    "rating_count": 64,
+    "quality_score": 9.159235426681784,
+    "operating_hours": {
+      "mon": "08:00-17:00",
+      "tue": "08:00-17:00",
+      "wed": "08:00-17:00",
+      "thu": "08:00-17:00",
+      "fri": "08:00-12:00",
+      "sat": "closed",
+      "sun": "closed"
+    },
+    "latitude": 7.0974469,
+    "longitude": 125.61693629999999,
+    "address": "3JW8+XQF, Palm Dr, Agdao, Buhangin, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1146",
+    "place_id": "ChIJnQiJEXdt-TIRUuYmuomu8zw",
+    "name": "Gaisano Grand Citimall Illustre",
+    "name_key": "gaisano grand citimall illustre",
+    "category": [
+      "Shopping"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/grand.ilustre/",
+    "price_date": "2026-10-30",
+    "average_rating": 4.0,
+    "rating_count": 1888,
+    "quality_score": 13.113184832365095,
+    "operating_hours": {
+      "mon": "08:00-20:00",
+      "tue": "08:00-20:00",
+      "wed": "08:00-20:00",
+      "thu": "08:00-20:00",
+      "fri": "08:00-20:00",
+      "sat": "08:00-20:00",
+      "sun": "08:00-19:00"
+    },
+    "latitude": 7.0696972,
+    "longitude": 125.6066194,
+    "address": "Ilustre St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1231",
+    "place_id": "ChIJs5drlj8T-TIRJnvu-gRGBJU",
+    "name": "Los Amigos Park",
+    "name_key": "los amigos park",
+    "category": [
+      "Nature"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://davaocity.gov.ph/environment/los-amigos-park-opens-to-public/",
+    "price_date": "2026-10-30",
+    "average_rating": 4.6,
+    "rating_count": 67,
+    "quality_score": 8.677857335793416,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.1411821,
+    "longitude": 125.4798632,
+    "address": "4FRH+MVQ, Tugbok, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0731",
+    "place_id": "ChIJVVVVVVUR-TIR0EkZ5Mt-GRM",
+    "name": "Malagos Garden Resort",
+    "name_key": "malagos garden resort",
+    "category": [
+      "Nature",
+      "Accommodation"
+    ],
+    "price_unit": "room_night",
+    "price_php": 5800.0,
+    "price_source": "https://ahroundph.com/blog/2023/01/14/malagos-garden-resort/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.4,
+    "rating_count": 1871,
+    "quality_score": 14.407310700421668,
+    "operating_hours": {
+      "mon": "06:00-21:00",
+      "tue": "06:00-21:00",
+      "wed": "06:00-21:00",
+      "thu": "06:00-21:00",
+      "fri": "06:00-21:00",
+      "sat": "06:00-21:00",
+      "sun": "06:00-21:00"
+    },
+    "latitude": 7.189717699999999,
+    "longitude": 125.42860270000001,
+    "address": "Baguio District, Calinan-Baguio-Cadalian Rd, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0237",
+    "place_id": "ChIJ9xLfZ6dt-TIRnR1R2qW69Ek",
+    "name": "Miso Thai Massage Spa",
+    "name_key": "miso thai massage spa",
+    "category": [
+      "Wellness"
+    ],
+    "price_unit": "per_person",
+    "price_php": 250.0,
+    "price_source": "https://www.hungryfoody.com/ph/miso-thai-massage-spa-davao-city/",
+    "price_date": "2026-10-29",
+    "average_rating": 4.2,
+    "rating_count": 41,
+    "quality_score": 7.171794739611332,
+    "operating_hours": {
+      "mon": "12:00-23:00",
+      "tue": "12:00-23:00",
+      "wed": "12:00-23:00",
+      "thu": "12:00-23:00",
+      "fri": "12:00-23:00",
+      "sat": "12:00-23:00",
+      "sun": "12:00-23:00"
+    },
+    "latitude": 7.0822878,
+    "longitude": 125.60995919999999,
+    "address": "Door#3, Autoville Compound, F. Torres St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0382",
+    "place_id": "ChIJG-GQ7Jdt-TIRLrxuIjVkel8",
+    "name": "NCCC Main Magsaysay",
+    "name_key": "nccc main magsaysay",
+    "category": [
+      "Shopping"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://www.facebook.com/NCCCMainMagsaysay/",
+    "price_date": "2026-10-30",
+    "average_rating": 4.2,
+    "rating_count": 1524,
+    "quality_score": 13.380466510374442,
+    "operating_hours": {
+      "mon": "09:00-18:00",
+      "tue": "09:00-18:00",
+      "wed": "09:00-18:00",
+      "thu": "09:00-18:00",
+      "fri": "09:00-18:00",
+      "sat": "09:00-18:00",
+      "sun": "09:00-18:00"
+    },
+    "latitude": 7.074722200000001,
+    "longitude": 125.6216667,
+    "address": "Ramon Magsaysay Ave, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1239",
+    "place_id": "ChIJsVlo7aAX-TIRAjBUK3kIOEg",
+    "name": "Philippine Eagle Center",
+    "name_key": "philippine eagle center",
+    "category": [
+      "Nature",
+      "Sightseeing"
+    ],
+    "price_unit": "per_person",
+    "price_php": 150.0,
+    "price_source": "https://vismin.ph/?p=24923",
+    "price_date": "2026-10-29",
+    "average_rating": 4.5,
+    "rating_count": 1518,
+    "quality_score": 14.328555094078519,
+    "operating_hours": {
+      "mon": "08:00-16:30",
+      "tue": "08:00-16:30",
+      "wed": "08:00-16:30",
+      "thu": "08:00-16:30",
+      "fri": "08:00-16:30",
+      "sat": "08:00-16:30",
+      "sun": "08:00-16:30"
+    },
+    "latitude": 7.18498,
+    "longitude": 125.41528369999999,
+    "address": "Purok 5, Malagos-Baguio District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0829",
+    "place_id": "ChIJZdARfE5s-TIRppFosEOBkq0",
+    "name": "Red Planet Davao",
+    "name_key": "red planet davao",
+    "category": [
+      "Accommodation"
+    ],
+    "price_unit": "room_night",
+    "price_php": 1725.0,
+    "price_source": "https://www.kayak.com.ph/Davao-City-Hotels-Red-Planet-Davao.2043844.ksp",
+    "price_date": "2026-10-29",
+    "average_rating": 4.1,
+    "rating_count": 1445,
+    "quality_score": 12.967738272619895,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.0986635,
+    "longitude": 125.62312029999998,
+    "address": "Red Planet Hotel, J.P. Laurel Ave, Buhangin, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0374",
+    "place_id": "ChIJFa3Bu5dy-TIRkCUFXzpYaQY",
+    "name": "The Annex at SM City Davao",
+    "name_key": "the annex at sm city davao",
+    "category": [
+      "Shopping"
+    ],
+    "price_unit": "per_person",
+    "price_php": 0.0,
+    "price_source": "https://wanderlog.com/place/details/1841666/the-annex-at-sm-city-davao",
+    "price_date": "2026-10-30",
+    "average_rating": 4.5,
+    "rating_count": 2656,
+    "quality_score": 15.416370652850283,
+    "operating_hours": {
+      "mon": "11:00-21:00",
+      "tue": "11:00-21:00",
+      "wed": "11:00-21:00",
+      "thu": "11:00-21:00",
+      "fri": "11:00-21:00",
+      "sat": "10:00-22:00",
+      "sun": "10:00-21:00"
+    },
+    "latitude": 7.0501211999999995,
+    "longitude": 125.58938119999999,
+    "address": "Quimpo Blvd, Talomo, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0134",
+    "place_id": "ChIJ4XGZ2nlt-TIREUVe3RgV2WE",
+    "name": "The Bourke",
+    "name_key": "the bourke",
+    "category": [
+      "Accommodation"
+    ],
+    "price_unit": "room_night",
+    "price_php": 4995.0,
+    "price_source": "https://www.expedia.com.ph/Davao-Hotels-The-Bourke-Hotel.h24996518.Hotel-Information",
+    "price_date": "2026-10-29",
+    "average_rating": 4.6,
+    "rating_count": 129,
+    "quality_score": 9.857868081168837,
+    "operating_hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "latitude": 7.068028600000001,
+    "longitude": 125.60626400000001,
+    "address": "115 P Pelayo St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0070",
+    "place_id": "ChIJ1wyQLQxt-TIRPZYA6R1LpvM",
+    "name": "Lachi's",
+    "name_key": "lachi's",
+    "category": [
+      "Food"
+    ],
+    "price_unit": "per_person",
+    "price_php": 310.0,
+    "price_source": "https://www.reddit.com/r/davao/comments/1kl5jsb/is_lachis_still_good/",
+    "price_date": "",
+    "average_rating": 4.6,
+    "rating_count": 698,
+    "quality_score": 13.110152985372936,
+    "operating_hours": {
+      "mon": "10:00-20:00",
+      "tue": "10:00-20:00",
+      "wed": "10:00-20:00",
+      "thu": "10:00-20:00",
+      "fri": "10:00-20:00",
+      "sat": "10:00-20:00",
+      "sun": "10:00-20:00"
+    },
+    "latitude": 7.0588888,
+    "longitude": 125.5882171,
+    "address": "Door 1-H, The Values School Inc. Grade Sch.(Marfori), Ruby St, Poblacion District, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_0292",
+    "place_id": "ChIJCwGF1URz-TIRFADwKUGTL3M",
+    "name": "Made Simple",
+    "name_key": "made simple",
+    "category": [
+      "Food"
+    ],
+    "price_unit": "per_person",
+    "price_php": 395.0,
+    "price_source": "https://maps.app.goo.gl/33NAQVSAhBUYSd9M6",
+    "price_date": "",
+    "average_rating": 4.9,
+    "rating_count": 798,
+    "quality_score": 14.246315667795471,
+    "operating_hours": {
+      "mon": "08:00-21:00",
+      "tue": "08:00-21:00",
+      "wed": "08:00-21:00",
+      "thu": "08:00-21:00",
+      "fri": "08:00-21:00",
+      "sat": "08:00-21:00",
+      "sun": "08:00-21:00"
+    },
+    "latitude": 7.0544484,
+    "longitude": 125.5890147,
+    "address": "2nd Floor, CT DRive, Tulip Dr, Matina, Davao City, 8000 Davao del Sur"
+  },
+  {
+    "venue_id": "dvo_poi_1064",
+    "place_id": "ChIJj4lfOapt-TIRqUpkPMwZxm8",
+    "name": "TGI Friday's - Abreeza Mall",
+    "name_key": "tgi friday's - abreeza mall",
+    "category": [
+      "Food"
+    ],
+    "price_unit": "per_person",
+    "price_php": 795.0,
+    "price_source": "https://www.fridays.com.ph/frontend/tgif-ph-complete-menu.pdf",
+    "price_date": "",
+    "average_rating": 4.8,
+    "rating_count": 2029,
+    "quality_score": 15.885202683735072,
+    "operating_hours": {
+      "mon": "11:00-21:00",
+      "tue": "11:00-21:00",
+      "wed": "11:00-20:00",
+      "thu": "11:00-21:00",
+      "fri": "11:00-20:00",
+      "sat": "11:00-21:00",
+      "sun": "11:00-20:00"
+    },
+    "latitude": 7.091819300000001,
+    "longitude": 125.6124644,
+    "address": "Level 1, Abreeza Mall, Bajada Flyover, Poblacion District, Davao City, 8000 Davao del Sur"
+  }
+]

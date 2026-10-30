@@ -1,0 +1,225 @@
+{
+  "scenario": {
+    "id": "S24",
+    "duration_days": 1,
+    "budget_per_person_php": 2000,
+    "budget_php": 8000,
+    "interests": [
+      "Nature"
+    ],
+    "group_size": 4,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-14"
+  },
+  "weather": [
+    {
+      "date": "2026-10-14",
+      "condition": "Clear",
+      "pop": 0.1,
+      "is_outdoor_suitable": true
+    }
+  ],
+  "data_version": "689ece30b82a",
+  "candidates": [
+    {
+      "venue_id": "dvo_poi_1231",
+      "name": "Los Amigos Park",
+      "category": [
+        "Nature"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.1411821,
+      "longitude": 125.4798632
+    },
+    {
+      "venue_id": "dvo_poi_0723",
+      "name": "Freedom Park",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0730311,
+      "longitude": 125.61138469999999
+    },
+    {
+      "venue_id": "dvo_poi_0524",
+      "name": "Crocodile Park Picnic Grounds",
+      "category": [
+        "Nature"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.098109999999999,
+      "longitude": 125.59810829999999
+    },
+    {
+      "venue_id": "dvo_poi_0576",
+      "name": "Osmeña Park",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "05:00-22:00",
+        "tue": "05:00-22:00",
+        "wed": "05:00-22:00",
+        "thu": "05:00-22:00",
+        "fri": "05:00-22:00",
+        "sat": "closed",
+        "sun": "closed"
+      },
+      "latitude": 7.063500599999999,
+      "longitude": 125.60937649999998
+    },
+    {
+      "venue_id": "dvo_poi_0658",
+      "name": "Kwagsik Falls",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 200,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.4602086000000005,
+      "longitude": 125.2672445
+    },
+    {
+      "venue_id": "dvo_poi_0270",
+      "name": "Bemwa Farm",
+      "category": [
+        "Nature"
+      ],
+      "est_group_cost_php": 200,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "07:00-17:00",
+        "tue": "07:00-17:00",
+        "wed": "07:00-17:00",
+        "thu": "07:00-17:00",
+        "fri": "07:00-17:00",
+        "sat": "07:00-17:00",
+        "sun": "07:00-17:00"
+      },
+      "latitude": 7.4819382999999995,
+      "longitude": 125.25940240000001
+    },
+    {
+      "venue_id": "dvo_poi_1239",
+      "name": "Philippine Eagle Center",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 600,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "08:00-16:30",
+        "tue": "08:00-16:30",
+        "wed": "08:00-16:30",
+        "thu": "08:00-16:30",
+        "fri": "08:00-16:30",
+        "sat": "08:00-16:30",
+        "sun": "08:00-16:30"
+      },
+      "latitude": 7.18498,
+      "longitude": 125.41528369999999
+    },
+    {
+      "venue_id": "dvo_poi_0108",
+      "name": "Macatabo Farm",
+      "category": [
+        "Food",
+        "Nature"
+      ],
+      "est_group_cost_php": 400,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "10:00-17:00",
+        "tue": "10:00-17:00",
+        "wed": "10:00-17:00",
+        "thu": "10:00-17:00",
+        "fri": "10:00-17:00",
+        "sat": "10:00-17:00",
+        "sun": "10:00-17:00"
+      },
+      "latitude": 7.127819199999999,
+      "longitude": 125.3628292
+    }
+  ],
+  "itinerary": {
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2026-10-14",
+        "slots": [
+          {
+            "time_start": "08:00",
+            "time_end": "10:00",
+            "venue_id": "dvo_poi_0658"
+          },
+          {
+            "time_start": "10:30",
+            "time_end": "12:30",
+            "venue_id": "dvo_poi_0270"
+          },
+          {
+            "time_start": "13:30",
+            "time_end": "15:30",
+            "venue_id": "dvo_poi_1239"
+          },
+          {
+            "time_start": "16:00",
+            "time_end": "17:30",
+            "venue_id": "dvo_poi_1231"
+          },
+          {
+            "time_start": "18:00",
+            "time_end": "19:30",
+            "venue_id": "dvo_poi_0723"
+          }
+        ]
+      }
+    ]
+  }
+}

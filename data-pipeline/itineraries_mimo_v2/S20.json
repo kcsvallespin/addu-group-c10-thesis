@@ -1,0 +1,617 @@
+{
+  "scenario": {
+    "id": "S20",
+    "duration_days": 3,
+    "budget_per_person_php": 1000,
+    "budget_php": 2000,
+    "interests": [
+      "Nature",
+      "Sightseeing",
+      "Culture"
+    ],
+    "group_size": 2,
+    "weather_pattern": "mixed",
+    "start_date": "2026-10-17"
+  },
+  "weather": [
+    {
+      "date": "2026-10-17",
+      "condition": "Clear",
+      "pop": 0.1,
+      "is_outdoor_suitable": true
+    },
+    {
+      "date": "2026-10-18",
+      "condition": "Rain",
+      "pop": 1.0,
+      "is_outdoor_suitable": false
+    },
+    {
+      "date": "2026-10-19",
+      "condition": "Clear",
+      "pop": 0.1,
+      "is_outdoor_suitable": true
+    }
+  ],
+  "data_version": "689ece30b82a",
+  "candidates": [
+    {
+      "venue_id": "dvo_poi_1231",
+      "name": "Los Amigos Park",
+      "category": [
+        "Nature"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.1411821,
+      "longitude": 125.4798632
+    },
+    {
+      "venue_id": "dvo_poi_0723",
+      "name": "Freedom Park",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0730311,
+      "longitude": 125.61138469999999
+    },
+    {
+      "venue_id": "dvo_poi_0524",
+      "name": "Crocodile Park Picnic Grounds",
+      "category": [
+        "Nature"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.098109999999999,
+      "longitude": 125.59810829999999
+    },
+    {
+      "venue_id": "dvo_poi_0576",
+      "name": "Osmeña Park",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "05:00-22:00",
+        "tue": "05:00-22:00",
+        "wed": "05:00-22:00",
+        "thu": "05:00-22:00",
+        "fri": "05:00-22:00",
+        "sat": "closed",
+        "sun": "closed"
+      },
+      "latitude": 7.063500599999999,
+      "longitude": 125.60937649999998
+    },
+    {
+      "venue_id": "dvo_poi_0658",
+      "name": "Kwagsik Falls",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 100,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.4602086000000005,
+      "longitude": 125.2672445
+    },
+    {
+      "venue_id": "dvo_poi_0270",
+      "name": "Bemwa Farm",
+      "category": [
+        "Nature"
+      ],
+      "est_group_cost_php": 100,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "07:00-17:00",
+        "tue": "07:00-17:00",
+        "wed": "07:00-17:00",
+        "thu": "07:00-17:00",
+        "fri": "07:00-17:00",
+        "sat": "07:00-17:00",
+        "sun": "07:00-17:00"
+      },
+      "latitude": 7.4819382999999995,
+      "longitude": 125.25940240000001
+    },
+    {
+      "venue_id": "dvo_poi_1239",
+      "name": "Philippine Eagle Center",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 300,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "08:00-16:30",
+        "tue": "08:00-16:30",
+        "wed": "08:00-16:30",
+        "thu": "08:00-16:30",
+        "fri": "08:00-16:30",
+        "sat": "08:00-16:30",
+        "sun": "08:00-16:30"
+      },
+      "latitude": 7.18498,
+      "longitude": 125.41528369999999
+    },
+    {
+      "venue_id": "dvo_poi_0108",
+      "name": "Macatabo Farm",
+      "category": [
+        "Food",
+        "Nature"
+      ],
+      "est_group_cost_php": 200,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "10:00-17:00",
+        "tue": "10:00-17:00",
+        "wed": "10:00-17:00",
+        "thu": "10:00-17:00",
+        "fri": "10:00-17:00",
+        "sat": "10:00-17:00",
+        "sun": "10:00-17:00"
+      },
+      "latitude": 7.127819199999999,
+      "longitude": 125.3628292
+    },
+    {
+      "venue_id": "dvo_poi_0876",
+      "name": "Quezon Park",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0649871,
+      "longitude": 125.60819579999999
+    },
+    {
+      "venue_id": "dvo_poi_0893",
+      "name": "The Commemorative Monument of Peace and Unity",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0642831,
+      "longitude": 125.60919460000001
+    },
+    {
+      "venue_id": "dvo_poi_1149",
+      "name": "Ramon Magsaysay Park",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "04:00-22:00",
+        "tue": "04:00-22:00",
+        "wed": "04:00-22:00",
+        "thu": "04:00-22:00",
+        "fri": "04:00-22:00",
+        "sat": "04:00-22:00",
+        "sun": "04:00-22:00"
+      },
+      "latitude": 7.074384299999999,
+      "longitude": 125.62560810000001
+    },
+    {
+      "venue_id": "dvo_poi_1242",
+      "name": "JACA Mountain Peak",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 1000,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "closed",
+        "wed": "08:00-18:00",
+        "thu": "08:00-18:00",
+        "fri": "08:00-18:00",
+        "sat": "08:00-18:00",
+        "sun": "08:00-18:00"
+      },
+      "latitude": 7.422169599999999,
+      "longitude": 125.23192239999997
+    },
+    {
+      "venue_id": "dvo_poi_0842",
+      "name": "Bukid Amara Davao",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 300,
+      "average_rating": 3.9,
+      "operating_hours": {
+        "mon": "08:00-17:30",
+        "tue": "08:00-17:30",
+        "wed": "08:00-17:30",
+        "thu": "08:00-17:30",
+        "fri": "08:00-17:30",
+        "sat": "08:00-17:30",
+        "sun": "08:00-17:30"
+      },
+      "latitude": 7.0436543,
+      "longitude": 125.51443049999997
+    },
+    {
+      "venue_id": "dvo_poi_0065",
+      "name": "Philippine-Japanese Historical Museum",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 200,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "09:00-17:00",
+        "tue": "09:00-17:00",
+        "wed": "09:00-17:00",
+        "thu": "09:00-17:00",
+        "fri": "09:00-17:00",
+        "sat": "09:00-17:00",
+        "sun": "closed"
+      },
+      "latitude": 7.1884475,
+      "longitude": 125.46061230000001
+    },
+    {
+      "venue_id": "dvo_poi_0040",
+      "name": "Davao Riverfront Crocodile Park & Zoo",
+      "category": [
+        "Entertainment",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 700,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "08:00-17:00",
+        "tue": "08:00-17:00",
+        "wed": "08:00-17:00",
+        "thu": "08:00-17:00",
+        "fri": "08:00-17:00",
+        "sat": "08:00-17:00",
+        "sun": "08:00-17:00"
+      },
+      "latitude": 7.0970749,
+      "longitude": 125.599249
+    },
+    {
+      "venue_id": "dvo_poi_0820",
+      "name": "Our Mother of Perpetual Help Parish - Redemptorist Church",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "08:30-17:30",
+        "tue": "08:30-17:30",
+        "wed": "08:30-17:30",
+        "thu": "08:30-17:30",
+        "fri": "08:30-17:30",
+        "sat": "08:30-17:30",
+        "sun": "08:30-17:30"
+      },
+      "latitude": 7.092149399999999,
+      "longitude": 125.6097552
+    },
+    {
+      "venue_id": "dvo_poi_0356",
+      "name": "Shrine of the Holy Infant Jesus of Prague",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "07:00-18:00",
+        "tue": "07:00-18:00",
+        "wed": "07:00-18:00",
+        "thu": "07:00-18:00",
+        "fri": "07:00-18:00",
+        "sat": "07:00-18:00",
+        "sun": "07:00-18:00"
+      },
+      "latitude": 7.0663979,
+      "longitude": 125.5784089
+    },
+    {
+      "venue_id": "dvo_poi_1189",
+      "name": "Davao Central Seventh-day Adventist Church of Davao Mission",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "closed",
+        "wed": "17:30-21:30",
+        "thu": "closed",
+        "fri": "17:30-21:30",
+        "sat": "06:30-20:00",
+        "sun": "closed"
+      },
+      "latitude": 7.0714647,
+      "longitude": 125.6077114
+    },
+    {
+      "venue_id": "dvo_poi_0142",
+      "name": "Davao Mission of Seventh-day Adventist Church",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.9,
+      "operating_hours": {
+        "mon": "08:00-17:00",
+        "tue": "08:00-17:00",
+        "wed": "08:00-17:00",
+        "thu": "08:00-17:00",
+        "fri": "08:00-12:00",
+        "sat": "closed",
+        "sun": "closed"
+      },
+      "latitude": 7.0974469,
+      "longitude": 125.61693629999999
+    },
+    {
+      "venue_id": "dvo_poi_0620",
+      "name": "The Church of Jesus Christ of Latter-day Saints",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.9,
+      "operating_hours": {
+        "mon": "09:00-18:00",
+        "tue": "09:00-18:00",
+        "wed": "09:00-18:00",
+        "thu": "09:00-18:00",
+        "fri": "09:00-18:00",
+        "sat": "09:00-18:00",
+        "sun": "09:00-12:00, 13:00-16:00"
+      },
+      "latitude": 7.0659226,
+      "longitude": 125.61108530000001
+    },
+    {
+      "venue_id": "dvo_poi_0302",
+      "name": "San Pedro Metropolitan Cathedral",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "08:30-18:00",
+        "tue": "08:30-18:00",
+        "wed": "08:30-18:00",
+        "thu": "08:30-18:00",
+        "fri": "08:30-18:00",
+        "sat": "08:30-18:00",
+        "sun": "08:30-18:00"
+      },
+      "latitude": 7.065026899999999,
+      "longitude": 125.60918099999999
+    },
+    {
+      "venue_id": "dvo_poi_0498",
+      "name": "Faith Tabernacle Church - Metro Davao",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "17:00-20:00",
+        "tue": "closed",
+        "wed": "closed",
+        "thu": "16:30-20:30",
+        "fri": "16:30-22:00",
+        "sat": "closed",
+        "sun": "08:00-12:00"
+      },
+      "latitude": 7.0678575,
+      "longitude": 125.61330989999999
+    },
+    {
+      "venue_id": "dvo_poi_0372",
+      "name": "Upside Down House Museum Davao",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 500,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "08:00-21:00",
+        "tue": "08:00-21:00",
+        "wed": "08:00-21:00",
+        "thu": "08:00-21:00",
+        "fri": "08:00-21:00",
+        "sat": "08:00-21:00",
+        "sun": "08:00-21:00"
+      },
+      "latitude": 7.0717783999999995,
+      "longitude": 125.61127439999999
+    },
+    {
+      "venue_id": "dvo_poi_1199",
+      "name": "National Museum of the Philippines - Davao",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "09:00-17:00",
+        "tue": "09:00-17:00",
+        "wed": "09:00-17:00",
+        "thu": "09:00-17:00",
+        "fri": "09:00-17:00",
+        "sat": "09:00-17:00",
+        "sun": "09:00-17:00"
+      },
+      "latitude": 7.070172899999999,
+      "longitude": 125.60903929999998
+    }
+  ],
+  "itinerary": {
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2026-10-17",
+        "slots": [
+          {
+            "time_start": "08:00",
+            "time_end": "10:00",
+            "venue_id": "dvo_poi_1239"
+          },
+          {
+            "time_start": "11:00",
+            "time_end": "13:00",
+            "venue_id": "dvo_poi_0893"
+          },
+          {
+            "time_start": "14:00",
+            "time_end": "16:00",
+            "venue_id": "dvo_poi_0065"
+          },
+          {
+            "time_start": "16:30",
+            "time_end": "18:00",
+            "venue_id": "dvo_poi_0302"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2026-10-18",
+        "slots": [
+          {
+            "time_start": "09:00",
+            "time_end": "11:00",
+            "venue_id": "dvo_poi_1199"
+          },
+          {
+            "time_start": "11:30",
+            "time_end": "13:00",
+            "venue_id": "dvo_poi_0820"
+          },
+          {
+            "time_start": "13:30",
+            "time_end": "15:00",
+            "venue_id": "dvo_poi_0356"
+          },
+          {
+            "time_start": "15:30",
+            "time_end": "17:00",
+            "venue_id": "dvo_poi_0372"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "date": "2026-10-19",
+        "slots": [
+          {
+            "time_start": "08:00",
+            "time_end": "10:00",
+            "venue_id": "dvo_poi_0576"
+          },
+          {
+            "time_start": "11:00",
+            "time_end": "13:00",
+            "venue_id": "dvo_poi_0524"
+          },
+          {
+            "time_start": "14:00",
+            "time_end": "16:00",
+            "venue_id": "dvo_poi_0108"
+          },
+          {
+            "time_start": "17:00",
+            "time_end": "19:00",
+            "venue_id": "dvo_poi_1149"
+          }
+        ]
+      }
+    ]
+  }
+}

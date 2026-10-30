@@ -1,0 +1,419 @@
+{
+  "scenario": {
+    "id": "S17",
+    "duration_days": 2,
+    "budget_per_person_php": 1000,
+    "budget_php": 4000,
+    "interests": [
+      "Entertainment",
+      "Food"
+    ],
+    "group_size": 4,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-14"
+  },
+  "weather": [
+    {
+      "date": "2026-10-14",
+      "condition": "Clear",
+      "pop": 0.1,
+      "is_outdoor_suitable": true
+    },
+    {
+      "date": "2026-10-15",
+      "condition": "Clear",
+      "pop": 0.1,
+      "is_outdoor_suitable": true
+    }
+  ],
+  "data_version": "689ece30b82a",
+  "candidates": [
+    {
+      "venue_id": "dvo_poi_1033",
+      "name": "The Fountain Court",
+      "category": [
+        "Entertainment"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "07:00-21:00",
+        "tue": "07:00-21:00",
+        "wed": "07:00-21:00",
+        "thu": "07:00-21:00",
+        "fri": "07:00-21:00",
+        "sat": "07:00-21:00",
+        "sun": "07:00-21:00"
+      },
+      "latitude": 7.0978613,
+      "longitude": 125.63159200000001
+    },
+    {
+      "venue_id": "dvo_poi_1025",
+      "name": "Zoofari Kids Adventure - SM City Davao",
+      "category": [
+        "Entertainment"
+      ],
+      "est_group_cost_php": 80,
+      "average_rating": 4.1,
+      "operating_hours": {
+        "mon": "10:00-21:00",
+        "tue": "10:00-21:00",
+        "wed": "10:00-21:00",
+        "thu": "10:00-21:00",
+        "fri": "10:00-21:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      },
+      "latitude": 7.049211,
+      "longitude": 125.587848
+    },
+    {
+      "venue_id": "dvo_poi_0522",
+      "name": "Christmas Mansion",
+      "category": [
+        "Entertainment",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 120,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "17:00-22:00",
+        "tue": "17:00-22:00",
+        "wed": "17:00-22:00",
+        "thu": "17:00-22:00",
+        "fri": "17:00-22:00",
+        "sat": "17:00-22:00",
+        "sun": "17:00-22:00"
+      },
+      "latitude": 7.1105882,
+      "longitude": 125.62924760000001
+    },
+    {
+      "venue_id": "dvo_poi_0462",
+      "name": "NCCC Cinemas",
+      "category": [
+        "Entertainment"
+      ],
+      "est_group_cost_php": 1080,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "09:00-17:00",
+        "tue": "09:00-17:00",
+        "wed": "09:00-17:00",
+        "thu": "09:00-17:00",
+        "fri": "09:00-17:00",
+        "sat": "closed",
+        "sun": "closed"
+      },
+      "latitude": 7.110398399999999,
+      "longitude": 125.61174930000001
+    },
+    {
+      "venue_id": "dvo_poi_1024",
+      "name": "Deca wakeboard park davao city",
+      "category": [
+        "Entertainment"
+      ],
+      "est_group_cost_php": 4000,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "09:00-17:00",
+        "wed": "09:00-17:00",
+        "thu": "09:00-17:00",
+        "fri": "09:00-17:00",
+        "sat": "09:00-17:00",
+        "sun": "09:00-17:00"
+      },
+      "latitude": 7.1094201,
+      "longitude": 125.50120050000001
+    },
+    {
+      "venue_id": "dvo_poi_0633",
+      "name": "ClaudMaru Rainforest",
+      "category": [
+        "Entertainment",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 1800,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "07:00-00:00",
+        "tue": "07:00-00:00",
+        "wed": "07:00-00:00",
+        "thu": "07:00-00:00",
+        "fri": "07:00-00:00",
+        "sat": "07:00-00:00",
+        "sun": "07:00-00:00"
+      },
+      "latitude": 7.4308815,
+      "longitude": 125.2472989
+    },
+    {
+      "venue_id": "dvo_poi_0402",
+      "name": "Davao Butterfly House Inc.",
+      "category": [
+        "Entertainment",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 1400,
+      "average_rating": 3.7,
+      "operating_hours": {
+        "mon": "08:00-17:00",
+        "tue": "08:00-17:00",
+        "wed": "08:00-17:00",
+        "thu": "08:00-17:00",
+        "fri": "08:00-17:00",
+        "sat": "08:00-17:00",
+        "sun": "08:00-17:00"
+      },
+      "latitude": 7.095787,
+      "longitude": 125.5956726
+    },
+    {
+      "venue_id": "dvo_poi_0040",
+      "name": "Davao Riverfront Crocodile Park & Zoo",
+      "category": [
+        "Entertainment",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 1400,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "08:00-17:00",
+        "tue": "08:00-17:00",
+        "wed": "08:00-17:00",
+        "thu": "08:00-17:00",
+        "fri": "08:00-17:00",
+        "sat": "08:00-17:00",
+        "sun": "08:00-17:00"
+      },
+      "latitude": 7.0970749,
+      "longitude": 125.599249
+    },
+    {
+      "venue_id": "dvo_poi_0225",
+      "name": "Roxas Night Market",
+      "category": [
+        "Food",
+        "Shopping"
+      ],
+      "est_group_cost_php": 360,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "17:00-00:00",
+        "tue": "17:00-00:00",
+        "wed": "17:00-00:00",
+        "thu": "17:00-00:00",
+        "fri": "17:00-00:00",
+        "sat": "17:00-00:00",
+        "sun": "17:00-00:00"
+      },
+      "latitude": 7.071797900000001,
+      "longitude": 125.61229180000001
+    },
+    {
+      "venue_id": "dvo_poi_0108",
+      "name": "Macatabo Farm",
+      "category": [
+        "Food",
+        "Nature"
+      ],
+      "est_group_cost_php": 400,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "10:00-17:00",
+        "tue": "10:00-17:00",
+        "wed": "10:00-17:00",
+        "thu": "10:00-17:00",
+        "fri": "10:00-17:00",
+        "sat": "10:00-17:00",
+        "sun": "10:00-17:00"
+      },
+      "latitude": 7.127819199999999,
+      "longitude": 125.3628292
+    },
+    {
+      "venue_id": "dvo_poi_0925",
+      "name": "Jollibee",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 660,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0595721,
+      "longitude": 125.55038950000001
+    },
+    {
+      "venue_id": "dvo_poi_0355",
+      "name": "Junex Tuna & Seafood",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 700,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "08:30-22:15",
+        "tue": "08:30-22:15",
+        "wed": "08:30-22:15",
+        "thu": "08:30-22:15",
+        "fri": "08:30-22:15",
+        "sat": "08:30-22:15",
+        "sun": "08:30-22:15"
+      },
+      "latitude": 7.0538827,
+      "longitude": 125.56091789999999
+    },
+    {
+      "venue_id": "dvo_poi_0736",
+      "name": "Yellow Fin Seafood Restaurant",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 1440,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "10:30-20:30",
+        "tue": "10:30-20:30",
+        "wed": "10:30-20:30",
+        "thu": "10:30-20:30",
+        "fri": "10:30-20:30",
+        "sat": "10:30-20:30",
+        "sun": "10:30-20:30"
+      },
+      "latitude": 7.055600300000001,
+      "longitude": 125.5994127
+    },
+    {
+      "venue_id": "dvo_poi_0166",
+      "name": "Davao Dencia's Restaurant",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 2000,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "07:00-20:30",
+        "tue": "07:00-20:30",
+        "wed": "07:00-20:30",
+        "thu": "07:00-20:30",
+        "fri": "07:00-20:30",
+        "sat": "07:00-20:30",
+        "sun": "07:00-20:30"
+      },
+      "latitude": 7.0696959999999995,
+      "longitude": 125.60685950000001
+    },
+    {
+      "venue_id": "dvo_poi_0292",
+      "name": "Made Simple",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 1580,
+      "average_rating": 4.9,
+      "operating_hours": {
+        "mon": "08:00-21:00",
+        "tue": "08:00-21:00",
+        "wed": "08:00-21:00",
+        "thu": "08:00-21:00",
+        "fri": "08:00-21:00",
+        "sat": "08:00-21:00",
+        "sun": "08:00-21:00"
+      },
+      "latitude": 7.0544484,
+      "longitude": 125.5890147
+    },
+    {
+      "venue_id": "dvo_poi_1064",
+      "name": "TGI Friday's - Abreeza Mall",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 3180,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "11:00-21:00",
+        "tue": "11:00-21:00",
+        "wed": "11:00-20:00",
+        "thu": "11:00-21:00",
+        "fri": "11:00-20:00",
+        "sat": "11:00-21:00",
+        "sun": "11:00-20:00"
+      },
+      "latitude": 7.091819300000001,
+      "longitude": 125.6124644
+    }
+  ],
+  "itinerary": {
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2026-10-14",
+        "slots": [
+          {
+            "time_start": "08:00",
+            "time_end": "09:00",
+            "venue_id": "dvo_poi_1033"
+          },
+          {
+            "time_start": "10:00",
+            "time_end": "12:00",
+            "venue_id": "dvo_poi_1025"
+          },
+          {
+            "time_start": "12:30",
+            "time_end": "14:00",
+            "venue_id": "dvo_poi_0355"
+          },
+          {
+            "time_start": "17:30",
+            "time_end": "19:00",
+            "venue_id": "dvo_poi_0522"
+          },
+          {
+            "time_start": "19:30",
+            "time_end": "21:00",
+            "venue_id": "dvo_poi_0225"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2026-10-15",
+        "slots": [
+          {
+            "time_start": "10:00",
+            "time_end": "12:00",
+            "venue_id": "dvo_poi_0108"
+          },
+          {
+            "time_start": "12:30",
+            "time_end": "14:00",
+            "venue_id": "dvo_poi_0736"
+          },
+          {
+            "time_start": "14:30",
+            "time_end": "16:30",
+            "venue_id": "dvo_poi_0040"
+          },
+          {
+            "time_start": "17:30",
+            "time_end": "19:00",
+            "venue_id": "dvo_poi_0925"
+          }
+        ]
+      }
+    ]
+  }
+}

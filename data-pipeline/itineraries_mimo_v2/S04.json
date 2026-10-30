@@ -1,0 +1,610 @@
+{
+  "scenario": {
+    "id": "S04",
+    "duration_days": 3,
+    "budget_per_person_php": 1000,
+    "budget_php": 4000,
+    "interests": [
+      "Culture",
+      "Food",
+      "Nature"
+    ],
+    "group_size": 4,
+    "weather_pattern": "rain",
+    "start_date": "2026-10-15"
+  },
+  "weather": [
+    {
+      "date": "2026-10-15",
+      "condition": "Rain",
+      "pop": 1.0,
+      "is_outdoor_suitable": false
+    },
+    {
+      "date": "2026-10-16",
+      "condition": "Rain",
+      "pop": 1.0,
+      "is_outdoor_suitable": false
+    },
+    {
+      "date": "2026-10-17",
+      "condition": "Rain",
+      "pop": 1.0,
+      "is_outdoor_suitable": false
+    }
+  ],
+  "data_version": "689ece30b82a",
+  "candidates": [
+    {
+      "venue_id": "dvo_poi_0498",
+      "name": "Faith Tabernacle Church - Metro Davao",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "17:00-20:00",
+        "tue": "closed",
+        "wed": "closed",
+        "thu": "16:30-20:30",
+        "fri": "16:30-22:00",
+        "sat": "closed",
+        "sun": "08:00-12:00"
+      },
+      "latitude": 7.0678575,
+      "longitude": 125.61330989999999
+    },
+    {
+      "venue_id": "dvo_poi_1199",
+      "name": "National Museum of the Philippines - Davao",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "09:00-17:00",
+        "tue": "09:00-17:00",
+        "wed": "09:00-17:00",
+        "thu": "09:00-17:00",
+        "fri": "09:00-17:00",
+        "sat": "09:00-17:00",
+        "sun": "09:00-17:00"
+      },
+      "latitude": 7.070172899999999,
+      "longitude": 125.60903929999998
+    },
+    {
+      "venue_id": "dvo_poi_1373",
+      "name": "Cathedral of Praise - Davao",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "closed",
+        "wed": "05:30-18:00",
+        "thu": "05:30-18:00",
+        "fri": "05:30-21:00",
+        "sat": "08:00-20:00",
+        "sun": "06:30-18:30"
+      },
+      "latitude": 7.0753509,
+      "longitude": 125.6197143
+    },
+    {
+      "venue_id": "dvo_poi_0516",
+      "name": "St. Francis of Assisi Parish",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "08:00-12:00, 14:00-17:00",
+        "tue": "08:00-12:00, 14:00-17:00",
+        "wed": "08:00-12:00, 14:00-17:00",
+        "thu": "08:00-12:00, 14:00-17:00",
+        "fri": "08:00-12:00, 14:00-17:00",
+        "sat": "08:00-12:00, 14:00-17:00",
+        "sun": "08:00-12:00, 14:00-17:00"
+      },
+      "latitude": 7.1025168999999995,
+      "longitude": 125.58237229999999
+    },
+    {
+      "venue_id": "dvo_poi_1207",
+      "name": "Foursquare Gospel Church",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "08:00-17:00",
+        "wed": "08:00-17:00",
+        "thu": "08:00-17:00",
+        "fri": "08:00-17:00",
+        "sat": "closed",
+        "sun": "06:30-19:30"
+      },
+      "latitude": 7.0736098,
+      "longitude": 125.6047204
+    },
+    {
+      "venue_id": "dvo_poi_0893",
+      "name": "The Commemorative Monument of Peace and Unity",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0642831,
+      "longitude": 125.60919460000001
+    },
+    {
+      "venue_id": "dvo_poi_0372",
+      "name": "Upside Down House Museum Davao",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 1000,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "08:00-21:00",
+        "tue": "08:00-21:00",
+        "wed": "08:00-21:00",
+        "thu": "08:00-21:00",
+        "fri": "08:00-21:00",
+        "sat": "08:00-21:00",
+        "sun": "08:00-21:00"
+      },
+      "latitude": 7.0717783999999995,
+      "longitude": 125.61127439999999
+    },
+    {
+      "venue_id": "dvo_poi_0139",
+      "name": "The Church of Jesus Christ of Latter-day Saints",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "09:00-18:00",
+        "tue": "09:00-18:00",
+        "wed": "09:00-18:00",
+        "thu": "09:00-18:00",
+        "fri": "09:00-18:00",
+        "sat": "09:00-18:00",
+        "sun": "09:00-12:00, 13:30-16:30"
+      },
+      "latitude": 7.0579467,
+      "longitude": 125.56869010000001
+    },
+    {
+      "venue_id": "dvo_poi_0225",
+      "name": "Roxas Night Market",
+      "category": [
+        "Food",
+        "Shopping"
+      ],
+      "est_group_cost_php": 360,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "17:00-00:00",
+        "tue": "17:00-00:00",
+        "wed": "17:00-00:00",
+        "thu": "17:00-00:00",
+        "fri": "17:00-00:00",
+        "sat": "17:00-00:00",
+        "sun": "17:00-00:00"
+      },
+      "latitude": 7.071797900000001,
+      "longitude": 125.61229180000001
+    },
+    {
+      "venue_id": "dvo_poi_0108",
+      "name": "Macatabo Farm",
+      "category": [
+        "Food",
+        "Nature"
+      ],
+      "est_group_cost_php": 400,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "10:00-17:00",
+        "tue": "10:00-17:00",
+        "wed": "10:00-17:00",
+        "thu": "10:00-17:00",
+        "fri": "10:00-17:00",
+        "sat": "10:00-17:00",
+        "sun": "10:00-17:00"
+      },
+      "latitude": 7.127819199999999,
+      "longitude": 125.3628292
+    },
+    {
+      "venue_id": "dvo_poi_0925",
+      "name": "Jollibee",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 660,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0595721,
+      "longitude": 125.55038950000001
+    },
+    {
+      "venue_id": "dvo_poi_0355",
+      "name": "Junex Tuna & Seafood",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 700,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "08:30-22:15",
+        "tue": "08:30-22:15",
+        "wed": "08:30-22:15",
+        "thu": "08:30-22:15",
+        "fri": "08:30-22:15",
+        "sat": "08:30-22:15",
+        "sun": "08:30-22:15"
+      },
+      "latitude": 7.0538827,
+      "longitude": 125.56091789999999
+    },
+    {
+      "venue_id": "dvo_poi_0070",
+      "name": "Lachi's",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 1240,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "10:00-20:00",
+        "tue": "10:00-20:00",
+        "wed": "10:00-20:00",
+        "thu": "10:00-20:00",
+        "fri": "10:00-20:00",
+        "sat": "10:00-20:00",
+        "sun": "10:00-20:00"
+      },
+      "latitude": 7.0588888,
+      "longitude": 125.5882171
+    },
+    {
+      "venue_id": "dvo_poi_1229",
+      "name": "Asian Cow by Chef Patrick Co",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 1400,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "11:00-22:00",
+        "tue": "11:00-22:00",
+        "wed": "11:00-22:00",
+        "thu": "11:00-22:00",
+        "fri": "11:00-22:00",
+        "sat": "11:00-22:00",
+        "sun": "11:00-22:00"
+      },
+      "latitude": 7.074192999999999,
+      "longitude": 125.60836769999999
+    },
+    {
+      "venue_id": "dvo_poi_0166",
+      "name": "Davao Dencia's Restaurant",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 2000,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "07:00-20:30",
+        "tue": "07:00-20:30",
+        "wed": "07:00-20:30",
+        "thu": "07:00-20:30",
+        "fri": "07:00-20:30",
+        "sat": "07:00-20:30",
+        "sun": "07:00-20:30"
+      },
+      "latitude": 7.0696959999999995,
+      "longitude": 125.60685950000001
+    },
+    {
+      "venue_id": "dvo_poi_0482",
+      "name": "Vista View Resto",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 1520,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "10:30-22:30",
+        "tue": "10:30-22:30",
+        "wed": "10:30-22:30",
+        "thu": "10:30-22:30",
+        "fri": "10:30-22:30",
+        "sat": "10:30-22:30",
+        "sun": "10:30-22:30"
+      },
+      "latitude": 7.0933287,
+      "longitude": 125.5687121
+    },
+    {
+      "venue_id": "dvo_poi_1336",
+      "name": "DGT Central Park",
+      "category": [
+        "Nature"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0563217,
+      "longitude": 125.5819132
+    },
+    {
+      "venue_id": "dvo_poi_0524",
+      "name": "Crocodile Park Picnic Grounds",
+      "category": [
+        "Nature"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.098109999999999,
+      "longitude": 125.59810829999999
+    },
+    {
+      "venue_id": "dvo_poi_0970",
+      "name": "People’s Park",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "13:00-22:00",
+        "tue": "13:00-22:00",
+        "wed": "13:00-22:00",
+        "thu": "13:00-22:00",
+        "fri": "13:00-22:00",
+        "sat": "13:00-22:00",
+        "sun": "13:00-22:00"
+      },
+      "latitude": 7.070526399999999,
+      "longitude": 125.60846640000001
+    },
+    {
+      "venue_id": "dvo_poi_1231",
+      "name": "Los Amigos Park",
+      "category": [
+        "Nature"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.1411821,
+      "longitude": 125.4798632
+    },
+    {
+      "venue_id": "dvo_poi_1239",
+      "name": "Philippine Eagle Center",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 600,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "08:00-16:30",
+        "tue": "08:00-16:30",
+        "wed": "08:00-16:30",
+        "thu": "08:00-16:30",
+        "fri": "08:00-16:30",
+        "sat": "08:00-16:30",
+        "sun": "08:00-16:30"
+      },
+      "latitude": 7.18498,
+      "longitude": 125.41528369999999
+    },
+    {
+      "venue_id": "dvo_poi_1325",
+      "name": "Gap Farming Resort",
+      "category": [
+        "Nature",
+        "Accommodation"
+      ],
+      "est_group_cost_php": 3600,
+      "average_rating": 4.0,
+      "operating_hours": {
+        "mon": "09:00-17:00",
+        "tue": "09:00-17:00",
+        "wed": "09:00-17:00",
+        "thu": "09:00-17:00",
+        "fri": "09:00-17:00",
+        "sat": "09:00-17:00",
+        "sun": "09:00-17:00"
+      },
+      "latitude": 7.0960348,
+      "longitude": 125.5722797
+    },
+    {
+      "venue_id": "dvo_poi_0767",
+      "name": "WYNWARD GARDEN BISTRO",
+      "category": [
+        "Food",
+        "Nature"
+      ],
+      "est_group_cost_php": 1000,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "10:00-21:00",
+        "tue": "10:00-21:00",
+        "wed": "10:00-21:00",
+        "thu": "10:00-21:00",
+        "fri": "10:00-21:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      },
+      "latitude": 7.0904484,
+      "longitude": 125.61311800000001
+    },
+    {
+      "venue_id": "dvo_poi_1394",
+      "name": "Honea Bee Farm",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 1200,
+      "average_rating": 4.9,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "closed",
+        "wed": "closed",
+        "thu": "09:00-16:00",
+        "fri": "09:00-16:00",
+        "sat": "09:00-16:00",
+        "sun": "closed"
+      },
+      "latitude": 7.0052525,
+      "longitude": 125.4261684
+    }
+  ],
+  "itinerary": {
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2026-10-15",
+        "slots": [
+          {
+            "time_start": "09:00",
+            "time_end": "11:00",
+            "venue_id": "dvo_poi_1199"
+          },
+          {
+            "time_start": "11:30",
+            "time_end": "13:30",
+            "venue_id": "dvo_poi_0166"
+          },
+          {
+            "time_start": "14:00",
+            "time_end": "16:00",
+            "venue_id": "dvo_poi_0372"
+          },
+          {
+            "time_start": "17:00",
+            "time_end": "19:00",
+            "venue_id": "dvo_poi_0225"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2026-10-16",
+        "slots": [
+          {
+            "time_start": "10:00",
+            "time_end": "12:00",
+            "venue_id": "dvo_poi_0516"
+          },
+          {
+            "time_start": "12:30",
+            "time_end": "14:30",
+            "venue_id": "dvo_poi_0070"
+          },
+          {
+            "time_start": "15:00",
+            "time_end": "17:00",
+            "venue_id": "dvo_poi_0893"
+          },
+          {
+            "time_start": "17:30",
+            "time_end": "19:30",
+            "venue_id": "dvo_poi_0355"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "date": "2026-10-17",
+        "slots": [
+          {
+            "time_start": "08:00",
+            "time_end": "10:00",
+            "venue_id": "dvo_poi_1373"
+          },
+          {
+            "time_start": "11:00",
+            "time_end": "13:00",
+            "venue_id": "dvo_poi_1229"
+          },
+          {
+            "time_start": "13:30",
+            "time_end": "15:30",
+            "venue_id": "dvo_poi_0139"
+          },
+          {
+            "time_start": "16:00",
+            "time_end": "18:00",
+            "venue_id": "dvo_poi_0925"
+          }
+        ]
+      }
+    ]
+  }
+}

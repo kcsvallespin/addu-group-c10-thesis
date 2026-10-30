@@ -1,0 +1,420 @@
+{
+  "scenario": {
+    "id": "S01",
+    "duration_days": 2,
+    "budget_per_person_php": 2000,
+    "budget_php": 8000,
+    "interests": [
+      "Entertainment",
+      "Sightseeing"
+    ],
+    "group_size": 4,
+    "weather_pattern": "rain",
+    "start_date": "2026-10-12"
+  },
+  "weather": [
+    {
+      "date": "2026-10-12",
+      "condition": "Rain",
+      "pop": 1.0,
+      "is_outdoor_suitable": false
+    },
+    {
+      "date": "2026-10-13",
+      "condition": "Rain",
+      "pop": 1.0,
+      "is_outdoor_suitable": false
+    }
+  ],
+  "data_version": "689ece30b82a",
+  "candidates": [
+    {
+      "venue_id": "dvo_poi_1033",
+      "name": "The Fountain Court",
+      "category": [
+        "Entertainment"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "07:00-21:00",
+        "tue": "07:00-21:00",
+        "wed": "07:00-21:00",
+        "thu": "07:00-21:00",
+        "fri": "07:00-21:00",
+        "sat": "07:00-21:00",
+        "sun": "07:00-21:00"
+      },
+      "latitude": 7.0978613,
+      "longitude": 125.63159200000001
+    },
+    {
+      "venue_id": "dvo_poi_1025",
+      "name": "Zoofari Kids Adventure - SM City Davao",
+      "category": [
+        "Entertainment"
+      ],
+      "est_group_cost_php": 80,
+      "average_rating": 4.1,
+      "operating_hours": {
+        "mon": "10:00-21:00",
+        "tue": "10:00-21:00",
+        "wed": "10:00-21:00",
+        "thu": "10:00-21:00",
+        "fri": "10:00-21:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      },
+      "latitude": 7.049211,
+      "longitude": 125.587848
+    },
+    {
+      "venue_id": "dvo_poi_0522",
+      "name": "Christmas Mansion",
+      "category": [
+        "Entertainment",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 120,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "17:00-22:00",
+        "tue": "17:00-22:00",
+        "wed": "17:00-22:00",
+        "thu": "17:00-22:00",
+        "fri": "17:00-22:00",
+        "sat": "17:00-22:00",
+        "sun": "17:00-22:00"
+      },
+      "latitude": 7.1105882,
+      "longitude": 125.62924760000001
+    },
+    {
+      "venue_id": "dvo_poi_0462",
+      "name": "NCCC Cinemas",
+      "category": [
+        "Entertainment"
+      ],
+      "est_group_cost_php": 1080,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "09:00-17:00",
+        "tue": "09:00-17:00",
+        "wed": "09:00-17:00",
+        "thu": "09:00-17:00",
+        "fri": "09:00-17:00",
+        "sat": "closed",
+        "sun": "closed"
+      },
+      "latitude": 7.110398399999999,
+      "longitude": 125.61174930000001
+    },
+    {
+      "venue_id": "dvo_poi_1024",
+      "name": "Deca wakeboard park davao city",
+      "category": [
+        "Entertainment"
+      ],
+      "est_group_cost_php": 4000,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "09:00-17:00",
+        "wed": "09:00-17:00",
+        "thu": "09:00-17:00",
+        "fri": "09:00-17:00",
+        "sat": "09:00-17:00",
+        "sun": "09:00-17:00"
+      },
+      "latitude": 7.1094201,
+      "longitude": 125.50120050000001
+    },
+    {
+      "venue_id": "dvo_poi_0633",
+      "name": "ClaudMaru Rainforest",
+      "category": [
+        "Entertainment",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 1800,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "07:00-00:00",
+        "tue": "07:00-00:00",
+        "wed": "07:00-00:00",
+        "thu": "07:00-00:00",
+        "fri": "07:00-00:00",
+        "sat": "07:00-00:00",
+        "sun": "07:00-00:00"
+      },
+      "latitude": 7.4308815,
+      "longitude": 125.2472989
+    },
+    {
+      "venue_id": "dvo_poi_0402",
+      "name": "Davao Butterfly House Inc.",
+      "category": [
+        "Entertainment",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 1400,
+      "average_rating": 3.7,
+      "operating_hours": {
+        "mon": "08:00-17:00",
+        "tue": "08:00-17:00",
+        "wed": "08:00-17:00",
+        "thu": "08:00-17:00",
+        "fri": "08:00-17:00",
+        "sat": "08:00-17:00",
+        "sun": "08:00-17:00"
+      },
+      "latitude": 7.095787,
+      "longitude": 125.5956726
+    },
+    {
+      "venue_id": "dvo_poi_0040",
+      "name": "Davao Riverfront Crocodile Park & Zoo",
+      "category": [
+        "Entertainment",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 1400,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "08:00-17:00",
+        "tue": "08:00-17:00",
+        "wed": "08:00-17:00",
+        "thu": "08:00-17:00",
+        "fri": "08:00-17:00",
+        "sat": "08:00-17:00",
+        "sun": "08:00-17:00"
+      },
+      "latitude": 7.0970749,
+      "longitude": 125.599249
+    },
+    {
+      "venue_id": "dvo_poi_0893",
+      "name": "The Commemorative Monument of Peace and Unity",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0642831,
+      "longitude": 125.60919460000001
+    },
+    {
+      "venue_id": "dvo_poi_0895",
+      "name": "Chinatown Arch",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0743260999999995,
+      "longitude": 125.6246898
+    },
+    {
+      "venue_id": "dvo_poi_0356",
+      "name": "Shrine of the Holy Infant Jesus of Prague",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "07:00-18:00",
+        "tue": "07:00-18:00",
+        "wed": "07:00-18:00",
+        "thu": "07:00-18:00",
+        "fri": "07:00-18:00",
+        "sat": "07:00-18:00",
+        "sun": "07:00-18:00"
+      },
+      "latitude": 7.0663979,
+      "longitude": 125.5784089
+    },
+    {
+      "venue_id": "dvo_poi_1149",
+      "name": "Ramon Magsaysay Park",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "04:00-22:00",
+        "tue": "04:00-22:00",
+        "wed": "04:00-22:00",
+        "thu": "04:00-22:00",
+        "fri": "04:00-22:00",
+        "sat": "04:00-22:00",
+        "sun": "04:00-22:00"
+      },
+      "latitude": 7.074384299999999,
+      "longitude": 125.62560810000001
+    },
+    {
+      "venue_id": "dvo_poi_1242",
+      "name": "JACA Mountain Peak",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 2000,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "closed",
+        "wed": "08:00-18:00",
+        "thu": "08:00-18:00",
+        "fri": "08:00-18:00",
+        "sat": "08:00-18:00",
+        "sun": "08:00-18:00"
+      },
+      "latitude": 7.422169599999999,
+      "longitude": 125.23192239999997
+    },
+    {
+      "venue_id": "dvo_poi_1313",
+      "name": "Rizal Park",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.064481700000001,
+      "longitude": 125.6084137
+    },
+    {
+      "venue_id": "dvo_poi_0820",
+      "name": "Our Mother of Perpetual Help Parish - Redemptorist Church",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "08:30-17:30",
+        "tue": "08:30-17:30",
+        "wed": "08:30-17:30",
+        "thu": "08:30-17:30",
+        "fri": "08:30-17:30",
+        "sat": "08:30-17:30",
+        "sun": "08:30-17:30"
+      },
+      "latitude": 7.092149399999999,
+      "longitude": 125.6097552
+    },
+    {
+      "venue_id": "dvo_poi_0723",
+      "name": "Freedom Park",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0730311,
+      "longitude": 125.61138469999999
+    }
+  ],
+  "itinerary": {
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2026-10-12",
+        "slots": [
+          {
+            "time_start": "08:00",
+            "time_end": "10:00",
+            "venue_id": "dvo_poi_1033"
+          },
+          {
+            "time_start": "10:30",
+            "time_end": "12:30",
+            "venue_id": "dvo_poi_0462"
+          },
+          {
+            "time_start": "13:00",
+            "time_end": "15:00",
+            "venue_id": "dvo_poi_0402"
+          },
+          {
+            "time_start": "17:00",
+            "time_end": "19:00",
+            "venue_id": "dvo_poi_0522"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2026-10-13",
+        "slots": [
+          {
+            "time_start": "09:00",
+            "time_end": "11:00",
+            "venue_id": "dvo_poi_1024"
+          },
+          {
+            "time_start": "11:30",
+            "time_end": "12:30",
+            "venue_id": "dvo_poi_1025"
+          },
+          {
+            "time_start": "13:00",
+            "time_end": "14:00",
+            "venue_id": "dvo_poi_0893"
+          },
+          {
+            "time_start": "14:30",
+            "time_end": "15:30",
+            "venue_id": "dvo_poi_0356"
+          }
+        ]
+      }
+    ]
+  }
+}

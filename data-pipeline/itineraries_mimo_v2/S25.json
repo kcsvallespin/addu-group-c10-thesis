@@ -1,0 +1,279 @@
+{
+  "scenario": {
+    "id": "S25",
+    "duration_days": 2,
+    "budget_per_person_php": 1000,
+    "budget_php": 2000,
+    "interests": [
+      "Food"
+    ],
+    "group_size": 2,
+    "weather_pattern": "rain",
+    "start_date": "2026-10-15"
+  },
+  "weather": [
+    {
+      "date": "2026-10-15",
+      "condition": "Rain",
+      "pop": 1.0,
+      "is_outdoor_suitable": false
+    },
+    {
+      "date": "2026-10-16",
+      "condition": "Rain",
+      "pop": 1.0,
+      "is_outdoor_suitable": false
+    }
+  ],
+  "data_version": "689ece30b82a",
+  "candidates": [
+    {
+      "venue_id": "dvo_poi_0225",
+      "name": "Roxas Night Market",
+      "category": [
+        "Food",
+        "Shopping"
+      ],
+      "est_group_cost_php": 180,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "17:00-00:00",
+        "tue": "17:00-00:00",
+        "wed": "17:00-00:00",
+        "thu": "17:00-00:00",
+        "fri": "17:00-00:00",
+        "sat": "17:00-00:00",
+        "sun": "17:00-00:00"
+      },
+      "latitude": 7.071797900000001,
+      "longitude": 125.61229180000001
+    },
+    {
+      "venue_id": "dvo_poi_0108",
+      "name": "Macatabo Farm",
+      "category": [
+        "Food",
+        "Nature"
+      ],
+      "est_group_cost_php": 200,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "10:00-17:00",
+        "tue": "10:00-17:00",
+        "wed": "10:00-17:00",
+        "thu": "10:00-17:00",
+        "fri": "10:00-17:00",
+        "sat": "10:00-17:00",
+        "sun": "10:00-17:00"
+      },
+      "latitude": 7.127819199999999,
+      "longitude": 125.3628292
+    },
+    {
+      "venue_id": "dvo_poi_0925",
+      "name": "Jollibee",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 330,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0595721,
+      "longitude": 125.55038950000001
+    },
+    {
+      "venue_id": "dvo_poi_0355",
+      "name": "Junex Tuna & Seafood",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 350,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "08:30-22:15",
+        "tue": "08:30-22:15",
+        "wed": "08:30-22:15",
+        "thu": "08:30-22:15",
+        "fri": "08:30-22:15",
+        "sat": "08:30-22:15",
+        "sun": "08:30-22:15"
+      },
+      "latitude": 7.0538827,
+      "longitude": 125.56091789999999
+    },
+    {
+      "venue_id": "dvo_poi_1262",
+      "name": "Jollibee Davao Bolton",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 368,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.066188899999999,
+      "longitude": 125.60932819999998
+    },
+    {
+      "venue_id": "dvo_poi_0732",
+      "name": "Italianni's Restaurant - Abreeza Mall",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 840,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "11:00-21:00",
+        "tue": "11:00-21:00",
+        "wed": "11:00-21:00",
+        "thu": "11:00-21:00",
+        "fri": "10:00-21:00",
+        "sat": "10:00-21:00",
+        "sun": "10:00-21:00"
+      },
+      "latitude": 7.091969,
+      "longitude": 125.612337
+    },
+    {
+      "venue_id": "dvo_poi_1127",
+      "name": "Jack's Ridge",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 900,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "08:00-22:30",
+        "tue": "08:00-22:30",
+        "wed": "08:00-22:30",
+        "thu": "08:00-22:30",
+        "fri": "08:00-22:30",
+        "sat": "08:00-22:30",
+        "sun": "08:00-22:30"
+      },
+      "latitude": 7.0664234,
+      "longitude": 125.5823669
+    },
+    {
+      "venue_id": "dvo_poi_0154",
+      "name": "Cafe Demitasse",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 390,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "08:00-22:00",
+        "tue": "08:00-22:00",
+        "wed": "08:00-22:00",
+        "thu": "08:00-22:00",
+        "fri": "08:00-00:00",
+        "sat": "08:00-00:00",
+        "sun": "08:00-22:00"
+      },
+      "latitude": 7.0772834,
+      "longitude": 125.6052335
+    },
+    {
+      "venue_id": "dvo_poi_1288",
+      "name": "The Swiss Deli & Restaurant - Mamay",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 1300,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "08:00-22:00",
+        "tue": "08:00-22:00",
+        "wed": "08:00-22:00",
+        "thu": "08:00-22:00",
+        "fri": "08:00-22:00",
+        "sat": "08:00-22:00",
+        "sun": "08:00-22:00"
+      },
+      "latitude": 7.115999200000001,
+      "longitude": 125.6288824
+    },
+    {
+      "venue_id": "dvo_poi_0166",
+      "name": "Davao Dencia's Restaurant",
+      "category": [
+        "Food"
+      ],
+      "est_group_cost_php": 1000,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "07:00-20:30",
+        "tue": "07:00-20:30",
+        "wed": "07:00-20:30",
+        "thu": "07:00-20:30",
+        "fri": "07:00-20:30",
+        "sat": "07:00-20:30",
+        "sun": "07:00-20:30"
+      },
+      "latitude": 7.0696959999999995,
+      "longitude": 125.60685950000001
+    }
+  ],
+  "itinerary": {
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2026-10-15",
+        "slots": [
+          {
+            "time_start": "08:00",
+            "time_end": "10:00",
+            "venue_id": "dvo_poi_1127"
+          },
+          {
+            "time_start": "11:30",
+            "time_end": "13:30",
+            "venue_id": "dvo_poi_0732"
+          },
+          {
+            "time_start": "17:30",
+            "time_end": "19:30",
+            "venue_id": "dvo_poi_0225"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2026-10-16",
+        "slots": [
+          {
+            "time_start": "08:00",
+            "time_end": "10:00",
+            "venue_id": "dvo_poi_1288"
+          },
+          {
+            "time_start": "12:00",
+            "time_end": "14:00",
+            "venue_id": "dvo_poi_0355"
+          },
+          {
+            "time_start": "18:00",
+            "time_end": "20:00",
+            "venue_id": "dvo_poi_0925"
+          }
+        ]
+      }
+    ]
+  }
+}

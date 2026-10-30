@@ -1,4 +1,5 @@
 import os
+import hashlib
 import json
 import math
 import random
@@ -7,19 +8,21 @@ import time
 import datetime as dt
 import requests
 
+# The web app (frontend/src/lib/*.ts) is a line-for-line port of this file: same candidate pool, same prompt
+# bytes, same checker messages. Change one, change the other, then run `python parity/run_parity.py`.
+
 # ---------------- Config ----------------
-MODEL = "xiaomi/mimo-v2.5-pro"
+HERE = os.path.dirname(os.path.abspath(__file__))
+MODEL = os.environ.get("MODEL", "xiaomi/mimo-v2.5-pro")
 TEMPERATURE = 0.2   # fixed for reproducibility; report this value in the paper
-VENUES_FILE = os.path.join("..", "data-pipeline", "davao_venues.json")
+VENUES_FILE = os.path.join(HERE, "benchmark_venues.json")   # built from price_data.xlsx by make_price_overrides.py
 SEED = 42
-PER_INTEREST = 8          # candidates pulled per requested interest
-MAX_CANDIDATES = 24
-MAX_ATTEMPTS = 3          # initial try + 2 repair rounds       # keeps the payload small
+PER_INTEREST = 8          # candidates pulled per requested interest (raised for long, narrow trips; see pool_sizes)
+MAX_CANDIDATES = 24       # keeps the payload small
+MAX_ATTEMPTS = 3          # initial try + 2 repair rounds
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 OPENWEATHERMAP_API_KEY = os.environ.get("OPENWEATHERMAP_API_KEY")
-if not OPENROUTER_API_KEY:
-    raise ValueError("Set OPENROUTER_API_KEY environment variable first")
 
 # Test scenario (replace with one of your 30 later)
 SCENARIO = {
@@ -29,32 +32,32 @@ SCENARIO = {
     "group_size": 2,
 }
 
-# ---- Cost model (assumed values - see paper; Google gives categories, not amounts) ----
-PER_PERSON = {"Free": 0, "Inexpensive": 150, "Moderate": 450,
-              "Expensive": 1000, "Very Expensive": 2000, None: 450}
-PER_ROOM_NIGHT = {"Inexpensive": 1000, "Moderate": 2500,
-                  "Expensive": 5000, "Very Expensive": 9000, None: 2500}
+# ---- Cost model: hand-verified prices from price_data.xlsx (per person, or per room per night) ----
 COST_SCALE = 1.0   # set to 0.75 / 1.25 for the sensitivity check
 
 
-def range_midpoint(text):
-    """'PHP 500 - PHP 1000' -> 750.0 ; None if it can't be parsed."""
-    nums = [float(n.replace(",", "")) for n in re.findall(r"\d[\d,]*\.?\d*", text or "")]
-    if len(nums) >= 2:
-        return (nums[0] + nums[1]) / 2
-    return nums[0] if nums else None
+def load_venues():
+    if not os.path.exists(VENUES_FILE):
+        raise SystemExit(f"{VENUES_FILE} not found - run `python make_price_overrides.py` first.")
+    with open(VENUES_FILE, encoding="utf-8") as f:
+        venues = json.load(f)
+    bad = [v["venue_id"] for v in venues if v.get("price_unit") not in ("per_person", "room_night")
+           or not isinstance(v.get("price_php"), (int, float))]
+    if not venues or bad:
+        raise SystemExit(f"{VENUES_FILE} is empty or has venues without a verified price: {bad[:10]}")
+    return venues
+
+
+VENUES = load_venues()
+with open(VENUES_FILE, "rb") as _f:
+    DATA_VERSION = hashlib.sha256(_f.read()).hexdigest()[:12]   # recorded with every result
 
 
 def venue_cost(v, group_size):
     """Estimated peso cost of one visit for the whole group."""
-    cat = v.get("price_category")
-    accommodation = "Accommodation" in (v.get("category") or [])
-    if accommodation:
-        base = PER_ROOM_NIGHT.get(cat, PER_ROOM_NIGHT[None])
-        return COST_SCALE * base * math.ceil(group_size / 2)
-    mid = range_midpoint(v.get("price_range_text"))
-    per_person = mid if mid is not None else PER_PERSON.get(cat, PER_PERSON[None])
-    return COST_SCALE * per_person * group_size
+    if v["price_unit"] == "room_night":
+        return COST_SCALE * v["price_php"] * math.ceil(group_size / 2)
+    return COST_SCALE * v["price_php"] * group_size
 
 
 WEATHER = []
@@ -118,46 +121,55 @@ CONTEXT PAYLOAD:
 {context_payload_json}
 """
 
+REPAIR_PROMPT = ("Your itinerary violated these constraints:\n- {problems}"
+                 "\nFix every problem and return the full corrected JSON object only. "
+                 "Keep using only venue_ids from the candidate list.")
+INVALID_JSON_PROBLEM = "Response was not valid JSON. Reply with ONLY the JSON object."
+
 
 # ---------------- Phase 1: context ----------------
+def pool_sizes(scenario):
+    """(per_interest, max_candidates). A trip needs at least 3 unique venues per day, so long trips with few
+    interests get a bigger pool (5 per day) than the default 8 per interest / 24 total."""
+    need = 5 * scenario["duration_days"]
+    return (max(PER_INTEREST, math.ceil(need / len(scenario["interests"]))),
+            max(MAX_CANDIDATES, need))
+
+
 def load_candidates():
-    with open(VENUES_FILE, encoding="utf-8") as f:
-        venues = json.load(f)
+    per_interest, max_candidates = pool_sizes(SCENARIO)
     rng = random.Random(SEED)
     chosen, seen_ids, seen_names = [], set(), set()
 
     for interest in SCENARIO["interests"]:
-        pool = [v for v in venues
-                if interest in (v.get("category") or [])
+        pool = [v for v in VENUES
+                if interest in v["category"]
                 and v.get("latitude") is not None
+                and v.get("longitude") is not None
                 and v.get("operating_hours")]            # prefer venues with known hours
-        # quality score: rating weighted by popularity
-        pool.sort(key=lambda v: (v.get("average_rating") or 0) * math.log10((v.get("rating_count") or 0) + 10),
-                  reverse=True)
-        top = pool[:PER_INTEREST * 4]                    # shortlist, then sample for variety
+        # quality score: rating weighted by popularity (precomputed by make_price_overrides.py)
+        pool.sort(key=lambda v: v["quality_score"], reverse=True)
+        top = pool[:per_interest * 4]                    # shortlist, then sample for variety
         rng.shuffle(top)
-        cheap = sorted(top, key=lambda v: venue_cost(v, 1))[:PER_INTEREST // 2]   # guarantee affordable options
+        cheap = sorted(top, key=lambda v: venue_cost(v, 1))[:per_interest // 2]   # guarantee affordable options
         top = cheap + [v for v in top if v not in cheap]
         taken = 0
         for v in top:
-            name = (v["name"] or "").strip().lower()
-            if v["venue_id"] in seen_ids or name in seen_names:   # drop chain-branch duplicates
+            if v["venue_id"] in seen_ids or v["name_key"] in seen_names:   # drop chain-branch duplicates
                 continue
             seen_ids.add(v["venue_id"])
-            seen_names.add(name)
+            seen_names.add(v["name_key"])
             chosen.append(v)
             taken += 1
-            if taken >= PER_INTEREST:
+            if taken >= per_interest:
                 break
 
     out = []
-    for v in chosen[:MAX_CANDIDATES]:
+    for v in chosen[:max_candidates]:
         out.append({
             "venue_id": v["venue_id"],
             "name": v["name"],
             "category": v["category"],
-            "price_category": v.get("price_category") if v.get("price_category") != "Not Available" else None,
-            "price_range_text": v.get("price_range_text"),
             "est_group_cost_php": round(venue_cost(v, SCENARIO["group_size"])),
             "average_rating": v.get("average_rating"),
             "operating_hours": v.get("operating_hours"),
@@ -165,6 +177,35 @@ def load_candidates():
             "longitude": v["longitude"],
         })
     return out
+
+
+def feasibility(candidates, scenario, weather):
+    """Reasons the scenario cannot be satisfied by ANY itinerary from these candidates (empty list = may be
+    feasible). These are necessary conditions only; opening hours are not considered."""
+    days = scenario["duration_days"]
+    rain_days = sum(1 for w in weather if not w.get("is_outdoor_suitable", True))
+    any_outdoor = any(w.get("is_outdoor_suitable") for w in weather)
+    reasons = []
+    if len(candidates) < 3 * days:
+        reasons.append(f"only {len(candidates)} candidate venues for {days} day(s); "
+                       f"at least {3 * days} unique venues are needed")
+    indoor = [c for c in candidates if "Nature" not in c["category"]]
+    if len(indoor) < 3 * rain_days:
+        reasons.append(f"only {len(indoor)} non-Nature candidates for {rain_days} rainy day(s); "
+                       f"at least {3 * rain_days} are needed")
+    costs = sorted(c["est_group_cost_php"] for c in candidates)
+    if len(costs) >= 3 and sum(costs[:3]) > scenario["budget_php"]:
+        reasons.append(f"the 3 cheapest candidates cost PHP {sum(costs[:3]):,} together, "
+                       f"over the daily budget of PHP {scenario['budget_php']:,}")
+    elif len(costs) >= 3 * days and sum(costs[:3 * days]) > days * scenario["budget_php"]:
+        reasons.append(f"the {3 * days} cheapest candidates cost PHP {sum(costs[:3 * days]):,} together, "
+                       f"over the trip budget of PHP {days * scenario['budget_php']:,}")
+    for i in scenario["interests"]:
+        if i == "Nature" and not any_outdoor:
+            continue                                     # the checker excuses Nature when every day is rainy
+        if not any(i in c["category"] and (any_outdoor or "Nature" not in c["category"]) for c in candidates):
+            reasons.append(f"no candidate can cover the interest {i}")
+    return reasons
 
 
 def get_weather():
@@ -198,6 +239,22 @@ def get_weather():
     return result
 
 
+def build_prompt(scenario, candidates, weather):
+    context = {"user_constraints": {k: scenario[k] for k in ("duration_days", "budget_php", "interests", "group_size")},
+               "weather_summary": {"forecast_by_date": weather},
+               "candidate_venues": candidates}
+    return (SYSTEM_PROMPT
+            .replace("{duration_days}", str(scenario["duration_days"]))
+            .replace("{budget_php}", str(scenario["budget_php"]))
+            .replace("{interests}", ", ".join(scenario["interests"]))
+            .replace("{group_size}", str(scenario["group_size"]))
+            .replace("{context_payload_json}", json.dumps(context, ensure_ascii=False)))
+
+
+def repair_message(problems):
+    return REPAIR_PROMPT.replace("{problems}", "\n- ".join(problems))
+
+
 # ---------------- Phase 2: model call ----------------
 MAX_RETRIES = 4            # extra tries for dropped connections, timeouts, 429 and 5xx errors
 RETRY_STATUS = {429, 500, 502, 503, 504}
@@ -206,6 +263,9 @@ RETRY_STATUS = {429, 500, 502, 503, 504}
 def call_model(messages):
     """POST to OpenRouter. Retries network drops and temporary server errors with backoff;
     any other non-200 response (bad key, no credits, retired model) stops immediately."""
+    if not OPENROUTER_API_KEY:
+        print("Set OPENROUTER_API_KEY environment variable first")
+        raise SystemExit(1)
     last_error = None
     for attempt in range(MAX_RETRIES + 1):
         if attempt:
@@ -247,15 +307,23 @@ def get_content(data):
     return (msg.get("content") or ""), choice.get("finish_reason")
 
 
+def _reject_constant(name):
+    raise ValueError(f"invalid JSON constant {name}")     # NaN / Infinity: JavaScript's JSON.parse rejects them too
+
+
 def parse_json(text):
+    """Raises ValueError (json.JSONDecodeError is one) when the reply is not a JSON value."""
     if not text or not text.strip():
         raise json.JSONDecodeError("empty response", "", 0)
-    text = text.strip()
+    text = re.sub(r"<think>.*?</think>", "", text, flags=re.S).strip()    # some reasoning models (e.g. DeepSeek R1) inline this
     if text.startswith("```"):
         text = text.strip("`")
         if text.lower().startswith("json"):
             text = text[4:]
-    return json.loads(text.strip())
+    text = text.strip()
+    if not text.startswith("{") and "{" in text and "}" in text:           # prose before/after the JSON object
+        text = text[text.index("{"): text.rindex("}") + 1]
+    return json.loads(text, parse_constant=_reject_constant)
 
 
 # ---------------- Checks ----------------
@@ -267,6 +335,8 @@ def to_min(hhmm):
 def within_hours(hours_dict, date_str, start, end):
     """True/False, or None when hours are unknown."""
     if not hours_dict:
+        return None
+    if not isinstance(date_str, str) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", date_str):
         return None
     try:
         wd = DAYS[dt.date.fromisoformat(date_str).weekday()]
@@ -289,13 +359,42 @@ def within_hours(hours_dict, date_str, start, end):
 
 def parse_time(t):
     """'HH:MM' -> minutes, or None if malformed."""
-    try:
-        h, m = str(t).split(":")
-        h, m = int(h), int(m)
-        if 0 <= h <= 24 and 0 <= m < 60:
-            return h * 60 + m
-    except ValueError:
-        pass
+    if not isinstance(t, str):
+        return None
+    parts = t.split(":")
+    if len(parts) != 2 or not all(re.fullmatch(r"\s*[+-]?[0-9]+\s*", p) for p in parts):
+        return None
+    h, m = int(parts[0]), int(parts[1])
+    if 0 <= h <= 24 and 0 <= m < 60:
+        return h * 60 + m
+    return None
+
+
+def py_str(x):
+    """How an f-string shows a value parsed from the model's JSON (the app mirrors this exactly)."""
+    if isinstance(x, float) and x.is_integer():
+        return str(int(x))
+    return str(x)
+
+
+def shape_problem(data):
+    """None when the reply has the itinerary shape the checker can walk; otherwise the one problem to report."""
+    if not isinstance(data, dict) or "itinerary" not in data:
+        return "Missing top-level 'itinerary' key"
+    if not isinstance(data["itinerary"], list):
+        return "Itinerary JSON does not match the required shape ('itinerary' must be a list of days)"
+    for day in data["itinerary"]:
+        if not isinstance(day, dict):
+            return "Itinerary JSON does not match the required shape (every day must be an object)"
+        d = day.get("day")
+        if "day" in day and (isinstance(d, bool) or not isinstance(d, (int, float)) or not float(d).is_integer()):
+            return "Itinerary JSON does not match the required shape ('day' must be a whole number)"
+        if "date" in day and not isinstance(day["date"], str):
+            return "Itinerary JSON does not match the required shape ('date' must be a \"YYYY-MM-DD\" string)"
+        if "slots" in day and not isinstance(day["slots"], list):
+            return "Itinerary JSON does not match the required shape ('slots' must be a list)"
+        if any(not isinstance(s, dict) for s in day.get("slots", [])):
+            return "Itinerary JSON does not match the required shape (every slot must be an object)"
     return None
 
 
@@ -305,8 +404,9 @@ def check_output(data, candidates):
     by_id = {c["venue_id"]: c for c in candidates}
     problems, warnings = [], []
     ROUTE_STATS.update({"legs": 0, "tight_legs": 0, "km": 0.0})
-    if "itinerary" not in data:
-        return ["Missing top-level 'itinerary' key"], []
+    shape = shape_problem(data)
+    if shape:
+        return [shape], []
 
     trip_dates = [w["date"] for w in WEATHER]
     rain_by_date = {w["date"]: not w.get("is_outdoor_suitable", True) for w in WEATHER}
@@ -321,16 +421,17 @@ def check_output(data, candidates):
         for key in ("day", "date", "slots"):
             if key not in day:
                 problems.append(f"Day missing '{key}'")
+        dn = py_str(day.get("day"))
         date = day.get("date", "")
         if trip_dates and date not in trip_dates:
-            problems.append(f"Day {day.get('day')}: date {date} is not a trip date {trip_dates}")
+            problems.append(f"Day {dn}: date {date} is not a trip date {trip_dates}")
         elif date in seen_dates:
             problems.append(f"Date {date} appears more than once")
         seen_dates.append(date)
 
         slots = day.get("slots", [])
         if not 3 <= len(slots) <= 5:
-            problems.append(f"Day {day.get('day')}: {len(slots)} slots (need 3-5)")
+            problems.append(f"Day {dn}: {len(slots)} slots (need 3-5)")
 
         timed = []                                   # (start, end, venue) for the order/overlap/travel checks
         for slot in slots:
@@ -338,17 +439,17 @@ def check_output(data, candidates):
                 if key not in slot:
                     problems.append(f"Slot missing '{key}'")
             vid = slot.get("venue_id")
-            if vid not in by_id:
-                problems.append(f"Hallucinated venue_id: {vid}")
+            if not isinstance(vid, str) or vid not in by_id:
+                problems.append(f"Hallucinated venue_id: {py_str(vid)}")
                 continue
             v = by_id[vid]
             used.append(vid)
-            day_costs[day.get("day")] = day_costs.get(day.get("day"), 0) + venue_cost(v, SCENARIO["group_size"])
+            day_costs[dn] = day_costs.get(dn, 0) + v["est_group_cost_php"]   # the same numbers the model was given
 
             s_min, e_min = parse_time(slot.get("time_start")), parse_time(slot.get("time_end"))
             if s_min is None or e_min is None or e_min <= s_min:
                 problems.append(f"{vid} ({v['name']}): invalid time range "
-                                f"{slot.get('time_start')}-{slot.get('time_end')}")
+                                f"{py_str(slot.get('time_start'))}-{py_str(slot.get('time_end'))}")
                 continue
             timed.append((s_min, e_min, v))
 
@@ -375,10 +476,10 @@ def check_output(data, candidates):
         # order + overlap (listed order must be chronological)
         for (s1, e1, v1), (s2, e2, v2) in zip(timed, timed[1:]):
             if s2 < s1:
-                problems.append(f"Day {day.get('day')}: slots are not in chronological order "
+                problems.append(f"Day {dn}: slots are not in chronological order "
                                 f"({v1['venue_id']} then {v2['venue_id']})")
             elif s2 < e1:
-                problems.append(f"Day {day.get('day')}: slots overlap ({v1['venue_id']} and {v2['venue_id']})")
+                problems.append(f"Day {dn}: slots overlap ({v1['venue_id']} and {v2['venue_id']})")
             else:                                    # soft travel-time check (straight-line lower bound)
                 km = haversine_km(v1, v2)
                 need = km / TRAVEL_SPEED_KMH * 60
@@ -387,15 +488,15 @@ def check_output(data, candidates):
                 ROUTE_STATS["km"] += km
                 if need - gap > TRAVEL_TOLERANCE_MIN:
                     ROUTE_STATS["tight_legs"] += 1
-                    warnings.append(f"travel: day {day.get('day')} {v1['venue_id']}->{v2['venue_id']} "
+                    warnings.append(f"travel: day {dn} {v1['venue_id']}->{v2['venue_id']} "
                                     f"{km:.1f} km needs ~{need:.0f} min, gap is {gap} min "
                                     f"(short by {need - gap:.0f})")
 
-    for d, cost in sorted(day_costs.items(), key=lambda x: str(x[0])):
+    for d, cost in sorted(day_costs.items(), key=lambda x: x[0]):
         if cost > SCENARIO["budget_php"]:
-            problems.append(f"Day {d}: estimated cost PHP {cost:,.0f} exceeds budget PHP {SCENARIO['budget_php']:,}")
+            problems.append(f"Day {d}: estimated cost PHP {cost:,} exceeds budget PHP {SCENARIO['budget_php']:,}")
         else:
-            warnings.append(f"Day {d}: estimated cost PHP {cost:,.0f} (within budget)")
+            warnings.append(f"Day {d}: estimated cost PHP {cost:,} (within budget)")
 
     dupes = {v for v in used if used.count(v) > 1}
     if dupes:
@@ -419,19 +520,9 @@ def main():
     global WEATHER
     WEATHER = get_weather()
     print("Weather:", [(w["date"], w["condition"], round(w["pop"], 2), w["is_outdoor_suitable"]) for w in WEATHER])
-    context = {
-        "user_constraints": SCENARIO,
-        "weather_summary": {"forecast_by_date": WEATHER},
-        "candidate_venues": candidates,
-    }
-    prompt = (SYSTEM_PROMPT
-              .replace("{duration_days}", str(SCENARIO["duration_days"]))
-              .replace("{budget_php}", str(SCENARIO["budget_php"]))
-              .replace("{interests}", ", ".join(SCENARIO["interests"]))
-              .replace("{group_size}", str(SCENARIO["group_size"]))
-              .replace("{context_payload_json}", json.dumps(context, ensure_ascii=False)))
-
-    messages = [{"role": "user", "content": prompt}]
+    for reason in feasibility(candidates, SCENARIO, WEATHER):
+        print("  INFEASIBLE:", reason)
+    messages = [{"role": "user", "content": build_prompt(SCENARIO, candidates, WEATHER)}]
     itinerary, problems, warnings = None, [], []
     for attempt in range(1, MAX_ATTEMPTS + 1):
         print(f"\n--- Attempt {attempt}/{MAX_ATTEMPTS} ---")
@@ -441,9 +532,9 @@ def main():
         raw, finish = get_content(data)
         try:
             itinerary = parse_json(raw)
-        except json.JSONDecodeError as e:
+        except ValueError as e:
             print(f"Response was not valid JSON: {e} (finish_reason={finish})")
-            problems = [f"Response was not valid JSON ({e}). Reply with ONLY the JSON object."]
+            itinerary, problems = None, [INVALID_JSON_PROBLEM]
         else:
             problems, warnings = check_output(itinerary, candidates)
         print("Checks:", "PASSED" if not problems else "FAILED")
@@ -453,13 +544,9 @@ def main():
             print("  warning:", w)
         if not problems:
             break
-        messages += [
-            {"role": "assistant", "content": raw},
-            {"role": "user", "content": "Your itinerary violated these constraints:\n- "
-             + "\n- ".join(problems)
-             + "\nFix every problem and return the full corrected JSON object only. "
-               "Keep using only venue_ids from the candidate list."},
-        ]
+        if raw:
+            messages.append({"role": "assistant", "content": raw})
+        messages.append({"role": "user", "content": repair_message(problems)})
     if itinerary is None:
         raise SystemExit(1)
     print(f"\nFinal result after {attempt} attempt(s): {'PASSED' if not problems else 'STILL FAILING'}")

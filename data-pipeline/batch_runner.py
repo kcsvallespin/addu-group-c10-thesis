@@ -8,8 +8,15 @@ Usage (PowerShell, from the folder that contains run_scenario.py and davao_venue
     python batch_runner.py --summary        # print aggregate numbers from results.json
     python batch_runner.py --fresh          # ignore old results and start over
 
+    # baseline comparison against another model (separate result files via --tag):
+    python batch_runner.py --model deepseek/deepseek-r1-0528 --tag deepseek_r1
+    python batch_runner.py --tag deepseek_r1 --summary
+
 Outputs: scenarios.json, results.json (full detail), results.csv (one row per scenario),
-         itineraries/<id>.json (final itinerary for each scenario).
+         itineraries/<id>.json (final itinerary + the candidate list it was checked against).
+
+Venues and prices come ONLY from benchmark_venues.json (built from price_data.xlsx by make_price_overrides.py).
+Every result records that file's data_version; a tag started on one dataset will not resume on another.
 
 Weather is FIXED per scenario (clear / mixed / rain), not fetched live, so every run is reproducible.
 Attempt 1 is the "plain LLM" result (Phase 1 retrieval + prompt, no repair); later attempts are the repair loop.
@@ -20,22 +27,31 @@ import datetime as dt
 import json
 import os
 import random
-import re
 import time
 
 import run_scenario as r   # reuses the prompt, candidate retrieval, checker and cost model
 
-SCENARIOS_FILE = "scenarios.json"
-RESULTS_FILE = "results.json"
-CSV_FILE = "results.csv"
-OUT_DIR = "itineraries"
+HERE = os.path.dirname(os.path.abspath(__file__))
+SCENARIOS_FILE = os.path.join(HERE, "scenarios.json")
+RESULTS_FILE = os.path.join(HERE, "results.json")
+CSV_FILE = os.path.join(HERE, "results.csv")
+OUT_DIR = os.path.join(HERE, "itineraries")
+
+# USD per 1M tokens (prompt, completion). Used only for the cost estimate printed in --summary.
+# Plain "deepseek/deepseek-r1" was retired from OpenRouter (404, no provider); use the -0528 release.
+MODEL_PRICES = {
+    "xiaomi/mimo-v2.5-pro": (0.3045, 0.609),
+    "deepseek/deepseek-r1-0528": (0.50, 2.15),
+}
 
 
 def set_tag(tag):
     """--tag run2  ->  results_run2.json / results_run2.csv / itineraries_run2/ (keeps earlier runs intact)."""
     global RESULTS_FILE, CSV_FILE, OUT_DIR
     if tag:
-        RESULTS_FILE, CSV_FILE, OUT_DIR = f"results_{tag}.json", f"results_{tag}.csv", f"itineraries_{tag}"
+        RESULTS_FILE, CSV_FILE, OUT_DIR = (os.path.join(HERE, f"results_{tag}.json"),
+                                           os.path.join(HERE, f"results_{tag}.csv"),
+                                           os.path.join(HERE, f"itineraries_{tag}"))
 SEED = 42
 N = 30
 START_BASE = dt.date(2026, 10, 12)          # a Monday; start dates rotate through the week
@@ -104,32 +120,21 @@ def classify(problem):
              ("slots (need", "slot_count"), ("weather conflict", "weather"), ("overlap", "overlap"),
              ("chronological", "order"), ("visit length", "duration"), ("outside 06:00", "time_window"),
              ("invalid time", "time_format"), ("not a trip date", "date"), ("appears more than once", "date"),
-             ("days (need", "day_count"), ("json", "invalid_json")]
+             ("days (need", "day_count"), ("required shape", "shape"), ("missing top-level", "shape"),
+             ("json", "invalid_json")]
     for key, label in rules:
         if key in p:
             return label
     return "other"
 
 
-def build_prompt(s, candidates, weather):
-    context = {"user_constraints": {k: s[k] for k in ("duration_days", "budget_php", "interests", "group_size")},
-               "weather_summary": {"forecast_by_date": weather},
-               "candidate_venues": candidates}
-    return (r.SYSTEM_PROMPT
-            .replace("{duration_days}", str(s["duration_days"]))
-            .replace("{budget_php}", str(s["budget_php"]))
-            .replace("{interests}", ", ".join(s["interests"]))
-            .replace("{group_size}", str(s["group_size"]))
-            .replace("{context_payload_json}", json.dumps(context, ensure_ascii=False)))
-
-
-def day_costs(itinerary, candidates, group_size):
+def day_costs(itinerary, candidates):
     by_id = {c["venue_id"]: c for c in candidates}
-    out = []
-    for day in itinerary.get("itinerary", []):
-        out.append(round(sum(r.venue_cost(by_id[sl["venue_id"]], group_size)
-                             for sl in day.get("slots", []) if sl.get("venue_id") in by_id)))
-    return out
+    if r.shape_problem(itinerary):
+        return []
+    return [sum(by_id[sl["venue_id"]]["est_group_cost_php"] for sl in day.get("slots", [])
+                if isinstance(sl.get("venue_id"), str) and sl["venue_id"] in by_id)
+            for day in itinerary["itinerary"]]
 
 
 def run_one(s):
@@ -139,13 +144,17 @@ def run_one(s):
     weather = weather_for(s)
     r.WEATHER = weather
     candidates = r.load_candidates()
-    messages = [{"role": "user", "content": build_prompt(s, candidates, weather)}]
+    messages = [{"role": "user", "content": r.build_prompt(s, candidates, weather)}]
 
-    costs = sorted(r.venue_cost(c, s["group_size"]) for c in candidates)
+    costs = sorted(c["est_group_cost_php"] for c in candidates)
     min_day = sum(costs[:3])                       # cheapest possible 3-slot day from the candidate pool
+    reasons = r.feasibility(candidates, s, weather)
+    for reason in reasons:
+        print("   INFEASIBLE:", reason)
     rec = {"id": s["id"], "scenario": s, "n_candidates": len(candidates), "attempts": [],
-           "model": r.MODEL, "temperature": r.TEMPERATURE,
-           "min_day_cost_php": round(min_day), "budget_feasible": min_day <= s["budget_php"],
+           "model": r.MODEL, "temperature": r.TEMPERATURE, "data_version": r.DATA_VERSION,
+           "feasible": not reasons, "infeasible_reasons": reasons,
+           "min_day_cost_php": min_day, "budget_feasible": min_day <= s["budget_php"],
            "prompt_tokens": 0, "completion_tokens": 0, "error": None}
     itinerary, t0 = None, time.time()
     for attempt in range(1, r.MAX_ATTEMPTS + 1):
@@ -161,11 +170,13 @@ def run_one(s):
         raw, finish = r.get_content(data)
         try:
             itinerary = r.parse_json(raw)
-            problems, warnings = r.check_output(itinerary, candidates)
-        except json.JSONDecodeError as e:
+        except ValueError as e:                       # json.JSONDecodeError, or NaN/Infinity
+            print(f"   not valid JSON: {e} (finish_reason={finish})")
             itinerary, warnings = None, []
-            problems = [f"Response was not valid JSON ({e}; finish_reason={finish})"]
+            problems = [r.INVALID_JSON_PROBLEM]
             r.ROUTE_STATS.update({"legs": 0, "tight_legs": 0, "km": 0.0})
+        else:
+            problems, warnings = r.check_output(itinerary, candidates)
         rec["attempts"].append({"attempt": attempt, "problems": problems, "warnings": warnings,
                                 "problem_types": sorted({classify(p) for p in problems}),
                                 "travel_gaps": r.ROUTE_STATS["tight_legs"],
@@ -177,28 +188,28 @@ def run_one(s):
             break
         if raw:                                       # skip the assistant turn when the reply was empty
             messages.append({"role": "assistant", "content": raw})
-        messages += [{"role": "user", "content": "Your itinerary violated these constraints:\n- "
-                      + "\n- ".join(problems)
-                      + "\nFix every problem and return the full corrected JSON object only. "
-                        "Keep using only venue_ids from the candidate list."}]
+        messages.append({"role": "user", "content": r.repair_message(problems)})
     rec["total_seconds"] = round(time.time() - t0, 1)
     if rec["attempts"]:
         rec["first_attempt_pass"] = not rec["attempts"][0]["problems"]
         rec["final_pass"] = not rec["attempts"][-1]["problems"]
         rec["attempts_used"] = len(rec["attempts"])
     if itinerary:
-        rec["day_costs_php"] = day_costs(itinerary, candidates, s["group_size"])
+        rec["day_costs_php"] = day_costs(itinerary, candidates)
         os.makedirs(OUT_DIR, exist_ok=True)
         with open(os.path.join(OUT_DIR, f"{s['id']}.json"), "w", encoding="utf-8") as f:
-            json.dump({"scenario": s, "weather": weather, "itinerary": itinerary}, f, indent=2, ensure_ascii=False)
+            json.dump({"scenario": s, "weather": weather, "data_version": r.DATA_VERSION,
+                       "candidates": candidates, "itinerary": itinerary}, f, indent=2, ensure_ascii=False)
     return rec
 
 
 # ---------------------------------------------------------------- reporting
 def rescore():
-    """Re-check the saved FINAL itineraries of a previous run with the current checker (no API calls)."""
+    """Re-check the saved FINAL itineraries of a previous run with the current checker (no API calls),
+    against the candidate list each itinerary was generated from."""
     if not os.path.isdir(OUT_DIR):
         raise SystemExit(f"No folder {OUT_DIR}/ - run with the matching --tag.")
+    old = []
     rows, types, total_legs, total_km = [], {}, [], []
     for fn in sorted(os.listdir(OUT_DIR)):
         if not fn.endswith(".json"):
@@ -206,10 +217,13 @@ def rescore():
         with open(os.path.join(OUT_DIR, fn), encoding="utf-8") as f:
             saved = json.load(f)
         s = saved["scenario"]
+        candidates = saved.get("candidates")
+        if not candidates:                     # saved before candidate lists were recorded: its pool is unknown
+            old.append(s["id"])
+            continue
         r.SCENARIO.clear()
         r.SCENARIO.update({k: s[k] for k in ("duration_days", "budget_php", "interests", "group_size")})
         r.WEATHER = saved.get("weather") or weather_for(s)
-        candidates = r.load_candidates()
         problems, warnings = r.check_output(saved["itinerary"], candidates)
         legs = r.ROUTE_STATS["tight_legs"]
         total_legs.append(r.ROUTE_STATS["legs"])
@@ -223,7 +237,12 @@ def rescore():
         for w in warnings:
             if w.startswith("travel:"):
                 print("     ", w)
+    if old:
+        print(f"Skipped {len(old)} itinerary file(s) saved without their candidate list (older runs): "
+              f"{old}. They cannot be re-checked fairly.")
     n = len(rows)
+    if not n:
+        return
     passed = sum(1 for _, k, _ in rows if not k)
     print(f"\nRe-scored {n} final itineraries with the stricter checker: {passed}/{n} pass.")
     print("Violations by type (itineraries affected):", dict(sorted(types.items(), key=lambda kv: -kv[1])) or "none")
@@ -234,7 +253,7 @@ def rescore():
 
 def write_csv(results):
     cols = ["id", "duration_days", "budget_php", "group_size", "interests", "weather", "attempts_used",
-            "first_attempt_pass", "final_pass", "budget_feasible", "first_attempt_problems", "final_problems", "travel_legs_final", "travel_tight_legs_final", "travel_km_final",
+            "first_attempt_pass", "final_pass", "feasible", "budget_feasible", "first_attempt_problems", "final_problems", "travel_legs_final", "travel_tight_legs_final", "travel_km_final",
             "prompt_tokens", "completion_tokens", "total_seconds", "error"]
     with open(CSV_FILE, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
@@ -244,7 +263,8 @@ def write_csv(results):
             at = x["attempts"]
             w.writerow([x["id"], s["duration_days"], s["budget_php"], s["group_size"],
                         "|".join(s["interests"]), s["weather_pattern"], x.get("attempts_used", ""),
-                        x.get("first_attempt_pass", ""), x.get("final_pass", ""), x.get("budget_feasible", ""),
+                        x.get("first_attempt_pass", ""), x.get("final_pass", ""), x.get("feasible", ""),
+                        x.get("budget_feasible", ""),
                         "|".join(at[0]["problem_types"]) if at else "",
                         "|".join(at[-1]["problem_types"]) if at else "",
                         at[-1].get("travel_legs", "") if at else "",
@@ -264,6 +284,16 @@ def summary(results):
     print(f"\nScenarios completed: {n}")
     print(f"Passed all checks on attempt 1 (no repair): {first}/{n} ({100 * first / n:.0f}%)")
     print(f"Passed after repair loop (max {r.MAX_ATTEMPTS} attempts): {final}/{n} ({100 * final / n:.0f}%)")
+    feas = [x for x in ok if x.get("feasible", True)]
+    if len(feas) < n:
+        f1 = sum(1 for x in feas if x["first_attempt_pass"])
+        f2 = sum(1 for x in feas if x["final_pass"])
+        print(f"Feasible scenarios only (n={len(feas)}): attempt 1 {f1}/{len(feas)}, after repair {f2}/{len(feas)}")
+        for x in ok:
+            if not x.get("feasible", True):
+                print(f"  {x['id']} cannot be satisfied: {'; '.join(x['infeasible_reasons'])}")
+    versions = sorted({x.get("data_version", "none") for x in ok})
+    print("Dataset version(s):", ", ".join(versions), "  <- MIXED, do not report" if len(versions) > 1 else "")
     types = {}
     for x in ok:
         for t in x["attempts"][0]["problem_types"]:
@@ -288,8 +318,10 @@ def summary(results):
     print(f"Wall-clock per scenario (s): median {secs[len(secs) // 2]}, max {secs[-1]}")
     pt = sum(x["prompt_tokens"] for x in ok)
     ct = sum(x["completion_tokens"] for x in ok)
-    cost = pt / 1e6 * 0.3045 + ct / 1e6 * 0.609
-    print(f"Tokens: {pt:,} prompt + {ct:,} completion  (~${cost:.2f} at MiMo-V2.5-Pro list prices)")
+    model = ok[0].get("model", r.MODEL)
+    in_price, out_price = MODEL_PRICES.get(model, (0.3045, 0.609))
+    cost = pt / 1e6 * in_price + ct / 1e6 * out_price
+    print(f"Tokens: {pt:,} prompt + {ct:,} completion  (~${cost:.2f} at {model} list prices)")
     print("\nBy weather pattern (attempt-1 pass / final pass):")
     for wp in ("clear", "mixed", "rain"):
         g = [x for x in ok if x["scenario"]["weather_pattern"] == wp]
@@ -304,16 +336,20 @@ def main():
     ap.add_argument("--limit", type=int, default=None)
     ap.add_argument("--fresh", action="store_true")
     ap.add_argument("--tag", default=None, help="name for this run, e.g. run2 (separate results files)")
+    ap.add_argument("--model", default=None, help="OpenRouter model slug, e.g. deepseek/deepseek-r1-0528 "
+                                                    "(default: run_scenario.py's MODEL)")
     ap.add_argument("--rescore", action="store_true", help="re-check saved final itineraries, no API calls")
     args = ap.parse_args()
     set_tag(args.tag)
+    if args.model:
+        r.MODEL = args.model
     if args.rescore:
         rescore()
         return
 
     if args.make:
         if os.path.exists(SCENARIOS_FILE):
-            print(f"{SCENARIOS_FILE} already exists - delete it first if you really want to regenerate "
+            print(f"{os.path.basename(SCENARIOS_FILE)} already exists - delete it first if you really want to regenerate "
                   "(it should stay frozen once you cite it in the paper).")
             return
         sc = make_scenarios()
@@ -337,6 +373,10 @@ def main():
         raise SystemExit("Run `python batch_runner.py --make` first.")
     with open(SCENARIOS_FILE, encoding="utf-8") as f:
         scenarios = json.load(f)
+    stale = sorted({x.get("data_version", "none") for x in results} - {r.DATA_VERSION})
+    if stale:
+        raise SystemExit(f"{os.path.basename(RESULTS_FILE)} was made with a different venue dataset "
+                         f"({', '.join(stale)}; current is {r.DATA_VERSION}). Use a new --tag, or --fresh to discard it.")
     done = {x["id"] for x in results if not x["error"]}
     results = [x for x in results if x["id"] in done]
     todo = [s for s in scenarios if s["id"] not in done]

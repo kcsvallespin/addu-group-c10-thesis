@@ -1,0 +1,50 @@
+[
+  {
+    "id": "S01",
+    "scenario": {
+      "id": "S01",
+      "duration_days": 2,
+      "budget_per_person_php": 2000,
+      "budget_php": 8000,
+      "interests": [
+        "Entertainment",
+        "Sightseeing"
+      ],
+      "group_size": 4,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-12"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 5,400 (within budget)",
+          "Day 2: estimated cost PHP 5,400 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 6,
+        "travel_km": 44.1,
+        "finish_reason": "stop",
+        "seconds": 181.2
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 3506,
+    "completion_tokens": 8432,
+    "error": null,
+    "total_seconds": 181.2,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      5400,
+      5400
+    ]
+  }
+]

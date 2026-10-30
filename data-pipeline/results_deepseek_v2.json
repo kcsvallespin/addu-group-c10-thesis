@@ -1,0 +1,1563 @@
+[
+  {
+    "id": "S01",
+    "scenario": {
+      "id": "S01",
+      "duration_days": 2,
+      "budget_per_person_php": 2000,
+      "budget_php": 8000,
+      "interests": [
+        "Entertainment",
+        "Sightseeing"
+      ],
+      "group_size": 4,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-12"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 2 dvo_poi_1025->dvo_poi_0633 56.7 km needs ~136 min, gap is 60 min (short by 76)",
+          "travel: day 2 dvo_poi_0633->dvo_poi_1033 56.3 km needs ~135 min, gap is 30 min (short by 105)",
+          "Day 1: estimated cost PHP 2,600 (within budget)",
+          "Day 2: estimated cost PHP 5,880 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 2,
+        "travel_legs": 6,
+        "travel_km": 136.5,
+        "finish_reason": "stop",
+        "seconds": 340.2
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 3303,
+    "completion_tokens": 6315,
+    "error": null,
+    "total_seconds": 340.2,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      2600,
+      5880
+    ]
+  },
+  {
+    "id": "S02",
+    "scenario": {
+      "id": "S02",
+      "duration_days": 3,
+      "budget_per_person_php": 4000,
+      "budget_php": 4000,
+      "interests": [
+        "Nature",
+        "Wellness",
+        "Accommodation"
+      ],
+      "group_size": 1,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-13"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 800 (within budget)",
+          "Day 2: estimated cost PHP 1,399 (within budget)",
+          "Day 3: estimated cost PHP 2,897 (within budget)",
+          "Nature not covered, but the forecast marks every day as unsuitable for outdoor visits"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 6,
+        "travel_km": 27.1,
+        "finish_reason": "stop",
+        "seconds": 110.9
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 4694,
+    "completion_tokens": 5946,
+    "error": null,
+    "total_seconds": 110.9,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      800,
+      1399,
+      2897
+    ]
+  },
+  {
+    "id": "S03",
+    "scenario": {
+      "id": "S03",
+      "duration_days": 2,
+      "budget_per_person_php": 1000,
+      "budget_php": 5000,
+      "interests": [
+        "Sightseeing",
+        "Food"
+      ],
+      "group_size": 5,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-14"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 1 dvo_poi_0820->dvo_poi_0065 19.6 km needs ~47 min, gap is 30 min (short by 17)",
+          "travel: day 1 dvo_poi_0065->dvo_poi_0355 18.6 km needs ~45 min, gap is 30 min (short by 15)",
+          "Day 1: estimated cost PHP 1,825 (within budget)",
+          "Day 2: estimated cost PHP 4,500 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 2,
+        "travel_legs": 7,
+        "travel_km": 143.8,
+        "finish_reason": "stop",
+        "seconds": 356.8
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 3286,
+    "completion_tokens": 7311,
+    "error": null,
+    "total_seconds": 356.8,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      1825,
+      4500
+    ]
+  },
+  {
+    "id": "S04",
+    "scenario": {
+      "id": "S04",
+      "duration_days": 3,
+      "budget_per_person_php": 1000,
+      "budget_php": 4000,
+      "interests": [
+        "Culture",
+        "Food",
+        "Nature"
+      ],
+      "group_size": 4,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-15"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 2,760 (within budget)",
+          "Day 2: estimated cost PHP 2,600 (within budget)",
+          "Day 3: estimated cost PHP 3,520 (within budget)",
+          "Nature not covered, but the forecast marks every day as unsuitable for outdoor visits"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 11,
+        "travel_km": 30.9,
+        "finish_reason": "stop",
+        "seconds": 149.7
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 4684,
+    "completion_tokens": 7994,
+    "error": null,
+    "total_seconds": 149.7,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      2760,
+      2600,
+      3520
+    ]
+  },
+  {
+    "id": "S05",
+    "scenario": {
+      "id": "S05",
+      "duration_days": 2,
+      "budget_per_person_php": 1000,
+      "budget_php": 2000,
+      "interests": [
+        "Nature",
+        "Wellness"
+      ],
+      "group_size": 2,
+      "weather_pattern": "mixed",
+      "start_date": "2026-10-16"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,000 (within budget)",
+          "Day 2: estimated cost PHP 2,000 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 5,
+        "travel_km": 54.7,
+        "finish_reason": "stop",
+        "seconds": 319.2
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 3290,
+    "completion_tokens": 5715,
+    "error": null,
+    "total_seconds": 319.2,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      1000,
+      2000
+    ]
+  },
+  {
+    "id": "S06",
+    "scenario": {
+      "id": "S06",
+      "duration_days": 1,
+      "budget_per_person_php": 1000,
+      "budget_php": 4000,
+      "interests": [
+        "Wellness",
+        "Entertainment",
+        "Nature"
+      ],
+      "group_size": 4,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-17"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 3,400 (within budget)",
+          "Nature not covered, but the forecast marks every day as unsuitable for outdoor visits"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 3,
+        "travel_km": 19.1,
+        "finish_reason": "stop",
+        "seconds": 347.8
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 4593,
+    "completion_tokens": 7946,
+    "error": null,
+    "total_seconds": 347.8,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      3400
+    ]
+  },
+  {
+    "id": "S07",
+    "scenario": {
+      "id": "S07",
+      "duration_days": 3,
+      "budget_per_person_php": 4000,
+      "budget_php": 12000,
+      "interests": [
+        "Nature",
+        "Wellness",
+        "Accommodation"
+      ],
+      "group_size": 3,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-18"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 2,700 (within budget)",
+          "Day 2: estimated cost PHP 4,429 (within budget)",
+          "Day 3: estimated cost PHP 6,198 (within budget)",
+          "Nature not covered, but the forecast marks every day as unsuitable for outdoor visits"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 6,
+        "travel_km": 22.3,
+        "finish_reason": "stop",
+        "seconds": 348.2
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 4699,
+    "completion_tokens": 7721,
+    "error": null,
+    "total_seconds": 348.2,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      2700,
+      4429,
+      6198
+    ]
+  },
+  {
+    "id": "S08",
+    "scenario": {
+      "id": "S08",
+      "duration_days": 1,
+      "budget_per_person_php": 2000,
+      "budget_php": 12000,
+      "interests": [
+        "Culture",
+        "Wellness",
+        "Shopping"
+      ],
+      "group_size": 6,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-12"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 2,040 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 3,
+        "travel_km": 9.7,
+        "finish_reason": "stop",
+        "seconds": 333.3
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 4649,
+    "completion_tokens": 7638,
+    "error": null,
+    "total_seconds": 333.3,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      2040
+    ]
+  },
+  {
+    "id": "S09",
+    "scenario": {
+      "id": "S09",
+      "duration_days": 3,
+      "budget_per_person_php": 1000,
+      "budget_php": 2000,
+      "interests": [
+        "Entertainment",
+        "Culture",
+        "Nature"
+      ],
+      "group_size": 2,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-13"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 2 dvo_poi_0065->dvo_poi_0402 18.1 km needs ~43 min, gap is 30 min (short by 13)",
+          "travel: day 2 dvo_poi_1373->dvo_poi_0633 57.0 km needs ~137 min, gap is 30 min (short by 107)",
+          "Day 1: estimated cost PHP 100 (within budget)",
+          "Day 2: estimated cost PHP 1,800 (within budget)",
+          "Day 3: estimated cost PHP 1,240 (within budget)",
+          "Nature not covered, but the forecast marks every day as unsuitable for outdoor visits"
+        ],
+        "problem_types": [],
+        "travel_gaps": 2,
+        "travel_legs": 9,
+        "travel_km": 105.6,
+        "finish_reason": "stop",
+        "seconds": 438.7
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 4642,
+    "completion_tokens": 8467,
+    "error": null,
+    "total_seconds": 438.7,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      100,
+      1800,
+      1240
+    ]
+  },
+  {
+    "id": "S10",
+    "scenario": {
+      "id": "S10",
+      "duration_days": 1,
+      "budget_per_person_php": 4000,
+      "budget_php": 8000,
+      "interests": [
+        "Entertainment",
+        "Food",
+        "Wellness"
+      ],
+      "group_size": 2,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-14"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,070 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 4,
+        "travel_km": 17.7,
+        "finish_reason": "stop",
+        "seconds": 242.0
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 100,
+    "budget_feasible": true,
+    "prompt_tokens": 4611,
+    "completion_tokens": 6089,
+    "error": null,
+    "total_seconds": 242.0,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      1070
+    ]
+  },
+  {
+    "id": "S11",
+    "scenario": {
+      "id": "S11",
+      "duration_days": 1,
+      "budget_per_person_php": 2000,
+      "budget_php": 12000,
+      "interests": [
+        "Wellness",
+        "Nature"
+      ],
+      "group_size": 6,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-15"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 3,000 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 3,
+        "travel_km": 11.0,
+        "finish_reason": "stop",
+        "seconds": 138.1
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 3257,
+    "completion_tokens": 7353,
+    "error": null,
+    "total_seconds": 138.1,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      3000
+    ]
+  },
+  {
+    "id": "S12",
+    "scenario": {
+      "id": "S12",
+      "duration_days": 2,
+      "budget_per_person_php": 4000,
+      "budget_php": 16000,
+      "interests": [
+        "Food",
+        "Entertainment",
+        "Accommodation"
+      ],
+      "group_size": 4,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-16"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 8,022 (within budget)",
+          "Day 2: estimated cost PHP 9,140 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 8,
+        "travel_km": 39.7,
+        "finish_reason": "stop",
+        "seconds": 415.6
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 200,
+    "budget_feasible": true,
+    "prompt_tokens": 4648,
+    "completion_tokens": 9356,
+    "error": null,
+    "total_seconds": 415.6,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      8022,
+      9140
+    ]
+  },
+  {
+    "id": "S13",
+    "scenario": {
+      "id": "S13",
+      "duration_days": 3,
+      "budget_per_person_php": 2000,
+      "budget_php": 2000,
+      "interests": [
+        "Shopping",
+        "Culture",
+        "Sightseeing"
+      ],
+      "group_size": 1,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-17"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,000 (within budget)",
+          "Day 2: estimated cost PHP 0 (within budget)",
+          "Day 3: estimated cost PHP 250 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 8,
+        "travel_km": 39.8,
+        "finish_reason": "stop",
+        "seconds": 349.6
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 4640,
+    "completion_tokens": 7321,
+    "error": null,
+    "total_seconds": 349.6,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      1000,
+      0,
+      250
+    ]
+  },
+  {
+    "id": "S14",
+    "scenario": {
+      "id": "S14",
+      "duration_days": 1,
+      "budget_per_person_php": 4000,
+      "budget_php": 12000,
+      "interests": [
+        "Wellness"
+      ],
+      "group_size": 3,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-18"
+    },
+    "n_candidates": 8,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 6,147 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 3,
+        "travel_km": 5.0,
+        "finish_reason": "stop",
+        "seconds": 196.9
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 2400,
+    "budget_feasible": true,
+    "prompt_tokens": 1913,
+    "completion_tokens": 4493,
+    "error": null,
+    "total_seconds": 196.9,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      6147
+    ]
+  },
+  {
+    "id": "S15",
+    "scenario": {
+      "id": "S15",
+      "duration_days": 2,
+      "budget_per_person_php": 2000,
+      "budget_php": 10000,
+      "interests": [
+        "Sightseeing",
+        "Wellness"
+      ],
+      "group_size": 5,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-12"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 2 dvo_poi_0633->dvo_poi_0711 54.3 km needs ~130 min, gap is 90 min (short by 40)",
+          "Day 1: estimated cost PHP 1,750 (within budget)",
+          "Day 2: estimated cost PHP 5,000 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 4,
+        "travel_km": 77.7,
+        "finish_reason": "stop",
+        "seconds": 390.4
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 3325,
+    "completion_tokens": 8495,
+    "error": null,
+    "total_seconds": 390.4,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      1750,
+      5000
+    ]
+  },
+  {
+    "id": "S16",
+    "scenario": {
+      "id": "S16",
+      "duration_days": 1,
+      "budget_per_person_php": 1000,
+      "budget_php": 6000,
+      "interests": [
+        "Culture"
+      ],
+      "group_size": 6,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-13"
+    },
+    "n_candidates": 8,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,500 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 3,
+        "travel_km": 5.0,
+        "finish_reason": "stop",
+        "seconds": 152.0
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 1950,
+    "completion_tokens": 8253,
+    "error": null,
+    "total_seconds": 152.0,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      1500
+    ]
+  },
+  {
+    "id": "S17",
+    "scenario": {
+      "id": "S17",
+      "duration_days": 2,
+      "budget_per_person_php": 1000,
+      "budget_php": 4000,
+      "interests": [
+        "Entertainment",
+        "Food"
+      ],
+      "group_size": 4,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-14"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 2 dvo_poi_0108->dvo_poi_0736 27.3 km needs ~66 min, gap is 30 min (short by 36)",
+          "Day 1: estimated cost PHP 1,260 (within budget)",
+          "Day 2: estimated cost PHP 3,900 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 7,
+        "travel_km": 63.5,
+        "finish_reason": "stop",
+        "seconds": 381.4
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 200,
+    "budget_feasible": true,
+    "prompt_tokens": 3273,
+    "completion_tokens": 8183,
+    "error": null,
+    "total_seconds": 381.4,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      1260,
+      3900
+    ]
+  },
+  {
+    "id": "S18",
+    "scenario": {
+      "id": "S18",
+      "duration_days": 2,
+      "budget_per_person_php": 2000,
+      "budget_php": 4000,
+      "interests": [
+        "Sightseeing",
+        "Nature",
+        "Shopping"
+      ],
+      "group_size": 2,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-15"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 2 dvo_poi_0658->dvo_poi_0449 57.7 km needs ~138 min, gap is 90 min (short by 48)",
+          "Day 1: estimated cost PHP 380 (within budget)",
+          "Day 2: estimated cost PHP 1,100 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 6,
+        "travel_km": 107.3,
+        "finish_reason": "stop",
+        "seconds": 339.7
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 4592,
+    "completion_tokens": 7543,
+    "error": null,
+    "total_seconds": 339.7,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      380,
+      1100
+    ]
+  },
+  {
+    "id": "S19",
+    "scenario": {
+      "id": "S19",
+      "duration_days": 1,
+      "budget_per_person_php": 4000,
+      "budget_php": 12000,
+      "interests": [
+        "Sightseeing",
+        "Wellness"
+      ],
+      "group_size": 3,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-16"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,050 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 4,
+        "travel_km": 26.5,
+        "finish_reason": "stop",
+        "seconds": 275.8
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 3288,
+    "completion_tokens": 5582,
+    "error": null,
+    "total_seconds": 275.8,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      1050
+    ]
+  },
+  {
+    "id": "S20",
+    "scenario": {
+      "id": "S20",
+      "duration_days": 3,
+      "budget_per_person_php": 1000,
+      "budget_php": 2000,
+      "interests": [
+        "Nature",
+        "Sightseeing",
+        "Culture"
+      ],
+      "group_size": 2,
+      "weather_pattern": "mixed",
+      "start_date": "2026-10-17"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 700 (within budget)",
+          "Day 2: estimated cost PHP 500 (within budget)",
+          "Day 3: estimated cost PHP 700 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 9,
+        "travel_km": 30.6,
+        "finish_reason": "stop",
+        "seconds": 498.6
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 4662,
+    "completion_tokens": 8870,
+    "error": null,
+    "total_seconds": 498.6,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      700,
+      500,
+      700
+    ]
+  },
+  {
+    "id": "S21",
+    "scenario": {
+      "id": "S21",
+      "duration_days": 3,
+      "budget_per_person_php": 2000,
+      "budget_php": 8000,
+      "interests": [
+        "Sightseeing",
+        "Shopping",
+        "Food"
+      ],
+      "group_size": 4,
+      "weather_pattern": "mixed",
+      "start_date": "2026-10-18"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 3 dvo_poi_0633->dvo_poi_0779 56.9 km needs ~137 min, gap is 90 min (short by 47)",
+          "Day 1: estimated cost PHP 1,000 (within budget)",
+          "Day 2: estimated cost PHP 2,240 (within budget)",
+          "Day 3: estimated cost PHP 3,360 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 11,
+        "travel_km": 109.6,
+        "finish_reason": "stop",
+        "seconds": 416.8
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 4635,
+    "completion_tokens": 9053,
+    "error": null,
+    "total_seconds": 416.8,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      1000,
+      2240,
+      3360
+    ]
+  },
+  {
+    "id": "S22",
+    "scenario": {
+      "id": "S22",
+      "duration_days": 2,
+      "budget_per_person_php": 2000,
+      "budget_php": 4000,
+      "interests": [
+        "Entertainment",
+        "Food"
+      ],
+      "group_size": 2,
+      "weather_pattern": "mixed",
+      "start_date": "2026-10-12"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 2,580 (within budget)",
+          "Day 2: estimated cost PHP 2,520 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 7,
+        "travel_km": 21.9,
+        "finish_reason": "stop",
+        "seconds": 730.9
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 100,
+    "budget_feasible": true,
+    "prompt_tokens": 3267,
+    "completion_tokens": 9054,
+    "error": null,
+    "total_seconds": 730.9,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      2580,
+      2520
+    ]
+  },
+  {
+    "id": "S23",
+    "scenario": {
+      "id": "S23",
+      "duration_days": 2,
+      "budget_per_person_php": 4000,
+      "budget_php": 12000,
+      "interests": [
+        "Sightseeing",
+        "Culture"
+      ],
+      "group_size": 3,
+      "weather_pattern": "mixed",
+      "start_date": "2026-10-13"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 2 dvo_poi_0065->dvo_poi_0360 20.3 km needs ~49 min, gap is 30 min (short by 19)",
+          "Day 1: estimated cost PHP 0 (within budget)",
+          "Day 2: estimated cost PHP 300 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 6,
+        "travel_km": 26.7,
+        "finish_reason": "stop",
+        "seconds": 390.1
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 3203,
+    "completion_tokens": 8733,
+    "error": null,
+    "total_seconds": 390.1,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      0,
+      300
+    ]
+  },
+  {
+    "id": "S24",
+    "scenario": {
+      "id": "S24",
+      "duration_days": 1,
+      "budget_per_person_php": 2000,
+      "budget_php": 8000,
+      "interests": [
+        "Nature"
+      ],
+      "group_size": 4,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-14"
+    },
+    "n_candidates": 8,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 1 dvo_poi_0270->dvo_poi_1239 37.2 km needs ~89 min, gap is 60 min (short by 29)",
+          "Day 1: estimated cost PHP 1,000 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 4,
+        "travel_km": 64.8,
+        "finish_reason": "stop",
+        "seconds": 538.7
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 1890,
+    "completion_tokens": 6757,
+    "error": null,
+    "total_seconds": 538.7,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      1000
+    ]
+  },
+  {
+    "id": "S25",
+    "scenario": {
+      "id": "S25",
+      "duration_days": 2,
+      "budget_per_person_php": 1000,
+      "budget_php": 2000,
+      "interests": [
+        "Food"
+      ],
+      "group_size": 2,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-15"
+    },
+    "n_candidates": 10,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,920 (within budget)",
+          "Day 2: estimated cost PHP 1,598 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 5,
+        "travel_km": 22.1,
+        "finish_reason": "stop",
+        "seconds": 76.0
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 710,
+    "budget_feasible": true,
+    "prompt_tokens": 2261,
+    "completion_tokens": 4040,
+    "error": null,
+    "total_seconds": 76.0,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      1920,
+      1598
+    ]
+  },
+  {
+    "id": "S26",
+    "scenario": {
+      "id": "S26",
+      "duration_days": 3,
+      "budget_per_person_php": 1000,
+      "budget_php": 3000,
+      "interests": [
+        "Sightseeing"
+      ],
+      "group_size": 3,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-16"
+    },
+    "n_candidates": 15,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 3 dvo_poi_0211->dvo_poi_0820 29.9 km needs ~72 min, gap is 60 min (short by 12)",
+          "Day 1: estimated cost PHP 3,000 (within budget)",
+          "Day 2: estimated cost PHP 1,890 (within budget)",
+          "Day 3: estimated cost PHP 0 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 9,
+        "travel_km": 90.5,
+        "finish_reason": "stop",
+        "seconds": 150.1
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 3132,
+    "completion_tokens": 8331,
+    "error": null,
+    "total_seconds": 150.1,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      3000,
+      1890,
+      0
+    ]
+  },
+  {
+    "id": "S27",
+    "scenario": {
+      "id": "S27",
+      "duration_days": 3,
+      "budget_per_person_php": 4000,
+      "budget_php": 8000,
+      "interests": [
+        "Nature",
+        "Wellness"
+      ],
+      "group_size": 2,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-17"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 2 dvo_poi_0270->dvo_poi_1154 60.4 km needs ~145 min, gap is 90 min (short by 55)",
+          "Day 1: estimated cost PHP 1,000 (within budget)",
+          "Day 2: estimated cost PHP 800 (within budget)",
+          "Day 3: estimated cost PHP 2,098 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 10,
+        "travel_km": 142.1,
+        "finish_reason": "stop",
+        "seconds": 275.1
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 3324,
+    "completion_tokens": 6974,
+    "error": null,
+    "total_seconds": 275.1,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      1000,
+      800,
+      2098
+    ]
+  },
+  {
+    "id": "S28",
+    "scenario": {
+      "id": "S28",
+      "duration_days": 1,
+      "budget_per_person_php": 2000,
+      "budget_php": 8000,
+      "interests": [
+        "Nature",
+        "Culture",
+        "Shopping"
+      ],
+      "group_size": 4,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-18"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 960 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 3,
+        "travel_km": 33.9,
+        "finish_reason": "stop",
+        "seconds": 269.1
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 4582,
+    "completion_tokens": 6452,
+    "error": null,
+    "total_seconds": 269.1,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      960
+    ]
+  },
+  {
+    "id": "S29",
+    "scenario": {
+      "id": "S29",
+      "duration_days": 1,
+      "budget_per_person_php": 4000,
+      "budget_php": 16000,
+      "interests": [
+        "Nature",
+        "Shopping",
+        "Sightseeing"
+      ],
+      "group_size": 4,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-12"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,000 (within budget)",
+          "Nature not covered, but the forecast marks every day as unsuitable for outdoor visits"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 3,
+        "travel_km": 5.4,
+        "finish_reason": "stop",
+        "seconds": 98.8
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 4602,
+    "completion_tokens": 5230,
+    "error": null,
+    "total_seconds": 98.8,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      1000
+    ]
+  },
+  {
+    "id": "S30",
+    "scenario": {
+      "id": "S30",
+      "duration_days": 3,
+      "budget_per_person_php": 4000,
+      "budget_php": 8000,
+      "interests": [
+        "Wellness",
+        "Sightseeing",
+        "Culture"
+      ],
+      "group_size": 2,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-13"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 2 dvo_poi_0658->dvo_poi_1154 58.0 km needs ~139 min, gap is 60 min (short by 79)",
+          "Day 1: estimated cost PHP 2,060 (within budget)",
+          "Day 2: estimated cost PHP 1,700 (within budget)",
+          "Day 3: estimated cost PHP 700 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 10,
+        "travel_km": 94.7,
+        "finish_reason": "stop",
+        "seconds": 305.0
+      }
+    ],
+    "model": "deepseek/deepseek-r1-0528",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 4711,
+    "completion_tokens": 6476,
+    "error": null,
+    "total_seconds": 305.0,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 1,
+    "day_costs_php": [
+      2060,
+      1700,
+      700
+    ]
+  }
+]

@@ -1,0 +1,415 @@
+{
+  "scenario": {
+    "id": "S23",
+    "duration_days": 2,
+    "budget_per_person_php": 4000,
+    "budget_php": 12000,
+    "interests": [
+      "Sightseeing",
+      "Culture"
+    ],
+    "group_size": 3,
+    "weather_pattern": "mixed",
+    "start_date": "2026-10-13"
+  },
+  "weather": [
+    {
+      "date": "2026-10-13",
+      "condition": "Clear",
+      "pop": 0.1,
+      "is_outdoor_suitable": true
+    },
+    {
+      "date": "2026-10-14",
+      "condition": "Rain",
+      "pop": 1.0,
+      "is_outdoor_suitable": false
+    }
+  ],
+  "data_version": "689ece30b82a",
+  "candidates": [
+    {
+      "venue_id": "dvo_poi_0876",
+      "name": "Quezon Park",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0649871,
+      "longitude": 125.60819579999999
+    },
+    {
+      "venue_id": "dvo_poi_0820",
+      "name": "Our Mother of Perpetual Help Parish - Redemptorist Church",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "08:30-17:30",
+        "tue": "08:30-17:30",
+        "wed": "08:30-17:30",
+        "thu": "08:30-17:30",
+        "fri": "08:30-17:30",
+        "sat": "08:30-17:30",
+        "sun": "08:30-17:30"
+      },
+      "latitude": 7.092149399999999,
+      "longitude": 125.6097552
+    },
+    {
+      "venue_id": "dvo_poi_0211",
+      "name": "Pulang Bato Falls",
+      "category": [
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0980069,
+      "longitude": 125.3386654
+    },
+    {
+      "venue_id": "dvo_poi_0723",
+      "name": "Freedom Park",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0730311,
+      "longitude": 125.61138469999999
+    },
+    {
+      "venue_id": "dvo_poi_0065",
+      "name": "Philippine-Japanese Historical Museum",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 300,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "09:00-17:00",
+        "tue": "09:00-17:00",
+        "wed": "09:00-17:00",
+        "thu": "09:00-17:00",
+        "fri": "09:00-17:00",
+        "sat": "09:00-17:00",
+        "sun": "closed"
+      },
+      "latitude": 7.1884475,
+      "longitude": 125.46061230000001
+    },
+    {
+      "venue_id": "dvo_poi_0658",
+      "name": "Kwagsik Falls",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 150,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.4602086000000005,
+      "longitude": 125.2672445
+    },
+    {
+      "venue_id": "dvo_poi_0633",
+      "name": "ClaudMaru Rainforest",
+      "category": [
+        "Entertainment",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 1350,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "07:00-00:00",
+        "tue": "07:00-00:00",
+        "wed": "07:00-00:00",
+        "thu": "07:00-00:00",
+        "fri": "07:00-00:00",
+        "sat": "07:00-00:00",
+        "sun": "07:00-00:00"
+      },
+      "latitude": 7.4308815,
+      "longitude": 125.2472989
+    },
+    {
+      "venue_id": "dvo_poi_1242",
+      "name": "JACA Mountain Peak",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 1500,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "closed",
+        "wed": "08:00-18:00",
+        "thu": "08:00-18:00",
+        "fri": "08:00-18:00",
+        "sat": "08:00-18:00",
+        "sun": "08:00-18:00"
+      },
+      "latitude": 7.422169599999999,
+      "longitude": 125.23192239999997
+    },
+    {
+      "venue_id": "dvo_poi_0620",
+      "name": "The Church of Jesus Christ of Latter-day Saints",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.9,
+      "operating_hours": {
+        "mon": "09:00-18:00",
+        "tue": "09:00-18:00",
+        "wed": "09:00-18:00",
+        "thu": "09:00-18:00",
+        "fri": "09:00-18:00",
+        "sat": "09:00-18:00",
+        "sun": "09:00-12:00, 13:00-16:00"
+      },
+      "latitude": 7.0659226,
+      "longitude": 125.61108530000001
+    },
+    {
+      "venue_id": "dvo_poi_0142",
+      "name": "Davao Mission of Seventh-day Adventist Church",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.9,
+      "operating_hours": {
+        "mon": "08:00-17:00",
+        "tue": "08:00-17:00",
+        "wed": "08:00-17:00",
+        "thu": "08:00-17:00",
+        "fri": "08:00-12:00",
+        "sat": "closed",
+        "sun": "closed"
+      },
+      "latitude": 7.0974469,
+      "longitude": 125.61693629999999
+    },
+    {
+      "venue_id": "dvo_poi_0360",
+      "name": "Davao Bible Community Church",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "08:00-18:00",
+        "wed": "08:00-18:00",
+        "thu": "08:00-18:00",
+        "fri": "08:00-18:00",
+        "sat": "08:00-18:00",
+        "sun": "08:00-18:00"
+      },
+      "latitude": 7.0757666,
+      "longitude": 125.60550739999998
+    },
+    {
+      "venue_id": "dvo_poi_1373",
+      "name": "Cathedral of Praise - Davao",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "closed",
+        "wed": "05:30-18:00",
+        "thu": "05:30-18:00",
+        "fri": "05:30-21:00",
+        "sat": "08:00-20:00",
+        "sun": "06:30-18:30"
+      },
+      "latitude": 7.0753509,
+      "longitude": 125.6197143
+    },
+    {
+      "venue_id": "dvo_poi_0498",
+      "name": "Faith Tabernacle Church - Metro Davao",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "17:00-20:00",
+        "tue": "closed",
+        "wed": "closed",
+        "thu": "16:30-20:30",
+        "fri": "16:30-22:00",
+        "sat": "closed",
+        "sun": "08:00-12:00"
+      },
+      "latitude": 7.0678575,
+      "longitude": 125.61330989999999
+    },
+    {
+      "venue_id": "dvo_poi_0716",
+      "name": "Christ Fellowship Church",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "08:00-18:00",
+        "tue": "08:00-18:00",
+        "wed": "08:00-18:00",
+        "thu": "08:00-18:00",
+        "fri": "08:00-18:00",
+        "sat": "08:00-18:00",
+        "sun": "08:00-18:00"
+      },
+      "latitude": 7.0754787,
+      "longitude": 125.6065047
+    },
+    {
+      "venue_id": "dvo_poi_1207",
+      "name": "Foursquare Gospel Church",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "08:00-17:00",
+        "wed": "08:00-17:00",
+        "thu": "08:00-17:00",
+        "fri": "08:00-17:00",
+        "sat": "closed",
+        "sun": "06:30-19:30"
+      },
+      "latitude": 7.0736098,
+      "longitude": 125.6047204
+    },
+    {
+      "venue_id": "dvo_poi_1284",
+      "name": "Davao Chinese Baptist Church",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.9,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "closed",
+        "wed": "08:00-18:30",
+        "thu": "closed",
+        "fri": "08:00-18:30",
+        "sat": "closed",
+        "sun": "08:00-18:30"
+      },
+      "latitude": 7.0773243,
+      "longitude": 125.61529800000001
+    }
+  ],
+  "itinerary": {
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2026-10-13",
+        "slots": [
+          {
+            "time_start": "06:00",
+            "time_end": "07:00",
+            "venue_id": "dvo_poi_0876"
+          },
+          {
+            "time_start": "08:30",
+            "time_end": "10:00",
+            "venue_id": "dvo_poi_0820"
+          },
+          {
+            "time_start": "10:30",
+            "time_end": "12:00",
+            "venue_id": "dvo_poi_0723"
+          },
+          {
+            "time_start": "14:00",
+            "time_end": "15:30",
+            "venue_id": "dvo_poi_0620"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2026-10-14",
+        "slots": [
+          {
+            "time_start": "09:00",
+            "time_end": "11:00",
+            "venue_id": "dvo_poi_0065"
+          },
+          {
+            "time_start": "11:30",
+            "time_end": "12:30",
+            "venue_id": "dvo_poi_0360"
+          },
+          {
+            "time_start": "14:00",
+            "time_end": "15:00",
+            "venue_id": "dvo_poi_0716"
+          },
+          {
+            "time_start": "15:30",
+            "time_end": "16:30",
+            "venue_id": "dvo_poi_1207"
+          }
+        ]
+      }
+    ]
+  }
+}

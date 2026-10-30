@@ -1,0 +1,2 @@
+id,duration_days,budget_php,group_size,interests,weather,attempts_used,first_attempt_pass,final_pass,budget_feasible,first_attempt_problems,final_problems,travel_legs_final,travel_tight_legs_final,travel_km_final,prompt_tokens,completion_tokens,total_seconds,error
+S01,2,8000,4,Entertainment|Sightseeing,rain,1,True,True,True,,,6,0,44.1,3506,8432,181.2,
