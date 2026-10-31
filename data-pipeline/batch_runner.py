@@ -12,6 +12,15 @@ Usage (PowerShell, from the folder that contains run_scenario.py and davao_venue
     python batch_runner.py --model deepseek/deepseek-r1-0528 --tag deepseek_r1
     python batch_runner.py --tag deepseek_r1 --summary
 
+    # unassisted baseline (stripped prompt: no weather, hours or costs; one attempt, never repaired):
+    python batch_runner.py --baseline --tag baseline_mimo
+    python batch_runner.py --baseline --tag baseline_mimo --summary
+
+    # self-refine baseline (same prompt as the main runs, but NO validator: the model is only asked to
+    # re-check and fix its own itinerary, twice; the validator grades every round afterwards):
+    python batch_runner.py --selfrefine --tag selfrefine_mimo
+    python batch_runner.py --selfrefine --tag selfrefine_mimo --summary
+
 Outputs: scenarios.json, results.json (full detail), results.csv (one row per scenario),
          itineraries/<id>.json (final itinerary + the candidate list it was checked against).
 
@@ -128,6 +137,51 @@ def classify(problem):
     return "other"
 
 
+BASELINE = False
+SELFREFINE = False
+SELFREFINE_MESSAGE = """Review the itinerary you just wrote against every rule in the original request, one rule at a time:
+opening hours for the weekday of each date, weather suitability of outdoor venues on each date, the daily
+budget (add up est_group_cost_php for each day), no venue used twice, every requested interest covered,
+the number of days and the number of visits per day, chronological order without overlap, and the
+06:00-23:00 window. If you find any problem, fix it. Return the full itinerary as a single JSON object only,
+in the same shape as before, whether or not you changed anything. Use only venue_ids from the candidate list."""
+BASELINE_PROMPT = """You are an itinerary planner for a Davao City trip.
+
+TRIP REQUEST:
+- Trip dates: {dates}
+- Daily budget ceiling: PHP {budget_php} (for the whole group)
+- Interest categories: {interests}
+- Group size: {group_size}
+
+Plan the trip using ONLY the venues listed below (use their venue_id).
+Each day must contain 3-5 visits with realistic time slots, no venue may be
+used more than once, every requested interest category must be covered, and
+visits within a day must be in chronological order without overlap and fall
+between 06:00 and 23:00. Return exactly one itinerary entry per trip date.
+
+Respond with ONLY a single JSON object with this shape:
+{"itinerary": [{"day": int, "date": "YYYY-MM-DD", "slots": [{"time_start": "HH:MM",
+"time_end": "HH:MM", "venue_id": "<id from venues>"}]}]}
+Do not include any explanation, markdown formatting, or text outside the JSON object.
+
+VENUES:
+{venues_json}
+"""
+
+
+def build_baseline_prompt(s, candidates, weather):
+    """Unassisted baseline: the request and the venue list only. No weather, no opening hours,
+    no price or cost fields. Same candidate venues as the main runs."""
+    keep = ("venue_id", "name", "category", "average_rating", "latitude", "longitude")
+    venues = [{k: c[k] for k in keep if k in c} for c in candidates]
+    return (BASELINE_PROMPT
+            .replace("{dates}", ", ".join(w["date"] for w in weather))
+            .replace("{budget_php}", str(s["budget_php"]))
+            .replace("{interests}", ", ".join(s["interests"]))
+            .replace("{group_size}", str(s["group_size"]))
+            .replace("{venues_json}", json.dumps(venues, ensure_ascii=False)))
+
+
 def day_costs(itinerary, candidates):
     by_id = {c["venue_id"]: c for c in candidates}
     if r.shape_problem(itinerary):
@@ -144,7 +198,8 @@ def run_one(s):
     weather = weather_for(s)
     r.WEATHER = weather
     candidates = r.load_candidates()
-    messages = [{"role": "user", "content": r.build_prompt(s, candidates, weather)}]
+    builder = build_baseline_prompt if BASELINE else r.build_prompt
+    messages = [{"role": "user", "content": builder(s, candidates, weather)}]
 
     costs = sorted(c["est_group_cost_php"] for c in candidates)
     min_day = sum(costs[:3])                       # cheapest possible 3-slot day from the candidate pool
@@ -155,8 +210,10 @@ def run_one(s):
            "model": r.MODEL, "temperature": r.TEMPERATURE, "data_version": r.DATA_VERSION,
            "feasible": not reasons, "infeasible_reasons": reasons,
            "min_day_cost_php": min_day, "budget_feasible": min_day <= s["budget_php"],
-           "prompt_tokens": 0, "completion_tokens": 0, "error": None}
+           "prompt_tokens": 0, "completion_tokens": 0, "error": None,
+           "mode": "selfrefine" if SELFREFINE else ("baseline" if BASELINE else "assisted")}
     itinerary, t0 = None, time.time()
+    attempt_itins = []
     for attempt in range(1, r.MAX_ATTEMPTS + 1):
         a0 = time.time()
         try:
@@ -184,11 +241,16 @@ def run_one(s):
                                 "travel_km": round(r.ROUTE_STATS["km"], 1),
                                 "finish_reason": finish,
                                 "seconds": round(time.time() - a0, 1)})
-        if not problems:
+        if SELFREFINE and itinerary is not None:
+            attempt_itins.append(itinerary)
+        if not problems and not SELFREFINE:           # self-refine never stops early: the model gets no pass/fail signal
             break
         if raw:                                       # skip the assistant turn when the reply was empty
             messages.append({"role": "assistant", "content": raw})
-        messages.append({"role": "user", "content": r.repair_message(problems)})
+        if SELFREFINE:
+            messages.append({"role": "user", "content": SELFREFINE_MESSAGE})   # no validator feedback
+        else:
+            messages.append({"role": "user", "content": r.repair_message(problems)})
     rec["total_seconds"] = round(time.time() - t0, 1)
     if rec["attempts"]:
         rec["first_attempt_pass"] = not rec["attempts"][0]["problems"]
@@ -199,7 +261,9 @@ def run_one(s):
         os.makedirs(OUT_DIR, exist_ok=True)
         with open(os.path.join(OUT_DIR, f"{s['id']}.json"), "w", encoding="utf-8") as f:
             json.dump({"scenario": s, "weather": weather, "data_version": r.DATA_VERSION,
-                       "candidates": candidates, "itinerary": itinerary}, f, indent=2, ensure_ascii=False)
+                       "candidates": candidates, "itinerary": itinerary,
+                       **({"attempt_itineraries": attempt_itins} if SELFREFINE else {})},
+                      f, indent=2, ensure_ascii=False)
     return rec
 
 
@@ -322,6 +386,15 @@ def summary(results):
     in_price, out_price = MODEL_PRICES.get(model, (0.3045, 0.609))
     cost = pt / 1e6 * in_price + ct / 1e6 * out_price
     print(f"Tokens: {pt:,} prompt + {ct:,} completion  (~${cost:.2f} at {model} list prices)")
+    if any(x.get("mode") == "selfrefine" for x in ok):
+        print("\nSelf-refine (the validator was never shown to the model; it only grades each round):")
+        for k in range(r.MAX_ATTEMPTS):
+            passed = sum(1 for x in ok if len(x["attempts"]) > k and not x["attempts"][k]["problems"])
+            label = "draft" if k == 0 else f"after self-review {k}"
+            print(f"  {label:20s} {passed}/{n} pass")
+        broke = [x["id"] for x in ok if x["first_attempt_pass"] and not x["final_pass"]]
+        fixed = [x["id"] for x in ok if not x["first_attempt_pass"] and x["final_pass"]]
+        print(f"  fixed by self-review: {len(fixed)} {fixed}; broken by self-review: {len(broke)} {broke}")
     print("\nBy weather pattern (attempt-1 pass / final pass):")
     for wp in ("clear", "mixed", "rain"):
         g = [x for x in ok if x["scenario"]["weather_pattern"] == wp]
@@ -339,7 +412,25 @@ def main():
     ap.add_argument("--model", default=None, help="OpenRouter model slug, e.g. deepseek/deepseek-r1-0528 "
                                                     "(default: run_scenario.py's MODEL)")
     ap.add_argument("--rescore", action="store_true", help="re-check saved final itineraries, no API calls")
+    ap.add_argument("--baseline", action="store_true",
+                    help="unassisted baseline: stripped prompt (no weather, hours or costs), one attempt, "
+                         "validated afterwards but never repaired. Tag defaults to baseline_mimo.")
+    ap.add_argument("--selfrefine", action="store_true",
+                    help="self-refine baseline: the main prompt, then 2 rounds of 'review and fix your own "
+                         "itinerary' with NO validator feedback; the validator only grades each round. "
+                         "Tag defaults to selfrefine_mimo.")
     args = ap.parse_args()
+    if args.selfrefine:
+        global SELFREFINE
+        SELFREFINE = True                      # r.MAX_ATTEMPTS stays 3 = draft + 2 self-review rounds
+        if not args.tag:
+            args.tag = "selfrefine_mimo"
+    if args.baseline:
+        global BASELINE
+        BASELINE = True
+        r.MAX_ATTEMPTS = 1
+        if not args.tag:
+            args.tag = "baseline_mimo"
     set_tag(args.tag)
     if args.model:
         r.MODEL = args.model

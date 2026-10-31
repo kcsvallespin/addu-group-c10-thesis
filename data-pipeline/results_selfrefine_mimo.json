@@ -1,0 +1,2500 @@
+[
+  {
+    "id": "S01",
+    "scenario": {
+      "id": "S01",
+      "duration_days": 2,
+      "budget_per_person_php": 2000,
+      "budget_php": 8000,
+      "interests": [
+        "Entertainment",
+        "Sightseeing"
+      ],
+      "group_size": 4,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-12"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 4,000 (within budget)",
+          "Day 2: estimated cost PHP 4,080 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 6,
+        "travel_km": 36.3,
+        "finish_reason": "stop",
+        "seconds": 365.4
+      },
+      {
+        "attempt": 2,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 4,000 (within budget)",
+          "Day 2: estimated cost PHP 4,080 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 6,
+        "travel_km": 36.3,
+        "finish_reason": "stop",
+        "seconds": 70.9
+      },
+      {
+        "attempt": 3,
+        "problems": [
+          "Repeated venues: ['dvo_poi_0522']"
+        ],
+        "warnings": [
+          "travel: day 2 dvo_poi_0633->dvo_poi_0820 54.9 km needs ~132 min, gap is 60 min (short by 72)",
+          "Day 1: estimated cost PHP 4,000 (within budget)",
+          "Day 2: estimated cost PHP 2,000 (within budget)"
+        ],
+        "problem_types": [
+          "duplicate"
+        ],
+        "travel_gaps": 1,
+        "travel_legs": 6,
+        "travel_km": 72.9,
+        "finish_reason": "stop",
+        "seconds": 58.7
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 14085,
+    "completion_tokens": 10976,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 495.0,
+    "first_attempt_pass": true,
+    "final_pass": false,
+    "attempts_used": 3,
+    "day_costs_php": [
+      4000,
+      2000
+    ]
+  },
+  {
+    "id": "S02",
+    "scenario": {
+      "id": "S02",
+      "duration_days": 3,
+      "budget_per_person_php": 4000,
+      "budget_php": 4000,
+      "interests": [
+        "Nature",
+        "Wellness",
+        "Accommodation"
+      ],
+      "group_size": 1,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-13"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,400 (within budget)",
+          "Day 2: estimated cost PHP 2,315 (within budget)",
+          "Day 3: estimated cost PHP 3,380 (within budget)",
+          "Nature not covered, but the forecast marks every day as unsuitable for outdoor visits"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 8,
+        "travel_km": 32.0,
+        "finish_reason": "stop",
+        "seconds": 377.0
+      },
+      {
+        "attempt": 2,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,150 (within budget)",
+          "Day 2: estimated cost PHP 1,099 (within budget)",
+          "Day 3: estimated cost PHP 3,015 (within budget)",
+          "Nature not covered, but the forecast marks every day as unsuitable for outdoor visits"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 6,
+        "travel_km": 22.3,
+        "finish_reason": "stop",
+        "seconds": 260.4
+      },
+      {
+        "attempt": 3,
+        "problems": [
+          "Weather conflict: dvo_poi_1239 (Philippine Eagle Center) is outdoors on 2026-10-14, which is marked unsuitable for outdoor visits",
+          "Weather conflict: dvo_poi_0524 (Crocodile Park Picnic Grounds) is outdoors on 2026-10-14, which is marked unsuitable for outdoor visits",
+          "Weather conflict: dvo_poi_0108 (Macatabo Farm) is outdoors on 2026-10-15, which is marked unsuitable for outdoor visits"
+        ],
+        "warnings": [
+          "travel: day 2 dvo_poi_1239->dvo_poi_0524 22.4 km needs ~54 min, gap is 30 min (short by 24)",
+          "travel: day 3 dvo_poi_0108->dvo_poi_0182 24.4 km needs ~59 min, gap is 0 min (short by 59)",
+          "Day 1: estimated cost PHP 1,150 (within budget)",
+          "Day 2: estimated cost PHP 400 (within budget)",
+          "Day 3: estimated cost PHP 1,816 (within budget)"
+        ],
+        "problem_types": [
+          "weather"
+        ],
+        "travel_gaps": 2,
+        "travel_legs": 6,
+        "travel_km": 58.5,
+        "finish_reason": "stop",
+        "seconds": 138.2
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 19795,
+    "completion_tokens": 16931,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 775.6,
+    "first_attempt_pass": true,
+    "final_pass": false,
+    "attempts_used": 3,
+    "day_costs_php": [
+      1150,
+      400,
+      1816
+    ]
+  },
+  {
+    "id": "S03",
+    "scenario": {
+      "id": "S03",
+      "duration_days": 2,
+      "budget_per_person_php": 1000,
+      "budget_php": 5000,
+      "interests": [
+        "Sightseeing",
+        "Food"
+      ],
+      "group_size": 5,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-14"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [
+          "dvo_poi_0108 (Macatabo Farm) scheduled outside hours on 2026-10-15"
+        ],
+        "warnings": [
+          "travel: day 2 dvo_poi_0065->dvo_poi_0658 37.0 km needs ~89 min, gap is 30 min (short by 59)",
+          "travel: day 2 dvo_poi_0658->dvo_poi_0723 57.4 km needs ~138 min, gap is 30 min (short by 108)",
+          "travel: day 2 dvo_poi_0723->dvo_poi_0108 28.1 km needs ~67 min, gap is 30 min (short by 37)",
+          "Day 1: estimated cost PHP 2,200 (within budget)",
+          "Day 2: estimated cost PHP 1,250 (within budget)"
+        ],
+        "problem_types": [
+          "hours"
+        ],
+        "travel_gaps": 3,
+        "travel_legs": 6,
+        "travel_km": 126.4,
+        "finish_reason": "stop",
+        "seconds": 36.6
+      },
+      {
+        "attempt": 2,
+        "problems": [],
+        "warnings": [
+          "travel: day 2 dvo_poi_0065->dvo_poi_0658 37.0 km needs ~89 min, gap is 30 min (short by 59)",
+          "travel: day 2 dvo_poi_0658->dvo_poi_0723 57.4 km needs ~138 min, gap is 90 min (short by 48)",
+          "Day 1: estimated cost PHP 2,000 (within budget)",
+          "Day 2: estimated cost PHP 1,625 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 2,
+        "travel_legs": 6,
+        "travel_km": 107.9,
+        "finish_reason": "stop",
+        "seconds": 158.2
+      },
+      {
+        "attempt": 3,
+        "problems": [],
+        "warnings": [
+          "travel: day 1 dvo_poi_0820->dvo_poi_0070 4.4 km needs ~11 min, gap is 0 min (short by 11)",
+          "Day 1: estimated cost PHP 2,000 (within budget)",
+          "Day 2: estimated cost PHP 1,000 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 5,
+        "travel_km": 24.6,
+        "finish_reason": "stop",
+        "seconds": 252.6
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 14118,
+    "completion_tokens": 7659,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 447.3,
+    "first_attempt_pass": false,
+    "final_pass": true,
+    "attempts_used": 3,
+    "day_costs_php": [
+      2000,
+      1000
+    ]
+  },
+  {
+    "id": "S04",
+    "scenario": {
+      "id": "S04",
+      "duration_days": 3,
+      "budget_per_person_php": 1000,
+      "budget_php": 4000,
+      "interests": [
+        "Culture",
+        "Food",
+        "Nature"
+      ],
+      "group_size": 4,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-15"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 2,240 (within budget)",
+          "Day 2: estimated cost PHP 1,060 (within budget)",
+          "Day 3: estimated cost PHP 3,580 (within budget)",
+          "Nature not covered, but the forecast marks every day as unsuitable for outdoor visits"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 10,
+        "travel_km": 37.6,
+        "finish_reason": "stop",
+        "seconds": 471.2
+      },
+      {
+        "attempt": 2,
+        "problems": [
+          "Weather conflict: dvo_poi_0767 (WYNWARD GARDEN BISTRO) is outdoors on 2026-10-17, which is marked unsuitable for outdoor visits"
+        ],
+        "warnings": [
+          "Day 1: estimated cost PHP 2,240 (within budget)",
+          "Day 2: estimated cost PHP 1,060 (within budget)",
+          "Day 3: estimated cost PHP 3,060 (within budget)"
+        ],
+        "problem_types": [
+          "weather"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 10,
+        "travel_km": 34.6,
+        "finish_reason": "stop",
+        "seconds": 272.8
+      },
+      {
+        "attempt": 3,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 2,240 (within budget)",
+          "Day 2: estimated cost PHP 1,060 (within budget)",
+          "Day 3: estimated cost PHP 3,580 (within budget)",
+          "Nature not covered, but the forecast marks every day as unsuitable for outdoor visits"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 11,
+        "travel_km": 38.1,
+        "finish_reason": "stop",
+        "seconds": 656.2
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 20768,
+    "completion_tokens": 30203,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 1400.2,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 3,
+    "day_costs_php": [
+      2240,
+      1060,
+      3580
+    ]
+  },
+  {
+    "id": "S05",
+    "scenario": {
+      "id": "S05",
+      "duration_days": 2,
+      "budget_per_person_php": 1000,
+      "budget_php": 2000,
+      "interests": [
+        "Nature",
+        "Wellness"
+      ],
+      "group_size": 2,
+      "weather_pattern": "mixed",
+      "start_date": "2026-10-16"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,000 (within budget)",
+          "Day 2: estimated cost PHP 1,798 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 4,
+        "travel_km": 42.7,
+        "finish_reason": "stop",
+        "seconds": 124.9
+      },
+      {
+        "attempt": 2,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,000 (within budget)",
+          "Day 2: estimated cost PHP 1,798 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 4,
+        "travel_km": 42.7,
+        "finish_reason": "stop",
+        "seconds": 82.4
+      },
+      {
+        "attempt": 3,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,000 (within budget)",
+          "Day 2: estimated cost PHP 1,798 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 4,
+        "travel_km": 42.7,
+        "finish_reason": "stop",
+        "seconds": 59.0
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 14593,
+    "completion_tokens": 7319,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 266.2,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 3,
+    "day_costs_php": [
+      1000,
+      1798
+    ]
+  },
+  {
+    "id": "S06",
+    "scenario": {
+      "id": "S06",
+      "duration_days": 1,
+      "budget_per_person_php": 1000,
+      "budget_php": 4000,
+      "interests": [
+        "Wellness",
+        "Entertainment",
+        "Nature"
+      ],
+      "group_size": 4,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-17"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 2,080 (within budget)",
+          "Nature not covered, but the forecast marks every day as unsuitable for outdoor visits"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 3,
+        "travel_km": 14.7,
+        "finish_reason": "stop",
+        "seconds": 252.4
+      },
+      {
+        "attempt": 2,
+        "problems": [
+          "Weather conflict: dvo_poi_1149 (Ramon Magsaysay Park) is outdoors on 2026-10-17, which is marked unsuitable for outdoor visits",
+          "Weather conflict: dvo_poi_1336 (DGT Central Park) is outdoors on 2026-10-17, which is marked unsuitable for outdoor visits"
+        ],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,080 (within budget)"
+        ],
+        "problem_types": [
+          "weather"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 4,
+        "travel_km": 13.7,
+        "finish_reason": "stop",
+        "seconds": 194.8
+      },
+      {
+        "attempt": 3,
+        "problems": [],
+        "warnings": [
+          "travel: day 1 dvo_poi_1033->dvo_poi_0248 17.1 km needs ~41 min, gap is 30 min (short by 11)",
+          "Day 1: estimated cost PHP 3,920 (within budget)",
+          "Nature not covered, but the forecast marks every day as unsuitable for outdoor visits"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 4,
+        "travel_km": 43.8,
+        "finish_reason": "stop",
+        "seconds": 329.2
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 18630,
+    "completion_tokens": 15755,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 776.3,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 3,
+    "day_costs_php": [
+      3920
+    ]
+  },
+  {
+    "id": "S07",
+    "scenario": {
+      "id": "S07",
+      "duration_days": 3,
+      "budget_per_person_php": 4000,
+      "budget_php": 12000,
+      "interests": [
+        "Nature",
+        "Wellness",
+        "Accommodation"
+      ],
+      "group_size": 3,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-18"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 4,200 (within budget)",
+          "Day 2: estimated cost PHP 7,259 (within budget)",
+          "Day 3: estimated cost PHP 10,168 (within budget)",
+          "Nature not covered, but the forecast marks every day as unsuitable for outdoor visits"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 8,
+        "travel_km": 35.4,
+        "finish_reason": "stop",
+        "seconds": 500.8
+      },
+      {
+        "attempt": 2,
+        "problems": [
+          "dvo_poi_0928 (Thai Boran - Damosa) scheduled outside hours on 2026-10-20"
+        ],
+        "warnings": [
+          "Day 1: estimated cost PHP 5,145 (within budget)",
+          "Day 2: estimated cost PHP 5,762 (within budget)",
+          "Day 3: estimated cost PHP 4,582 (within budget)",
+          "Nature not covered, but the forecast marks every day as unsuitable for outdoor visits"
+        ],
+        "problem_types": [
+          "hours"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 7,
+        "travel_km": 22.2,
+        "finish_reason": "stop",
+        "seconds": 515.4
+      },
+      {
+        "attempt": 3,
+        "problems": [
+          "Day 1: slots overlap (dvo_poi_0595 and dvo_poi_1341)"
+        ],
+        "warnings": [
+          "Day 1: estimated cost PHP 6,645 (within budget)",
+          "Day 2: estimated cost PHP 5,762 (within budget)",
+          "Day 3: estimated cost PHP 4,582 (within budget)",
+          "Nature not covered, but the forecast marks every day as unsuitable for outdoor visits"
+        ],
+        "problem_types": [
+          "overlap"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 7,
+        "travel_km": 29.0,
+        "finish_reason": "stop",
+        "seconds": 167.8
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 20087,
+    "completion_tokens": 22902,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 1184.0,
+    "first_attempt_pass": true,
+    "final_pass": false,
+    "attempts_used": 3,
+    "day_costs_php": [
+      6645,
+      5762,
+      4582
+    ]
+  },
+  {
+    "id": "S08",
+    "scenario": {
+      "id": "S08",
+      "duration_days": 1,
+      "budget_per_person_php": 2000,
+      "budget_php": 12000,
+      "interests": [
+        "Culture",
+        "Wellness",
+        "Shopping"
+      ],
+      "group_size": 6,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-12"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 2,040 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 3,
+        "travel_km": 12.9,
+        "finish_reason": "stop",
+        "seconds": 188.0
+      },
+      {
+        "attempt": 2,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 2,040 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 3,
+        "travel_km": 12.9,
+        "finish_reason": "stop",
+        "seconds": 30.5
+      },
+      {
+        "attempt": 3,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 52.8
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 18850,
+    "completion_tokens": 8001,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 271.3,
+    "first_attempt_pass": true,
+    "final_pass": false,
+    "attempts_used": 3
+  },
+  {
+    "id": "S09",
+    "scenario": {
+      "id": "S09",
+      "duration_days": 3,
+      "budget_per_person_php": 1000,
+      "budget_php": 2000,
+      "interests": [
+        "Entertainment",
+        "Culture",
+        "Nature"
+      ],
+      "group_size": 2,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-13"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 760 (within budget)",
+          "Day 2: estimated cost PHP 1,240 (within budget)",
+          "Day 3: estimated cost PHP 40 (within budget)",
+          "Nature not covered, but the forecast marks every day as unsuitable for outdoor visits"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 9,
+        "travel_km": 30.7,
+        "finish_reason": "stop",
+        "seconds": 862.5
+      },
+      {
+        "attempt": 2,
+        "problems": [
+          "Weather conflict: dvo_poi_0113 (Botanical Garden) is outdoors on 2026-10-13, which is marked unsuitable for outdoor visits",
+          "Weather conflict: dvo_poi_0876 (Quezon Park) is outdoors on 2026-10-15, which is marked unsuitable for outdoor visits"
+        ],
+        "warnings": [
+          "Day 1: estimated cost PHP 760 (within budget)",
+          "Day 2: estimated cost PHP 1,240 (within budget)",
+          "Day 3: estimated cost PHP 40 (within budget)"
+        ],
+        "problem_types": [
+          "weather"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 9,
+        "travel_km": 33.2,
+        "finish_reason": "stop",
+        "seconds": 452.2
+      },
+      {
+        "attempt": 3,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 69.5
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 19671,
+    "completion_tokens": 19420,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 1384.2,
+    "first_attempt_pass": true,
+    "final_pass": false,
+    "attempts_used": 3
+  },
+  {
+    "id": "S10",
+    "scenario": {
+      "id": "S10",
+      "duration_days": 1,
+      "budget_per_person_php": 4000,
+      "budget_php": 8000,
+      "interests": [
+        "Entertainment",
+        "Food",
+        "Wellness"
+      ],
+      "group_size": 2,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-14"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,470 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 3,
+        "travel_km": 11.8,
+        "finish_reason": "stop",
+        "seconds": 238.7
+      },
+      {
+        "attempt": 2,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,470 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 3,
+        "travel_km": 11.8,
+        "finish_reason": "stop",
+        "seconds": 89.5
+      },
+      {
+        "attempt": 3,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 130.1
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 100,
+    "budget_feasible": true,
+    "prompt_tokens": 18726,
+    "completion_tokens": 7114,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 458.4,
+    "first_attempt_pass": true,
+    "final_pass": false,
+    "attempts_used": 3
+  },
+  {
+    "id": "S11",
+    "scenario": {
+      "id": "S11",
+      "duration_days": 1,
+      "budget_per_person_php": 2000,
+      "budget_php": 12000,
+      "interests": [
+        "Wellness",
+        "Nature"
+      ],
+      "group_size": 6,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-15"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 3,210 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 3,
+        "travel_km": 13.6,
+        "finish_reason": "stop",
+        "seconds": 308.4
+      },
+      {
+        "attempt": 2,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 350.1
+      },
+      {
+        "attempt": 3,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 302.2
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 13937,
+    "completion_tokens": 8609,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 960.7,
+    "first_attempt_pass": true,
+    "final_pass": false,
+    "attempts_used": 3
+  },
+  {
+    "id": "S12",
+    "scenario": {
+      "id": "S12",
+      "duration_days": 2,
+      "budget_per_person_php": 4000,
+      "budget_php": 16000,
+      "interests": [
+        "Food",
+        "Entertainment",
+        "Accommodation"
+      ],
+      "group_size": 4,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-16"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 4,200 (within budget)",
+          "Day 2: estimated cost PHP 4,300 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 8,
+        "travel_km": 37.0,
+        "finish_reason": "stop",
+        "seconds": 580.4
+      },
+      {
+        "attempt": 2,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 4,200 (within budget)",
+          "Day 2: estimated cost PHP 4,300 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 8,
+        "travel_km": 37.0,
+        "finish_reason": "stop",
+        "seconds": 189.4
+      },
+      {
+        "attempt": 3,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 4,200 (within budget)",
+          "Day 2: estimated cost PHP 4,300 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 8,
+        "travel_km": 37.0,
+        "finish_reason": "stop",
+        "seconds": 171.8
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 200,
+    "budget_feasible": true,
+    "prompt_tokens": 19663,
+    "completion_tokens": 9357,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 941.5,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 3,
+    "day_costs_php": [
+      4200,
+      4300
+    ]
+  },
+  {
+    "id": "S13",
+    "scenario": {
+      "id": "S13",
+      "duration_days": 3,
+      "budget_per_person_php": 2000,
+      "budget_php": 2000,
+      "interests": [
+        "Shopping",
+        "Culture",
+        "Sightseeing"
+      ],
+      "group_size": 1,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-17"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 0 (within budget)",
+          "Day 2: estimated cost PHP 250 (within budget)",
+          "Day 3: estimated cost PHP 700 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 9,
+        "travel_km": 22.3,
+        "finish_reason": "stop",
+        "seconds": 528.6
+      },
+      {
+        "attempt": 2,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 0 (within budget)",
+          "Day 2: estimated cost PHP 250 (within budget)",
+          "Day 3: estimated cost PHP 700 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 8,
+        "travel_km": 19.0,
+        "finish_reason": "stop",
+        "seconds": 211.8
+      },
+      {
+        "attempt": 3,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 0 (within budget)",
+          "Day 2: estimated cost PHP 250 (within budget)",
+          "Day 3: estimated cost PHP 700 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 8,
+        "travel_km": 19.0,
+        "finish_reason": "stop",
+        "seconds": 305.2
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 20086,
+    "completion_tokens": 14164,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 1045.6,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 3,
+    "day_costs_php": [
+      0,
+      250,
+      700
+    ]
+  },
+  {
+    "id": "S14",
+    "scenario": {
+      "id": "S14",
+      "duration_days": 1,
+      "budget_per_person_php": 4000,
+      "budget_php": 12000,
+      "interests": [
+        "Wellness"
+      ],
+      "group_size": 3,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-18"
+    },
+    "n_candidates": 8,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 1 dvo_poi_0248->dvo_poi_0711 9.2 km needs ~22 min, gap is 0 min (short by 22)",
+          "travel: day 1 dvo_poi_0711->dvo_poi_0237 4.9 km needs ~12 min, gap is 0 min (short by 12)",
+          "travel: day 1 dvo_poi_0237->dvo_poi_1341 6.9 km needs ~17 min, gap is 0 min (short by 17)",
+          "Day 1: estimated cost PHP 4,050 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 3,
+        "travel_legs": 3,
+        "travel_km": 21.1,
+        "finish_reason": "stop",
+        "seconds": 613.4
+      },
+      {
+        "attempt": 2,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 83.4
+      },
+      {
+        "attempt": 3,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 101.9
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 2400,
+    "budget_feasible": true,
+    "prompt_tokens": 8890,
+    "completion_tokens": 10401,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 798.7,
+    "first_attempt_pass": true,
+    "final_pass": false,
+    "attempts_used": 3
+  },
+  {
+    "id": "S15",
+    "scenario": {
+      "id": "S15",
+      "duration_days": 2,
+      "budget_per_person_php": 2000,
+      "budget_php": 10000,
+      "interests": [
+        "Sightseeing",
+        "Wellness"
+      ],
+      "group_size": 5,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-12"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 2 dvo_poi_0065->dvo_poi_0211 16.8 km needs ~40 min, gap is 30 min (short by 10)",
+          "travel: day 2 dvo_poi_0211->dvo_poi_1154 28.3 km needs ~68 min, gap is 30 min (short by 38)",
+          "Day 1: estimated cost PHP 2,995 (within budget)",
+          "Day 2: estimated cost PHP 2,000 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 2,
+        "travel_legs": 4,
+        "travel_km": 49.4,
+        "finish_reason": "stop",
+        "seconds": 511.4
+      },
+      {
+        "attempt": 2,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 156.3
+      },
+      {
+        "attempt": 3,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 154.2
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 14590,
+    "completion_tokens": 12972,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 821.9,
+    "first_attempt_pass": true,
+    "final_pass": false,
+    "attempts_used": 3
+  },
+  {
+    "id": "S16",
+    "scenario": {
+      "id": "S16",
+      "duration_days": 1,
+      "budget_per_person_php": 1000,
+      "budget_php": 6000,
+      "interests": [
+        "Culture"
+      ],
+      "group_size": 6,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-13"
+    },
+    "n_candidates": 8,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,500 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 3,
+        "travel_km": 9.0,
+        "finish_reason": "stop",
+        "seconds": 269.3
+      },
+      {
+        "attempt": 2,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 128.9
+      },
+      {
+        "attempt": 3,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,500 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 3,
+        "travel_km": 5.1,
+        "finish_reason": "stop",
+        "seconds": 150.0
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 9138,
+    "completion_tokens": 8263,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 548.1,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 3,
+    "day_costs_php": [
+      1500
+    ]
+  },
+  {
+    "id": "S17",
+    "scenario": {
+      "id": "S17",
+      "duration_days": 2,
+      "budget_per_person_php": 1000,
+      "budget_php": 4000,
+      "interests": [
+        "Entertainment",
+        "Food"
+      ],
+      "group_size": 4,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-14"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 1 dvo_poi_0355->dvo_poi_0462 8.4 km needs ~20 min, gap is 0 min (short by 20)",
+          "Day 1: estimated cost PHP 2,140 (within budget)",
+          "Day 2: estimated cost PHP 3,840 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 7,
+        "travel_km": 44.3,
+        "finish_reason": "stop",
+        "seconds": 391.8
+      },
+      {
+        "attempt": 2,
+        "problems": [
+          "dvo_poi_0292 (Made Simple) scheduled outside hours on 2026-10-15"
+        ],
+        "warnings": [
+          "Day 1: estimated cost PHP 3,540 (within budget)",
+          "Day 2: estimated cost PHP 3,840 (within budget)"
+        ],
+        "problem_types": [
+          "hours"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 8,
+        "travel_km": 36.6,
+        "finish_reason": "stop",
+        "seconds": 149.8
+      },
+      {
+        "attempt": 3,
+        "problems": [
+          "dvo_poi_0355 (Junex Tuna & Seafood) scheduled outside hours on 2026-10-14",
+          "dvo_poi_0040 (Davao Riverfront Crocodile Park & Zoo) scheduled outside hours on 2026-10-15",
+          "dvo_poi_0736 (Yellow Fin Seafood Restaurant) scheduled outside hours on 2026-10-15",
+          "Day 2: estimated cost PHP 4,980 exceeds budget PHP 4,000"
+        ],
+        "warnings": [
+          "Day 1: estimated cost PHP 2,260 (within budget)"
+        ],
+        "problem_types": [
+          "budget",
+          "hours"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 8,
+        "travel_km": 44.5,
+        "finish_reason": "stop",
+        "seconds": 253.1
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 200,
+    "budget_feasible": true,
+    "prompt_tokens": 14207,
+    "completion_tokens": 9231,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 794.7,
+    "first_attempt_pass": true,
+    "final_pass": false,
+    "attempts_used": 3,
+    "day_costs_php": [
+      2260,
+      4980
+    ]
+  },
+  {
+    "id": "S18",
+    "scenario": {
+      "id": "S18",
+      "duration_days": 2,
+      "budget_per_person_php": 2000,
+      "budget_php": 4000,
+      "interests": [
+        "Sightseeing",
+        "Nature",
+        "Shopping"
+      ],
+      "group_size": 2,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-15"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 2 dvo_poi_1242->dvo_poi_0558 54.4 km needs ~131 min, gap is 60 min (short by 71)",
+          "Day 1: estimated cost PHP 180 (within budget)",
+          "Day 2: estimated cost PHP 1,100 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 5,
+        "travel_km": 67.1,
+        "finish_reason": "stop",
+        "seconds": 376.8
+      },
+      {
+        "attempt": 2,
+        "problems": [],
+        "warnings": [
+          "travel: day 2 dvo_poi_1242->dvo_poi_0558 54.4 km needs ~131 min, gap is 60 min (short by 71)",
+          "Day 1: estimated cost PHP 180 (within budget)",
+          "Day 2: estimated cost PHP 1,100 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 5,
+        "travel_km": 67.1,
+        "finish_reason": "stop",
+        "seconds": 131.5
+      },
+      {
+        "attempt": 3,
+        "problems": [],
+        "warnings": [
+          "travel: day 2 dvo_poi_1242->dvo_poi_0558 54.4 km needs ~131 min, gap is 60 min (short by 71)",
+          "Day 1: estimated cost PHP 180 (within budget)",
+          "Day 2: estimated cost PHP 1,100 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 5,
+        "travel_km": 67.1,
+        "finish_reason": "stop",
+        "seconds": 86.0
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 18996,
+    "completion_tokens": 7721,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 594.3,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 3,
+    "day_costs_php": [
+      180,
+      1100
+    ]
+  },
+  {
+    "id": "S19",
+    "scenario": {
+      "id": "S19",
+      "duration_days": 1,
+      "budget_per_person_php": 4000,
+      "budget_php": 12000,
+      "interests": [
+        "Sightseeing",
+        "Wellness"
+      ],
+      "group_size": 3,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-16"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 750 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 3,
+        "travel_km": 8.6,
+        "finish_reason": "stop",
+        "seconds": 87.2
+      },
+      {
+        "attempt": 2,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 750 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 3,
+        "travel_km": 8.6,
+        "finish_reason": "stop",
+        "seconds": 65.1
+      },
+      {
+        "attempt": 3,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 62.1
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 13746,
+    "completion_tokens": 4875,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 214.3,
+    "first_attempt_pass": true,
+    "final_pass": false,
+    "attempts_used": 3
+  },
+  {
+    "id": "S20",
+    "scenario": {
+      "id": "S20",
+      "duration_days": 3,
+      "budget_per_person_php": 1000,
+      "budget_php": 2000,
+      "interests": [
+        "Nature",
+        "Sightseeing",
+        "Culture"
+      ],
+      "group_size": 2,
+      "weather_pattern": "mixed",
+      "start_date": "2026-10-17"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [
+          "dvo_poi_0620 (The Church of Jesus Christ of Latter-day Saints) scheduled outside hours on 2026-10-18"
+        ],
+        "warnings": [
+          "Day 1: estimated cost PHP 500 (within budget)",
+          "Day 2: estimated cost PHP 500 (within budget)",
+          "Day 3: estimated cost PHP 200 (within budget)"
+        ],
+        "problem_types": [
+          "hours"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 10,
+        "travel_km": 97.0,
+        "finish_reason": "stop",
+        "seconds": 766.1
+      },
+      {
+        "attempt": 2,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 205.0
+      },
+      {
+        "attempt": 3,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 212.7
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 20668,
+    "completion_tokens": 19577,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 1183.8,
+    "first_attempt_pass": false,
+    "final_pass": false,
+    "attempts_used": 3
+  },
+  {
+    "id": "S21",
+    "scenario": {
+      "id": "S21",
+      "duration_days": 3,
+      "budget_per_person_php": 2000,
+      "budget_php": 8000,
+      "interests": [
+        "Sightseeing",
+        "Shopping",
+        "Food"
+      ],
+      "group_size": 4,
+      "weather_pattern": "mixed",
+      "start_date": "2026-10-18"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 2 dvo_poi_0065->dvo_poi_0355 18.6 km needs ~45 min, gap is 30 min (short by 15)",
+          "Day 1: estimated cost PHP 360 (within budget)",
+          "Day 2: estimated cost PHP 1,880 (within budget)",
+          "Day 3: estimated cost PHP 1,060 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 9,
+        "travel_km": 86.6,
+        "finish_reason": "stop",
+        "seconds": 394.0
+      },
+      {
+        "attempt": 2,
+        "problems": [],
+        "warnings": [
+          "travel: day 2 dvo_poi_0065->dvo_poi_0355 18.6 km needs ~45 min, gap is 30 min (short by 15)",
+          "Day 1: estimated cost PHP 360 (within budget)",
+          "Day 2: estimated cost PHP 1,880 (within budget)",
+          "Day 3: estimated cost PHP 1,060 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 9,
+        "travel_km": 86.6,
+        "finish_reason": "stop",
+        "seconds": 94.2
+      },
+      {
+        "attempt": 3,
+        "problems": [],
+        "warnings": [
+          "travel: day 2 dvo_poi_0065->dvo_poi_0355 18.6 km needs ~45 min, gap is 30 min (short by 15)",
+          "Day 1: estimated cost PHP 360 (within budget)",
+          "Day 2: estimated cost PHP 1,880 (within budget)",
+          "Day 3: estimated cost PHP 1,060 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 9,
+        "travel_km": 86.6,
+        "finish_reason": "stop",
+        "seconds": 99.6
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 20004,
+    "completion_tokens": 10382,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 587.9,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 3,
+    "day_costs_php": [
+      360,
+      1880,
+      1060
+    ]
+  },
+  {
+    "id": "S22",
+    "scenario": {
+      "id": "S22",
+      "duration_days": 2,
+      "budget_per_person_php": 2000,
+      "budget_php": 4000,
+      "interests": [
+        "Entertainment",
+        "Food"
+      ],
+      "group_size": 2,
+      "weather_pattern": "mixed",
+      "start_date": "2026-10-12"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,930 (within budget)",
+          "Day 2: estimated cost PHP 1,390 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 6,
+        "travel_km": 29.4,
+        "finish_reason": "stop",
+        "seconds": 116.9
+      },
+      {
+        "attempt": 2,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,930 (within budget)",
+          "Day 2: estimated cost PHP 1,390 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 6,
+        "travel_km": 23.2,
+        "finish_reason": "stop",
+        "seconds": 190.3
+      },
+      {
+        "attempt": 3,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,930 (within budget)",
+          "Day 2: estimated cost PHP 1,390 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 6,
+        "travel_km": 23.2,
+        "finish_reason": "stop",
+        "seconds": 119.9
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 100,
+    "budget_feasible": true,
+    "prompt_tokens": 14534,
+    "completion_tokens": 7760,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 427.2,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 3,
+    "day_costs_php": [
+      1930,
+      1390
+    ]
+  },
+  {
+    "id": "S23",
+    "scenario": {
+      "id": "S23",
+      "duration_days": 2,
+      "budget_per_person_php": 4000,
+      "budget_php": 12000,
+      "interests": [
+        "Sightseeing",
+        "Culture"
+      ],
+      "group_size": 3,
+      "weather_pattern": "mixed",
+      "start_date": "2026-10-13"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 1 dvo_poi_0876->dvo_poi_0065 21.3 km needs ~51 min, gap is 30 min (short by 21)",
+          "travel: day 1 dvo_poi_0065->dvo_poi_0820 19.6 km needs ~47 min, gap is 30 min (short by 17)",
+          "Day 1: estimated cost PHP 300 (within budget)",
+          "Day 2: estimated cost PHP 0 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 2,
+        "travel_legs": 6,
+        "travel_km": 49.6,
+        "finish_reason": "stop",
+        "seconds": 445.2
+      },
+      {
+        "attempt": 2,
+        "problems": [],
+        "warnings": [
+          "travel: day 1 dvo_poi_0876->dvo_poi_0065 21.3 km needs ~51 min, gap is 30 min (short by 21)",
+          "travel: day 1 dvo_poi_0065->dvo_poi_0820 19.6 km needs ~47 min, gap is 30 min (short by 17)",
+          "Day 1: estimated cost PHP 300 (within budget)",
+          "Day 2: estimated cost PHP 0 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 2,
+        "travel_legs": 6,
+        "travel_km": 49.6,
+        "finish_reason": "stop",
+        "seconds": 68.4
+      },
+      {
+        "attempt": 3,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 84.8
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 13852,
+    "completion_tokens": 11311,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 598.4,
+    "first_attempt_pass": true,
+    "final_pass": false,
+    "attempts_used": 3
+  },
+  {
+    "id": "S24",
+    "scenario": {
+      "id": "S24",
+      "duration_days": 1,
+      "budget_per_person_php": 2000,
+      "budget_php": 8000,
+      "interests": [
+        "Nature"
+      ],
+      "group_size": 4,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-14"
+    },
+    "n_candidates": 8,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 1 dvo_poi_0658->dvo_poi_1239 34.7 km needs ~83 min, gap is 60 min (short by 23)",
+          "Day 1: estimated cost PHP 1,400 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 3,
+        "travel_km": 45.8,
+        "finish_reason": "stop",
+        "seconds": 71.1
+      },
+      {
+        "attempt": 2,
+        "problems": [],
+        "warnings": [
+          "travel: day 1 dvo_poi_0658->dvo_poi_1239 34.7 km needs ~83 min, gap is 60 min (short by 23)",
+          "Day 1: estimated cost PHP 1,400 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 3,
+        "travel_km": 45.8,
+        "finish_reason": "stop",
+        "seconds": 44.1
+      },
+      {
+        "attempt": 3,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 60.0
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 8535,
+    "completion_tokens": 4415,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 175.1,
+    "first_attempt_pass": true,
+    "final_pass": false,
+    "attempts_used": 3
+  },
+  {
+    "id": "S25",
+    "scenario": {
+      "id": "S25",
+      "duration_days": 2,
+      "budget_per_person_php": 1000,
+      "budget_php": 2000,
+      "interests": [
+        "Food"
+      ],
+      "group_size": 2,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-15"
+    },
+    "n_candidates": 10,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,700 (within budget)",
+          "Day 2: estimated cost PHP 1,758 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 5,
+        "travel_km": 23.9,
+        "finish_reason": "stop",
+        "seconds": 229.5
+      },
+      {
+        "attempt": 2,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,700 (within budget)",
+          "Day 2: estimated cost PHP 1,758 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 5,
+        "travel_km": 23.9,
+        "finish_reason": "stop",
+        "seconds": 81.8
+      },
+      {
+        "attempt": 3,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 1,700 (within budget)",
+          "Day 2: estimated cost PHP 1,758 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 5,
+        "travel_km": 23.9,
+        "finish_reason": "stop",
+        "seconds": 120.9
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 710,
+    "budget_feasible": true,
+    "prompt_tokens": 10212,
+    "completion_tokens": 8692,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 432.2,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 3,
+    "day_costs_php": [
+      1700,
+      1758
+    ]
+  },
+  {
+    "id": "S26",
+    "scenario": {
+      "id": "S26",
+      "duration_days": 3,
+      "budget_per_person_php": 1000,
+      "budget_php": 3000,
+      "interests": [
+        "Sightseeing"
+      ],
+      "group_size": 3,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-16"
+    },
+    "n_candidates": 15,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 3 dvo_poi_0658->dvo_poi_0211 41.0 km needs ~98 min, gap is 60 min (short by 38)",
+          "Day 1: estimated cost PHP 0 (within budget)",
+          "Day 2: estimated cost PHP 1,590 (within budget)",
+          "Day 3: estimated cost PHP 3,000 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 9,
+        "travel_km": 71.3,
+        "finish_reason": "stop",
+        "seconds": 629.2
+      },
+      {
+        "attempt": 2,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 98.4
+      },
+      {
+        "attempt": 3,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 465.9
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 14488,
+    "completion_tokens": 22030,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 1193.4,
+    "first_attempt_pass": true,
+    "final_pass": false,
+    "attempts_used": 3
+  },
+  {
+    "id": "S27",
+    "scenario": {
+      "id": "S27",
+      "duration_days": 3,
+      "budget_per_person_php": 4000,
+      "budget_php": 8000,
+      "interests": [
+        "Nature",
+        "Wellness"
+      ],
+      "group_size": 2,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-17"
+    },
+    "n_candidates": 16,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 2 dvo_poi_0270->dvo_poi_0237 58.9 km needs ~141 min, gap is 60 min (short by 81)",
+          "Day 1: estimated cost PHP 1,000 (within budget)",
+          "Day 2: estimated cost PHP 700 (within budget)",
+          "Day 3: estimated cost PHP 1,600 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 9,
+        "travel_km": 129.4,
+        "finish_reason": "stop",
+        "seconds": 318.1
+      },
+      {
+        "attempt": 2,
+        "problems": [],
+        "warnings": [
+          "travel: day 2 dvo_poi_0270->dvo_poi_0237 58.9 km needs ~141 min, gap is 60 min (short by 81)",
+          "Day 1: estimated cost PHP 1,000 (within budget)",
+          "Day 2: estimated cost PHP 700 (within budget)",
+          "Day 3: estimated cost PHP 1,600 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 9,
+        "travel_km": 129.4,
+        "finish_reason": "stop",
+        "seconds": 65.3
+      },
+      {
+        "attempt": 3,
+        "problems": [
+          "dvo_poi_0576 (Osmeña Park) scheduled outside hours on 2026-10-17"
+        ],
+        "warnings": [
+          "travel: day 3 dvo_poi_0270->dvo_poi_1154 60.4 km needs ~145 min, gap is 60 min (short by 85)",
+          "Day 1: estimated cost PHP 500 (within budget)",
+          "Day 2: estimated cost PHP 1,000 (within budget)",
+          "Day 3: estimated cost PHP 800 (within budget)"
+        ],
+        "problem_types": [
+          "hours"
+        ],
+        "travel_gaps": 1,
+        "travel_legs": 8,
+        "travel_km": 115.2,
+        "finish_reason": "stop",
+        "seconds": 118.0
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 15138,
+    "completion_tokens": 11214,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 501.3,
+    "first_attempt_pass": true,
+    "final_pass": false,
+    "attempts_used": 3,
+    "day_costs_php": [
+      500,
+      1000,
+      800
+    ]
+  },
+  {
+    "id": "S28",
+    "scenario": {
+      "id": "S28",
+      "duration_days": 1,
+      "budget_per_person_php": 2000,
+      "budget_php": 8000,
+      "interests": [
+        "Nature",
+        "Culture",
+        "Shopping"
+      ],
+      "group_size": 4,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-18"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 600 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 3,
+        "travel_km": 26.4,
+        "finish_reason": "stop",
+        "seconds": 226.2
+      },
+      {
+        "attempt": 2,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 57.2
+      },
+      {
+        "attempt": 3,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 75.5
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 18754,
+    "completion_tokens": 8208,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 358.9,
+    "first_attempt_pass": true,
+    "final_pass": false,
+    "attempts_used": 3
+  },
+  {
+    "id": "S29",
+    "scenario": {
+      "id": "S29",
+      "duration_days": 1,
+      "budget_per_person_php": 4000,
+      "budget_php": 16000,
+      "interests": [
+        "Nature",
+        "Shopping",
+        "Sightseeing"
+      ],
+      "group_size": 4,
+      "weather_pattern": "rain",
+      "start_date": "2026-10-12"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [
+          "dvo_poi_0953 (SM Lanang Premier): visit length 270 min is outside 30-240 min"
+        ],
+        "warnings": [
+          "Day 1: estimated cost PHP 3,800 (within budget)",
+          "Nature not covered, but the forecast marks every day as unsuitable for outdoor visits"
+        ],
+        "problem_types": [
+          "duration"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 3,
+        "travel_km": 6.5,
+        "finish_reason": "stop",
+        "seconds": 208.2
+      },
+      {
+        "attempt": 2,
+        "problems": [
+          "Weather conflict: dvo_poi_1239 (Philippine Eagle Center) is outdoors on 2026-10-12, which is marked unsuitable for outdoor visits"
+        ],
+        "warnings": [
+          "travel: day 1 dvo_poi_1239->dvo_poi_0820 23.8 km needs ~57 min, gap is 30 min (short by 27)",
+          "Day 1: estimated cost PHP 3,400 (within budget)"
+        ],
+        "problem_types": [
+          "weather"
+        ],
+        "travel_gaps": 1,
+        "travel_legs": 3,
+        "travel_km": 28.0,
+        "finish_reason": "stop",
+        "seconds": 188.7
+      },
+      {
+        "attempt": 3,
+        "problems": [
+          "Response was not valid JSON. Reply with ONLY the JSON object."
+        ],
+        "warnings": [],
+        "problem_types": [
+          "invalid_json"
+        ],
+        "travel_gaps": 0,
+        "travel_legs": 0,
+        "travel_km": 0.0,
+        "finish_reason": "stop",
+        "seconds": 81.9
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 18486,
+    "completion_tokens": 9969,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 478.8,
+    "first_attempt_pass": false,
+    "final_pass": false,
+    "attempts_used": 3
+  },
+  {
+    "id": "S30",
+    "scenario": {
+      "id": "S30",
+      "duration_days": 3,
+      "budget_per_person_php": 4000,
+      "budget_php": 8000,
+      "interests": [
+        "Wellness",
+        "Sightseeing",
+        "Culture"
+      ],
+      "group_size": 2,
+      "weather_pattern": "clear",
+      "start_date": "2026-10-13"
+    },
+    "n_candidates": 24,
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "warnings": [
+          "travel: day 2 dvo_poi_1242->dvo_poi_1154 57.3 km needs ~138 min, gap is 120 min (short by 18)",
+          "Day 1: estimated cost PHP 500 (within budget)",
+          "Day 2: estimated cost PHP 1,600 (within budget)",
+          "Day 3: estimated cost PHP 500 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 1,
+        "travel_legs": 8,
+        "travel_km": 76.8,
+        "finish_reason": "stop",
+        "seconds": 473.3
+      },
+      {
+        "attempt": 2,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 500 (within budget)",
+          "Day 2: estimated cost PHP 600 (within budget)",
+          "Day 3: estimated cost PHP 500 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 9,
+        "travel_km": 23.4,
+        "finish_reason": "stop",
+        "seconds": 284.5
+      },
+      {
+        "attempt": 3,
+        "problems": [],
+        "warnings": [
+          "Day 1: estimated cost PHP 500 (within budget)",
+          "Day 2: estimated cost PHP 600 (within budget)",
+          "Day 3: estimated cost PHP 500 (within budget)"
+        ],
+        "problem_types": [],
+        "travel_gaps": 0,
+        "travel_legs": 9,
+        "travel_km": 23.4,
+        "finish_reason": "stop",
+        "seconds": 94.4
+      }
+    ],
+    "model": "xiaomi/mimo-v2.5-pro",
+    "temperature": 0.2,
+    "data_version": "689ece30b82a",
+    "feasible": true,
+    "infeasible_reasons": [],
+    "min_day_cost_php": 0,
+    "budget_feasible": true,
+    "prompt_tokens": 20160,
+    "completion_tokens": 19599,
+    "error": null,
+    "mode": "selfrefine",
+    "total_seconds": 852.3,
+    "first_attempt_pass": true,
+    "final_pass": true,
+    "attempts_used": 3,
+    "day_costs_php": [
+      500,
+      600,
+      500
+    ]
+  }
+]

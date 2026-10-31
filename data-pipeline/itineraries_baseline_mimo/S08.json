@@ -1,0 +1,541 @@
+{
+  "scenario": {
+    "id": "S08",
+    "duration_days": 1,
+    "budget_per_person_php": 2000,
+    "budget_php": 12000,
+    "interests": [
+      "Culture",
+      "Wellness",
+      "Shopping"
+    ],
+    "group_size": 6,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-12"
+  },
+  "weather": [
+    {
+      "date": "2026-10-12",
+      "condition": "Clear",
+      "pop": 0.1,
+      "is_outdoor_suitable": true
+    }
+  ],
+  "data_version": "689ece30b82a",
+  "candidates": [
+    {
+      "venue_id": "dvo_poi_0498",
+      "name": "Faith Tabernacle Church - Metro Davao",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "17:00-20:00",
+        "tue": "closed",
+        "wed": "closed",
+        "thu": "16:30-20:30",
+        "fri": "16:30-22:00",
+        "sat": "closed",
+        "sun": "08:00-12:00"
+      },
+      "latitude": 7.0678575,
+      "longitude": 125.61330989999999
+    },
+    {
+      "venue_id": "dvo_poi_1199",
+      "name": "National Museum of the Philippines - Davao",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "09:00-17:00",
+        "tue": "09:00-17:00",
+        "wed": "09:00-17:00",
+        "thu": "09:00-17:00",
+        "fri": "09:00-17:00",
+        "sat": "09:00-17:00",
+        "sun": "09:00-17:00"
+      },
+      "latitude": 7.070172899999999,
+      "longitude": 125.60903929999998
+    },
+    {
+      "venue_id": "dvo_poi_1373",
+      "name": "Cathedral of Praise - Davao",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "closed",
+        "wed": "05:30-18:00",
+        "thu": "05:30-18:00",
+        "fri": "05:30-21:00",
+        "sat": "08:00-20:00",
+        "sun": "06:30-18:30"
+      },
+      "latitude": 7.0753509,
+      "longitude": 125.6197143
+    },
+    {
+      "venue_id": "dvo_poi_0516",
+      "name": "St. Francis of Assisi Parish",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "08:00-12:00, 14:00-17:00",
+        "tue": "08:00-12:00, 14:00-17:00",
+        "wed": "08:00-12:00, 14:00-17:00",
+        "thu": "08:00-12:00, 14:00-17:00",
+        "fri": "08:00-12:00, 14:00-17:00",
+        "sat": "08:00-12:00, 14:00-17:00",
+        "sun": "08:00-12:00, 14:00-17:00"
+      },
+      "latitude": 7.1025168999999995,
+      "longitude": 125.58237229999999
+    },
+    {
+      "venue_id": "dvo_poi_1207",
+      "name": "Foursquare Gospel Church",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "08:00-17:00",
+        "wed": "08:00-17:00",
+        "thu": "08:00-17:00",
+        "fri": "08:00-17:00",
+        "sat": "closed",
+        "sun": "06:30-19:30"
+      },
+      "latitude": 7.0736098,
+      "longitude": 125.6047204
+    },
+    {
+      "venue_id": "dvo_poi_0893",
+      "name": "The Commemorative Monument of Peace and Unity",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0642831,
+      "longitude": 125.60919460000001
+    },
+    {
+      "venue_id": "dvo_poi_0372",
+      "name": "Upside Down House Museum Davao",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 1500,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "08:00-21:00",
+        "tue": "08:00-21:00",
+        "wed": "08:00-21:00",
+        "thu": "08:00-21:00",
+        "fri": "08:00-21:00",
+        "sat": "08:00-21:00",
+        "sun": "08:00-21:00"
+      },
+      "latitude": 7.0717783999999995,
+      "longitude": 125.61127439999999
+    },
+    {
+      "venue_id": "dvo_poi_0139",
+      "name": "The Church of Jesus Christ of Latter-day Saints",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "09:00-18:00",
+        "tue": "09:00-18:00",
+        "wed": "09:00-18:00",
+        "thu": "09:00-18:00",
+        "fri": "09:00-18:00",
+        "sat": "09:00-18:00",
+        "sun": "09:00-12:00, 13:30-16:30"
+      },
+      "latitude": 7.0579467,
+      "longitude": 125.56869010000001
+    },
+    {
+      "venue_id": "dvo_poi_0711",
+      "name": "De Stress Massage & Spa Matina Pangi Davao branch",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 1500,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "10:00-00:00",
+        "tue": "10:00-00:00",
+        "wed": "10:00-00:00",
+        "thu": "10:00-00:00",
+        "fri": "10:00-00:00",
+        "sat": "10:00-00:00",
+        "sun": "10:00-00:00"
+      },
+      "latitude": 7.0621127999999995,
+      "longitude": 125.5702191
+    },
+    {
+      "venue_id": "dvo_poi_0237",
+      "name": "Miso Thai Massage Spa",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 1500,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "12:00-23:00",
+        "tue": "12:00-23:00",
+        "wed": "12:00-23:00",
+        "thu": "12:00-23:00",
+        "fri": "12:00-23:00",
+        "sat": "12:00-23:00",
+        "sun": "12:00-23:00"
+      },
+      "latitude": 7.0822878,
+      "longitude": 125.60995919999999
+    },
+    {
+      "venue_id": "dvo_poi_1154",
+      "name": "Solaz Massage & Spa - Ecoland",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 1800,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "13:00-00:00",
+        "tue": "13:00-22:00",
+        "wed": "13:00-22:00",
+        "thu": "13:00-22:00",
+        "fri": "13:00-22:00",
+        "sat": "13:00-22:00",
+        "sun": "13:00-22:00"
+      },
+      "latitude": 7.049252,
+      "longitude": 125.59081239999999
+    },
+    {
+      "venue_id": "dvo_poi_1125",
+      "name": "Waka Massage Palace",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 2094,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "13:00-01:00",
+        "tue": "13:00-01:00",
+        "wed": "13:00-01:00",
+        "thu": "13:00-01:00",
+        "fri": "13:00-01:00",
+        "sat": "13:00-01:00",
+        "sun": "13:00-01:00"
+      },
+      "latitude": 7.0936189999999995,
+      "longitude": 125.6357724
+    },
+    {
+      "venue_id": "dvo_poi_0928",
+      "name": "Thai Boran - Damosa",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 2700,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "13:00-00:00",
+        "tue": "13:00-00:00",
+        "wed": "13:00-00:00",
+        "thu": "13:00-00:00",
+        "fri": "13:00-00:00",
+        "sat": "13:00-00:00",
+        "sun": "13:00-00:00"
+      },
+      "latitude": 7.1054154,
+      "longitude": 125.63254479999999
+    },
+    {
+      "venue_id": "dvo_poi_0182",
+      "name": "Yasumi Head Spa Matina",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 4200,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "12:00-00:00",
+        "tue": "12:00-00:00",
+        "wed": "12:00-00:00",
+        "thu": "12:00-00:00",
+        "fri": "12:00-00:00",
+        "sat": "12:00-00:00",
+        "sun": "12:00-00:00"
+      },
+      "latitude": 7.0574996,
+      "longitude": 125.5720957
+    },
+    {
+      "venue_id": "dvo_poi_1038",
+      "name": "Amiya Resort Residences Clubhouse",
+      "category": [
+        "Wellness",
+        "Accommodation"
+      ],
+      "est_group_cost_php": 15000,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "09:00-19:00",
+        "tue": "09:00-19:00",
+        "wed": "09:00-19:00",
+        "thu": "09:00-19:00",
+        "fri": "09:00-19:00",
+        "sat": "09:00-19:00",
+        "sun": "09:00-19:00"
+      },
+      "latitude": 7.0548395,
+      "longitude": 125.52973189999999
+    },
+    {
+      "venue_id": "dvo_poi_1341",
+      "name": "Thai Boran - Catalunan Grande",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 3000,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "16:00-00:00",
+        "tue": "16:00-00:00",
+        "wed": "16:00-00:00",
+        "thu": "16:00-00:00",
+        "fri": "15:00-00:00",
+        "sat": "15:00-00:00",
+        "sun": "15:00-00:00"
+      },
+      "latitude": 7.070638799999999,
+      "longitude": 125.54829449999998
+    },
+    {
+      "venue_id": "dvo_poi_0332",
+      "name": "Unitop",
+      "category": [
+        "Shopping"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.1,
+      "operating_hours": {
+        "mon": "09:00-20:00",
+        "tue": "09:00-20:00",
+        "wed": "09:00-20:00",
+        "thu": "09:00-20:00",
+        "fri": "09:00-20:00",
+        "sat": "09:00-20:00",
+        "sun": "09:00-20:00"
+      },
+      "latitude": 7.065190299999999,
+      "longitude": 125.60851140000001
+    },
+    {
+      "venue_id": "dvo_poi_0433",
+      "name": "Mintal Public Market",
+      "category": [
+        "Shopping"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 3.9,
+      "operating_hours": {
+        "mon": "04:00-21:00",
+        "tue": "04:00-21:00",
+        "wed": "04:00-21:00",
+        "thu": "04:00-21:00",
+        "fri": "04:00-21:00",
+        "sat": "03:00-20:00",
+        "sun": "03:00-21:00"
+      },
+      "latitude": 7.0920263,
+      "longitude": 125.5015785
+    },
+    {
+      "venue_id": "dvo_poi_0449",
+      "name": "SM City Davao",
+      "category": [
+        "Shopping"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "10:00-21:00",
+        "tue": "10:00-21:00",
+        "wed": "10:00-21:00",
+        "thu": "10:00-21:00",
+        "fri": "10:00-22:00",
+        "sat": "10:00-22:00",
+        "sun": "10:00-21:00"
+      },
+      "latitude": 7.0506082999999995,
+      "longitude": 125.58825230000001
+    },
+    {
+      "venue_id": "dvo_poi_0382",
+      "name": "NCCC Main Magsaysay",
+      "category": [
+        "Shopping"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "09:00-18:00",
+        "tue": "09:00-18:00",
+        "wed": "09:00-18:00",
+        "thu": "09:00-18:00",
+        "fri": "09:00-18:00",
+        "sat": "09:00-18:00",
+        "sun": "09:00-18:00"
+      },
+      "latitude": 7.074722200000001,
+      "longitude": 125.6216667
+    },
+    {
+      "venue_id": "dvo_poi_0754",
+      "name": "Wisons Shopping Center",
+      "category": [
+        "Shopping"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.0,
+      "operating_hours": {
+        "mon": "08:00-20:00",
+        "tue": "08:00-20:00",
+        "wed": "08:00-20:00",
+        "thu": "08:00-20:00",
+        "fri": "08:00-20:00",
+        "sat": "08:00-20:00",
+        "sun": "08:00-20:00"
+      },
+      "latitude": 7.065713799999999,
+      "longitude": 125.6057577
+    },
+    {
+      "venue_id": "dvo_poi_0225",
+      "name": "Roxas Night Market",
+      "category": [
+        "Food",
+        "Shopping"
+      ],
+      "est_group_cost_php": 540,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "17:00-00:00",
+        "tue": "17:00-00:00",
+        "wed": "17:00-00:00",
+        "thu": "17:00-00:00",
+        "fri": "17:00-00:00",
+        "sat": "17:00-00:00",
+        "sun": "17:00-00:00"
+      },
+      "latitude": 7.071797900000001,
+      "longitude": 125.61229180000001
+    },
+    {
+      "venue_id": "dvo_poi_0623",
+      "name": "NCCC Centerpoint",
+      "category": [
+        "Shopping"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.0,
+      "operating_hours": {
+        "mon": "08:00-20:00",
+        "tue": "08:00-20:00",
+        "wed": "08:00-20:00",
+        "thu": "08:00-20:00",
+        "fri": "08:00-20:00",
+        "sat": "08:00-20:00",
+        "sun": "08:00-20:00"
+      },
+      "latitude": 7.059317,
+      "longitude": 125.5693984
+    },
+    {
+      "venue_id": "dvo_poi_1390",
+      "name": "NCCC Panacan",
+      "category": [
+        "Shopping"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.0,
+      "operating_hours": {
+        "mon": "09:00-19:00",
+        "tue": "09:00-19:00",
+        "wed": "09:00-19:00",
+        "thu": "09:00-19:00",
+        "fri": "09:00-19:00",
+        "sat": "09:00-19:00",
+        "sun": "09:00-19:00"
+      },
+      "latitude": 7.1438166999999995,
+      "longitude": 125.66100189999999
+    }
+  ],
+  "itinerary": {
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2026-10-12",
+        "slots": [
+          {
+            "time_start": "09:00",
+            "time_end": "11:00",
+            "venue_id": "dvo_poi_1199"
+          },
+          {
+            "time_start": "11:30",
+            "time_end": "13:30",
+            "venue_id": "dvo_poi_0449"
+          },
+          {
+            "time_start": "14:30",
+            "time_end": "16:00",
+            "venue_id": "dvo_poi_1341"
+          },
+          {
+            "time_start": "18:00",
+            "time_end": "20:00",
+            "venue_id": "dvo_poi_0225"
+          }
+        ]
+      }
+    ]
+  }
+}

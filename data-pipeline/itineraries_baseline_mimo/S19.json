@@ -1,0 +1,383 @@
+{
+  "scenario": {
+    "id": "S19",
+    "duration_days": 1,
+    "budget_per_person_php": 4000,
+    "budget_php": 12000,
+    "interests": [
+      "Sightseeing",
+      "Wellness"
+    ],
+    "group_size": 3,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-16"
+  },
+  "weather": [
+    {
+      "date": "2026-10-16",
+      "condition": "Clear",
+      "pop": 0.1,
+      "is_outdoor_suitable": true
+    }
+  ],
+  "data_version": "689ece30b82a",
+  "candidates": [
+    {
+      "venue_id": "dvo_poi_0876",
+      "name": "Quezon Park",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0649871,
+      "longitude": 125.60819579999999
+    },
+    {
+      "venue_id": "dvo_poi_0820",
+      "name": "Our Mother of Perpetual Help Parish - Redemptorist Church",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "08:30-17:30",
+        "tue": "08:30-17:30",
+        "wed": "08:30-17:30",
+        "thu": "08:30-17:30",
+        "fri": "08:30-17:30",
+        "sat": "08:30-17:30",
+        "sun": "08:30-17:30"
+      },
+      "latitude": 7.092149399999999,
+      "longitude": 125.6097552
+    },
+    {
+      "venue_id": "dvo_poi_0211",
+      "name": "Pulang Bato Falls",
+      "category": [
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0980069,
+      "longitude": 125.3386654
+    },
+    {
+      "venue_id": "dvo_poi_0723",
+      "name": "Freedom Park",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0730311,
+      "longitude": 125.61138469999999
+    },
+    {
+      "venue_id": "dvo_poi_0065",
+      "name": "Philippine-Japanese Historical Museum",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 300,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "09:00-17:00",
+        "tue": "09:00-17:00",
+        "wed": "09:00-17:00",
+        "thu": "09:00-17:00",
+        "fri": "09:00-17:00",
+        "sat": "09:00-17:00",
+        "sun": "closed"
+      },
+      "latitude": 7.1884475,
+      "longitude": 125.46061230000001
+    },
+    {
+      "venue_id": "dvo_poi_0658",
+      "name": "Kwagsik Falls",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 150,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.4602086000000005,
+      "longitude": 125.2672445
+    },
+    {
+      "venue_id": "dvo_poi_0633",
+      "name": "ClaudMaru Rainforest",
+      "category": [
+        "Entertainment",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 1350,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "07:00-00:00",
+        "tue": "07:00-00:00",
+        "wed": "07:00-00:00",
+        "thu": "07:00-00:00",
+        "fri": "07:00-00:00",
+        "sat": "07:00-00:00",
+        "sun": "07:00-00:00"
+      },
+      "latitude": 7.4308815,
+      "longitude": 125.2472989
+    },
+    {
+      "venue_id": "dvo_poi_1242",
+      "name": "JACA Mountain Peak",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 1500,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "closed",
+        "wed": "08:00-18:00",
+        "thu": "08:00-18:00",
+        "fri": "08:00-18:00",
+        "sat": "08:00-18:00",
+        "sun": "08:00-18:00"
+      },
+      "latitude": 7.422169599999999,
+      "longitude": 125.23192239999997
+    },
+    {
+      "venue_id": "dvo_poi_0237",
+      "name": "Miso Thai Massage Spa",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 750,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "12:00-23:00",
+        "tue": "12:00-23:00",
+        "wed": "12:00-23:00",
+        "thu": "12:00-23:00",
+        "fri": "12:00-23:00",
+        "sat": "12:00-23:00",
+        "sun": "12:00-23:00"
+      },
+      "latitude": 7.0822878,
+      "longitude": 125.60995919999999
+    },
+    {
+      "venue_id": "dvo_poi_0711",
+      "name": "De Stress Massage & Spa Matina Pangi Davao branch",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 750,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "10:00-00:00",
+        "tue": "10:00-00:00",
+        "wed": "10:00-00:00",
+        "thu": "10:00-00:00",
+        "fri": "10:00-00:00",
+        "sat": "10:00-00:00",
+        "sun": "10:00-00:00"
+      },
+      "latitude": 7.0621127999999995,
+      "longitude": 125.5702191
+    },
+    {
+      "venue_id": "dvo_poi_1154",
+      "name": "Solaz Massage & Spa - Ecoland",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 900,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "13:00-00:00",
+        "tue": "13:00-22:00",
+        "wed": "13:00-22:00",
+        "thu": "13:00-22:00",
+        "fri": "13:00-22:00",
+        "sat": "13:00-22:00",
+        "sun": "13:00-22:00"
+      },
+      "latitude": 7.049252,
+      "longitude": 125.59081239999999
+    },
+    {
+      "venue_id": "dvo_poi_1125",
+      "name": "Waka Massage Palace",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 1047,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "13:00-01:00",
+        "tue": "13:00-01:00",
+        "wed": "13:00-01:00",
+        "thu": "13:00-01:00",
+        "fri": "13:00-01:00",
+        "sat": "13:00-01:00",
+        "sun": "13:00-01:00"
+      },
+      "latitude": 7.0936189999999995,
+      "longitude": 125.6357724
+    },
+    {
+      "venue_id": "dvo_poi_0616",
+      "name": "Thai Royale Spa Davao City - Matina Branch",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 1497,
+      "average_rating": 4.1,
+      "operating_hours": {
+        "mon": "12:00-02:00",
+        "tue": "12:00-02:00",
+        "wed": "12:00-02:00",
+        "thu": "12:00-02:00",
+        "fri": "12:00-03:00",
+        "sat": "12:00-03:00",
+        "sun": "12:00-03:00"
+      },
+      "latitude": 7.0599896,
+      "longitude": 125.59392299999999
+    },
+    {
+      "venue_id": "dvo_poi_0156",
+      "name": "Yasumi Head Spa Buhangin",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 2100,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "12:00-00:00",
+        "tue": "12:00-00:00",
+        "wed": "12:00-00:00",
+        "thu": "12:00-00:00",
+        "fri": "12:00-00:00",
+        "sat": "12:00-00:00",
+        "sun": "12:00-00:00"
+      },
+      "latitude": 7.1020318,
+      "longitude": 125.61474729999999
+    },
+    {
+      "venue_id": "dvo_poi_0651",
+      "name": "OYASUMI Massage by: AC (Dacudao Branch)",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 1590,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "10:00-02:00",
+        "tue": "10:00-02:00",
+        "wed": "10:00-02:00",
+        "thu": "10:00-02:00",
+        "fri": "10:00-02:00",
+        "sat": "10:00-02:00",
+        "sun": "10:00-02:00"
+      },
+      "latitude": 7.092725799999999,
+      "longitude": 125.61661210000001
+    },
+    {
+      "venue_id": "dvo_poi_1341",
+      "name": "Thai Boran - Catalunan Grande",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 1500,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "16:00-00:00",
+        "tue": "16:00-00:00",
+        "wed": "16:00-00:00",
+        "thu": "16:00-00:00",
+        "fri": "15:00-00:00",
+        "sat": "15:00-00:00",
+        "sun": "15:00-00:00"
+      },
+      "latitude": 7.070638799999999,
+      "longitude": 125.54829449999998
+    }
+  ],
+  "itinerary": {
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2026-10-16",
+        "slots": [
+          {
+            "time_start": "08:00",
+            "time_end": "09:00",
+            "venue_id": "dvo_poi_0876"
+          },
+          {
+            "time_start": "09:30",
+            "time_end": "10:30",
+            "venue_id": "dvo_poi_0723"
+          },
+          {
+            "time_start": "11:00",
+            "time_end": "12:00",
+            "venue_id": "dvo_poi_0820"
+          },
+          {
+            "time_start": "14:00",
+            "time_end": "15:30",
+            "venue_id": "dvo_poi_1154"
+          }
+        ]
+      }
+    ]
+  }
+}

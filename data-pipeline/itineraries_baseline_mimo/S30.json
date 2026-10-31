@@ -1,0 +1,622 @@
+{
+  "scenario": {
+    "id": "S30",
+    "duration_days": 3,
+    "budget_per_person_php": 4000,
+    "budget_php": 8000,
+    "interests": [
+      "Wellness",
+      "Sightseeing",
+      "Culture"
+    ],
+    "group_size": 2,
+    "weather_pattern": "clear",
+    "start_date": "2026-10-13"
+  },
+  "weather": [
+    {
+      "date": "2026-10-13",
+      "condition": "Clear",
+      "pop": 0.1,
+      "is_outdoor_suitable": true
+    },
+    {
+      "date": "2026-10-14",
+      "condition": "Clear",
+      "pop": 0.1,
+      "is_outdoor_suitable": true
+    },
+    {
+      "date": "2026-10-15",
+      "condition": "Clear",
+      "pop": 0.1,
+      "is_outdoor_suitable": true
+    }
+  ],
+  "data_version": "689ece30b82a",
+  "candidates": [
+    {
+      "venue_id": "dvo_poi_0711",
+      "name": "De Stress Massage & Spa Matina Pangi Davao branch",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 500,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "10:00-00:00",
+        "tue": "10:00-00:00",
+        "wed": "10:00-00:00",
+        "thu": "10:00-00:00",
+        "fri": "10:00-00:00",
+        "sat": "10:00-00:00",
+        "sun": "10:00-00:00"
+      },
+      "latitude": 7.0621127999999995,
+      "longitude": 125.5702191
+    },
+    {
+      "venue_id": "dvo_poi_0237",
+      "name": "Miso Thai Massage Spa",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 500,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "12:00-23:00",
+        "tue": "12:00-23:00",
+        "wed": "12:00-23:00",
+        "thu": "12:00-23:00",
+        "fri": "12:00-23:00",
+        "sat": "12:00-23:00",
+        "sun": "12:00-23:00"
+      },
+      "latitude": 7.0822878,
+      "longitude": 125.60995919999999
+    },
+    {
+      "venue_id": "dvo_poi_1154",
+      "name": "Solaz Massage & Spa - Ecoland",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 600,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "13:00-00:00",
+        "tue": "13:00-22:00",
+        "wed": "13:00-22:00",
+        "thu": "13:00-22:00",
+        "fri": "13:00-22:00",
+        "sat": "13:00-22:00",
+        "sun": "13:00-22:00"
+      },
+      "latitude": 7.049252,
+      "longitude": 125.59081239999999
+    },
+    {
+      "venue_id": "dvo_poi_1125",
+      "name": "Waka Massage Palace",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 698,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "13:00-01:00",
+        "tue": "13:00-01:00",
+        "wed": "13:00-01:00",
+        "thu": "13:00-01:00",
+        "fri": "13:00-01:00",
+        "sat": "13:00-01:00",
+        "sun": "13:00-01:00"
+      },
+      "latitude": 7.0936189999999995,
+      "longitude": 125.6357724
+    },
+    {
+      "venue_id": "dvo_poi_1341",
+      "name": "Thai Boran - Catalunan Grande",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 1000,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "16:00-00:00",
+        "tue": "16:00-00:00",
+        "wed": "16:00-00:00",
+        "thu": "16:00-00:00",
+        "fri": "15:00-00:00",
+        "sat": "15:00-00:00",
+        "sun": "15:00-00:00"
+      },
+      "latitude": 7.070638799999999,
+      "longitude": 125.54829449999998
+    },
+    {
+      "venue_id": "dvo_poi_0047",
+      "name": "Bioessence Gold Marfori",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 2000,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "09:00-20:00",
+        "tue": "09:00-20:00",
+        "wed": "09:00-20:00",
+        "thu": "09:00-20:00",
+        "fri": "09:00-20:00",
+        "sat": "09:00-20:00",
+        "sun": "09:00-18:00"
+      },
+      "latitude": 7.0822991,
+      "longitude": 125.60505699999999
+    },
+    {
+      "venue_id": "dvo_poi_0248",
+      "name": "Blind Massage Center",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 700,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "09:00-23:59",
+        "tue": "09:00-23:59",
+        "wed": "09:00-23:59",
+        "thu": "09:00-23:59",
+        "fri": "09:00-23:59",
+        "sat": "09:00-23:59",
+        "sun": "09:00-23:59"
+      },
+      "latitude": 7.0212809,
+      "longitude": 125.4975329
+    },
+    {
+      "venue_id": "dvo_poi_0928",
+      "name": "Thai Boran - Damosa",
+      "category": [
+        "Wellness"
+      ],
+      "est_group_cost_php": 900,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "13:00-00:00",
+        "tue": "13:00-00:00",
+        "wed": "13:00-00:00",
+        "thu": "13:00-00:00",
+        "fri": "13:00-00:00",
+        "sat": "13:00-00:00",
+        "sun": "13:00-00:00"
+      },
+      "latitude": 7.1054154,
+      "longitude": 125.63254479999999
+    },
+    {
+      "venue_id": "dvo_poi_0723",
+      "name": "Freedom Park",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.3,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0730311,
+      "longitude": 125.61138469999999
+    },
+    {
+      "venue_id": "dvo_poi_0895",
+      "name": "Chinatown Arch",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0743260999999995,
+      "longitude": 125.6246898
+    },
+    {
+      "venue_id": "dvo_poi_0549",
+      "name": "Museo Dabawenyo",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.4,
+      "operating_hours": {
+        "mon": "09:00-18:00",
+        "tue": "09:00-18:00",
+        "wed": "09:00-18:00",
+        "thu": "09:00-18:00",
+        "fri": "09:00-18:00",
+        "sat": "09:00-18:00",
+        "sun": "closed"
+      },
+      "latitude": 7.0791656,
+      "longitude": 125.60464659999998
+    },
+    {
+      "venue_id": "dvo_poi_0876",
+      "name": "Quezon Park",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0649871,
+      "longitude": 125.60819579999999
+    },
+    {
+      "venue_id": "dvo_poi_1242",
+      "name": "JACA Mountain Peak",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 1000,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "closed",
+        "wed": "08:00-18:00",
+        "thu": "08:00-18:00",
+        "fri": "08:00-18:00",
+        "sat": "08:00-18:00",
+        "sun": "08:00-18:00"
+      },
+      "latitude": 7.422169599999999,
+      "longitude": 125.23192239999997
+    },
+    {
+      "venue_id": "dvo_poi_0658",
+      "name": "Kwagsik Falls",
+      "category": [
+        "Nature",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 100,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.4602086000000005,
+      "longitude": 125.2672445
+    },
+    {
+      "venue_id": "dvo_poi_0522",
+      "name": "Christmas Mansion",
+      "category": [
+        "Entertainment",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 60,
+      "average_rating": 4.2,
+      "operating_hours": {
+        "mon": "17:00-22:00",
+        "tue": "17:00-22:00",
+        "wed": "17:00-22:00",
+        "thu": "17:00-22:00",
+        "fri": "17:00-22:00",
+        "sat": "17:00-22:00",
+        "sun": "17:00-22:00"
+      },
+      "latitude": 7.1105882,
+      "longitude": 125.62924760000001
+    },
+    {
+      "venue_id": "dvo_poi_0820",
+      "name": "Our Mother of Perpetual Help Parish - Redemptorist Church",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "08:30-17:30",
+        "tue": "08:30-17:30",
+        "wed": "08:30-17:30",
+        "thu": "08:30-17:30",
+        "fri": "08:30-17:30",
+        "sat": "08:30-17:30",
+        "sun": "08:30-17:30"
+      },
+      "latitude": 7.092149399999999,
+      "longitude": 125.6097552
+    },
+    {
+      "venue_id": "dvo_poi_1207",
+      "name": "Foursquare Gospel Church",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "08:00-17:00",
+        "wed": "08:00-17:00",
+        "thu": "08:00-17:00",
+        "fri": "08:00-17:00",
+        "sat": "closed",
+        "sun": "06:30-19:30"
+      },
+      "latitude": 7.0736098,
+      "longitude": 125.6047204
+    },
+    {
+      "venue_id": "dvo_poi_0302",
+      "name": "San Pedro Metropolitan Cathedral",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.6,
+      "operating_hours": {
+        "mon": "08:30-18:00",
+        "tue": "08:30-18:00",
+        "wed": "08:30-18:00",
+        "thu": "08:30-18:00",
+        "fri": "08:30-18:00",
+        "sat": "08:30-18:00",
+        "sun": "08:30-18:00"
+      },
+      "latitude": 7.065026899999999,
+      "longitude": 125.60918099999999
+    },
+    {
+      "venue_id": "dvo_poi_0498",
+      "name": "Faith Tabernacle Church - Metro Davao",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "17:00-20:00",
+        "tue": "closed",
+        "wed": "closed",
+        "thu": "16:30-20:30",
+        "fri": "16:30-22:00",
+        "sat": "closed",
+        "sun": "08:00-12:00"
+      },
+      "latitude": 7.0678575,
+      "longitude": 125.61330989999999
+    },
+    {
+      "venue_id": "dvo_poi_0356",
+      "name": "Shrine of the Holy Infant Jesus of Prague",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "07:00-18:00",
+        "tue": "07:00-18:00",
+        "wed": "07:00-18:00",
+        "thu": "07:00-18:00",
+        "fri": "07:00-18:00",
+        "sat": "07:00-18:00",
+        "sun": "07:00-18:00"
+      },
+      "latitude": 7.0663979,
+      "longitude": 125.5784089
+    },
+    {
+      "venue_id": "dvo_poi_0893",
+      "name": "The Commemorative Monument of Peace and Unity",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0642831,
+      "longitude": 125.60919460000001
+    },
+    {
+      "venue_id": "dvo_poi_1199",
+      "name": "National Museum of the Philippines - Davao",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "09:00-17:00",
+        "tue": "09:00-17:00",
+        "wed": "09:00-17:00",
+        "thu": "09:00-17:00",
+        "fri": "09:00-17:00",
+        "sat": "09:00-17:00",
+        "sun": "09:00-17:00"
+      },
+      "latitude": 7.070172899999999,
+      "longitude": 125.60903929999998
+    },
+    {
+      "venue_id": "dvo_poi_1189",
+      "name": "Davao Central Seventh-day Adventist Church of Davao Mission",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "closed",
+        "wed": "17:30-21:30",
+        "thu": "closed",
+        "fri": "17:30-21:30",
+        "sat": "06:30-20:00",
+        "sun": "closed"
+      },
+      "latitude": 7.0714647,
+      "longitude": 125.6077114
+    },
+    {
+      "venue_id": "dvo_poi_0516",
+      "name": "St. Francis of Assisi Parish",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "08:00-12:00, 14:00-17:00",
+        "tue": "08:00-12:00, 14:00-17:00",
+        "wed": "08:00-12:00, 14:00-17:00",
+        "thu": "08:00-12:00, 14:00-17:00",
+        "fri": "08:00-12:00, 14:00-17:00",
+        "sat": "08:00-12:00, 14:00-17:00",
+        "sun": "08:00-12:00, 14:00-17:00"
+      },
+      "latitude": 7.1025168999999995,
+      "longitude": 125.58237229999999
+    }
+  ],
+  "itinerary": {
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2026-10-13",
+        "slots": [
+          {
+            "time_start": "08:00",
+            "time_end": "09:30",
+            "venue_id": "dvo_poi_0549"
+          },
+          {
+            "time_start": "09:45",
+            "time_end": "10:30",
+            "venue_id": "dvo_poi_0302"
+          },
+          {
+            "time_start": "10:45",
+            "time_end": "11:30",
+            "venue_id": "dvo_poi_0893"
+          },
+          {
+            "time_start": "13:00",
+            "time_end": "14:30",
+            "venue_id": "dvo_poi_1199"
+          },
+          {
+            "time_start": "19:00",
+            "time_end": "20:30",
+            "venue_id": "dvo_poi_0711"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "2026-10-14",
+        "slots": [
+          {
+            "time_start": "06:00",
+            "time_end": "09:00",
+            "venue_id": "dvo_poi_1242"
+          },
+          {
+            "time_start": "09:30",
+            "time_end": "12:00",
+            "venue_id": "dvo_poi_0658"
+          },
+          {
+            "time_start": "16:00",
+            "time_end": "17:30",
+            "venue_id": "dvo_poi_0876"
+          },
+          {
+            "time_start": "19:00",
+            "time_end": "20:30",
+            "venue_id": "dvo_poi_1154"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "date": "2026-10-15",
+        "slots": [
+          {
+            "time_start": "08:00",
+            "time_end": "09:00",
+            "venue_id": "dvo_poi_0895"
+          },
+          {
+            "time_start": "09:15",
+            "time_end": "10:30",
+            "venue_id": "dvo_poi_0820"
+          },
+          {
+            "time_start": "10:45",
+            "time_end": "11:30",
+            "venue_id": "dvo_poi_0723"
+          },
+          {
+            "time_start": "14:00",
+            "time_end": "15:00",
+            "venue_id": "dvo_poi_0356"
+          },
+          {
+            "time_start": "18:00",
+            "time_end": "19:30",
+            "venue_id": "dvo_poi_0928"
+          }
+        ]
+      }
+    ]
+  }
+}

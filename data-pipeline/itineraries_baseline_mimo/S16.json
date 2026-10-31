@@ -1,0 +1,222 @@
+{
+  "scenario": {
+    "id": "S16",
+    "duration_days": 1,
+    "budget_per_person_php": 1000,
+    "budget_php": 6000,
+    "interests": [
+      "Culture"
+    ],
+    "group_size": 6,
+    "weather_pattern": "rain",
+    "start_date": "2026-10-13"
+  },
+  "weather": [
+    {
+      "date": "2026-10-13",
+      "condition": "Rain",
+      "pop": 1.0,
+      "is_outdoor_suitable": false
+    }
+  ],
+  "data_version": "689ece30b82a",
+  "candidates": [
+    {
+      "venue_id": "dvo_poi_0498",
+      "name": "Faith Tabernacle Church - Metro Davao",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "17:00-20:00",
+        "tue": "closed",
+        "wed": "closed",
+        "thu": "16:30-20:30",
+        "fri": "16:30-22:00",
+        "sat": "closed",
+        "sun": "08:00-12:00"
+      },
+      "latitude": 7.0678575,
+      "longitude": 125.61330989999999
+    },
+    {
+      "venue_id": "dvo_poi_1199",
+      "name": "National Museum of the Philippines - Davao",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "09:00-17:00",
+        "tue": "09:00-17:00",
+        "wed": "09:00-17:00",
+        "thu": "09:00-17:00",
+        "fri": "09:00-17:00",
+        "sat": "09:00-17:00",
+        "sun": "09:00-17:00"
+      },
+      "latitude": 7.070172899999999,
+      "longitude": 125.60903929999998
+    },
+    {
+      "venue_id": "dvo_poi_1373",
+      "name": "Cathedral of Praise - Davao",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "closed",
+        "wed": "05:30-18:00",
+        "thu": "05:30-18:00",
+        "fri": "05:30-21:00",
+        "sat": "08:00-20:00",
+        "sun": "06:30-18:30"
+      },
+      "latitude": 7.0753509,
+      "longitude": 125.6197143
+    },
+    {
+      "venue_id": "dvo_poi_0516",
+      "name": "St. Francis of Assisi Parish",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "08:00-12:00, 14:00-17:00",
+        "tue": "08:00-12:00, 14:00-17:00",
+        "wed": "08:00-12:00, 14:00-17:00",
+        "thu": "08:00-12:00, 14:00-17:00",
+        "fri": "08:00-12:00, 14:00-17:00",
+        "sat": "08:00-12:00, 14:00-17:00",
+        "sun": "08:00-12:00, 14:00-17:00"
+      },
+      "latitude": 7.1025168999999995,
+      "longitude": 125.58237229999999
+    },
+    {
+      "venue_id": "dvo_poi_1207",
+      "name": "Foursquare Gospel Church",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.8,
+      "operating_hours": {
+        "mon": "closed",
+        "tue": "08:00-17:00",
+        "wed": "08:00-17:00",
+        "thu": "08:00-17:00",
+        "fri": "08:00-17:00",
+        "sat": "closed",
+        "sun": "06:30-19:30"
+      },
+      "latitude": 7.0736098,
+      "longitude": 125.6047204
+    },
+    {
+      "venue_id": "dvo_poi_0893",
+      "name": "The Commemorative Monument of Peace and Unity",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "00:00-23:59",
+        "tue": "00:00-23:59",
+        "wed": "00:00-23:59",
+        "thu": "00:00-23:59",
+        "fri": "00:00-23:59",
+        "sat": "00:00-23:59",
+        "sun": "00:00-23:59"
+      },
+      "latitude": 7.0642831,
+      "longitude": 125.60919460000001
+    },
+    {
+      "venue_id": "dvo_poi_0372",
+      "name": "Upside Down House Museum Davao",
+      "category": [
+        "Culture",
+        "Sightseeing"
+      ],
+      "est_group_cost_php": 1500,
+      "average_rating": 4.5,
+      "operating_hours": {
+        "mon": "08:00-21:00",
+        "tue": "08:00-21:00",
+        "wed": "08:00-21:00",
+        "thu": "08:00-21:00",
+        "fri": "08:00-21:00",
+        "sat": "08:00-21:00",
+        "sun": "08:00-21:00"
+      },
+      "latitude": 7.0717783999999995,
+      "longitude": 125.61127439999999
+    },
+    {
+      "venue_id": "dvo_poi_0139",
+      "name": "The Church of Jesus Christ of Latter-day Saints",
+      "category": [
+        "Culture"
+      ],
+      "est_group_cost_php": 0,
+      "average_rating": 4.7,
+      "operating_hours": {
+        "mon": "09:00-18:00",
+        "tue": "09:00-18:00",
+        "wed": "09:00-18:00",
+        "thu": "09:00-18:00",
+        "fri": "09:00-18:00",
+        "sat": "09:00-18:00",
+        "sun": "09:00-12:00, 13:30-16:30"
+      },
+      "latitude": 7.0579467,
+      "longitude": 125.56869010000001
+    }
+  ],
+  "itinerary": {
+    "itinerary": [
+      {
+        "day": 1,
+        "date": "2026-10-13",
+        "slots": [
+          {
+            "time_start": "09:00",
+            "time_end": "10:00",
+            "venue_id": "dvo_poi_1199"
+          },
+          {
+            "time_start": "10:15",
+            "time_end": "11:00",
+            "venue_id": "dvo_poi_0893"
+          },
+          {
+            "time_start": "11:30",
+            "time_end": "12:30",
+            "venue_id": "dvo_poi_0372"
+          },
+          {
+            "time_start": "13:30",
+            "time_end": "14:15",
+            "venue_id": "dvo_poi_0498"
+          },
+          {
+            "time_start": "14:45",
+            "time_end": "15:30",
+            "venue_id": "dvo_poi_1373"
+          }
+        ]
+      }
+    ]
+  }
+}
